@@ -2,7 +2,7 @@ import asyncio
 import time
 
 from .fleet import rooms
-from ..mqtt import publish_heartbeat, publish_telemetry
+from ..mqtt import connect_mqtt, disconnect_mqtt, publish_heartbeat, publish_telemetry
 
 
 async def run_room(room):
@@ -19,5 +19,9 @@ async def run_room(room):
 
 
 async def main():
-    tasks = [run_room(room) for room in rooms]
-    await asyncio.gather(*tasks)
+    await connect_mqtt()
+    try:
+        tasks = [run_room(room) for room in rooms]
+        await asyncio.gather(*tasks)
+    finally:
+        await disconnect_mqtt()
