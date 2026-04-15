@@ -1,0 +1,40 @@
+{
+    "title": "Campus NOC — Phase 2",
+    "description": "Unified fleet health dashboard for 200 MQTT + CoAP rooms, edge-thinned floor summaries, RTT latency chart, and alarm panel.",
+    "configuration": {
+        "description": "Auto-provisioned by scripts/provision_thingsboard.py",
+        "widgets": {
+            "room-status-grid": {
+                "type": "latest",
+                "bundleAlias": "cards",
+                "typeAlias": "entities_table",
+                "title": "200 Rooms — Online Status",
+                "description": "Color cells by active attribute; for MQTT rooms active flips to false via LWT retained offline marker; for CoAP rooms a 45s inactivity rule node clears active."
+            },
+            "rtt-chart": {
+                "type": "timeseries",
+                "bundleAlias": "charts",
+                "typeAlias": "timeseries_chart_js",
+                "title": "Command Round-Trip Latency (ms)",
+                "description": "Per-floor average rtt_ms telemetry. Target: 95p < 500ms."
+            },
+            "alarms-panel": {
+                "type": "alarm",
+                "bundleAlias": "alarm_widgets",
+                "typeAlias": "alarms_table",
+                "title": "Active Alarms",
+                "description": "Filtered to TEMP_OUT_OF_RANGE from the main rule chain."
+            },
+            "floor-averages": {
+                "type": "timeseries",
+                "bundleAlias": "charts",
+                "typeAlias": "timeseries_chart_js",
+                "title": "Floor Averages (60s edge-thinned)",
+                "description": "avg_temperature / avg_humidity telemetry on the Floor-FNN assets, populated by the MQTT Integration routing campus/b01/fNN/summary."
+            }
+        },
+        "states": {
+            "default": {"name": "Overview", "root": true, "layouts": {"main": {"widgets": {}}}}
+        }
+    }
+}

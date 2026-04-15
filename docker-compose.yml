@@ -1,30 +1,241 @@
-version: "3.9"
+# Phase 2 Campus IoT — HiveMQ backbone, ThingsBoard CE on Postgres,
+# 10 Node-RED floor gateways, and the Python dual-protocol engine.
+#
+# One-shot helpers live under the `setup` profile. Typical lifecycle:
+#   docker compose --profile setup run --rm cert-gen
+#   docker compose up -d hivemq thingsboard-postgres thingsboard
+#   docker compose --profile setup run --rm provisioner
+#   docker compose up -d $(seq -f "gateway-floor-%02g" 1 10) app
 
 services:
-  mosquitto:
-    image: eclipse-mosquitto:2
-    container_name: campus-mosquitto
+  hivemq:
+    image: hivemq/hivemq-ce:2024.7
+    container_name: campus-hivemq
     ports:
       - "1883:1883"
+      - "8883:8883"
+      - "8080:8080"
     volumes:
-      - ./mosquitto/config:/mosquitto/config
-      - mosquitto_data:/mosquitto/data
-      - mosquitto_log:/mosquitto/log
+      - ./hivemq/conf:/opt/hivemq/conf:ro
+      - ./hivemq/certs:/certs:ro
+    networks: [campus]
+    restart: unless-stopped
+
+  thingsboard-postgres:
+    image: postgres:15
+    container_name: campus-tb-postgres
+    environment:
+      POSTGRES_DB: thingsboard
+      POSTGRES_USER: thingsboard
+      POSTGRES_PASSWORD: thingsboard
+    volumes:
+      - tb_pg_data:/var/lib/postgresql/data
+    networks: [campus]
+    restart: unless-stopped
+
+  thingsboard:
+    image: thingsboard/tb-postgres:3.7.0
+    container_name: campus-thingsboard
+    depends_on: [thingsboard-postgres, hivemq]
+    ports:
+      - "9090:9090"
+      - "1884:1883"
+      # 7070 is TB's edge integration port; only needed if you connect
+      # TB Edge agents. Skipped to avoid host-side port conflicts.
+    environment:
+      TB_QUEUE_TYPE: in-memory
+      DATABASE_TS_TYPE: sql
+      SPRING_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://thingsboard-postgres:5432/thingsboard
+      SPRING_DATASOURCE_USERNAME: thingsboard
+      SPRING_DATASOURCE_PASSWORD: thingsboard
+    volumes:
+      - tb_data:/data
+      - tb_logs:/var/log/thingsboard
+      - ./thingsboard/certs:/certs:ro
+    networks: [campus]
     restart: unless-stopped
 
   app:
     build: .
-    container_name: campus-iot-app
-    env_file:
-      - .env
+    container_name: campus-engine
+    env_file: [.env]
     environment:
-      MQTT_BROKER: mosquitto
+      MQTT_BROKER: hivemq
+      MQTT_PORT: "1883"
+      MQTT_TLS_ENABLED: "0"
+      MQTT_TLS_PORT: "8883"
+      MQTT_CA_CERT: /certs/ca.crt
+      MQTT_CREDENTIALS_CSV: /secrets/mqtt_credentials.csv
+      COAP_BIND_HOST: 0.0.0.0
+      COAP_BASE_PORT: "5683"
+      COAP_DTLS_ENABLED: "0"
+      COAP_PSK_JSON: /secrets/coap_psk.json
+      COAP_MQTT_SHADOW: "1"
+      STARTUP_JITTER: "20"
+      RTT_CSV_PATH: /app/data/rtt_metrics.csv
     volumes:
       - ./data:/app/data
-    depends_on:
-      - mosquitto
-    command: python -m src
+      - ./secrets:/secrets:ro
+      - ./hivemq/certs:/certs:ro
+    depends_on: [hivemq]
+    networks: [campus]
+    restart: unless-stopped
+
+  # --- 10 per-floor Node-RED gateways ---------------------------------
+  gateway-floor-01:
+    <<: &gateway
+      build:
+        context: ./gateways
+        dockerfile: Dockerfile.node-red
+      environment:
+        FLOOR: "01"
+        HIVEMQ_HOST: hivemq
+        HIVEMQ_PORT: "1883"
+        NODE_HOST: app
+        COAP_BASE_PORT: "5683"
+        TZ: UTC
+      depends_on: [hivemq, app]
+      networks: [campus]
+      restart: unless-stopped
+    volumes:
+      - gateway_f01_data:/data
+      - ./gateways/settings.js:/data/settings.js:ro
+    ports:
+      - "1881:1880"
+  gateway-floor-02:
+    <<: *gateway
+    environment:
+      FLOOR: "02"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f02_data:/data
+      - ./gateways/settings.js:/data/settings.js:ro
+    ports:
+      - "1882:1880"
+  gateway-floor-03:
+    <<: *gateway
+    environment:
+      FLOOR: "03"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f03_data:/data
+  gateway-floor-04:
+    <<: *gateway
+    environment:
+      FLOOR: "04"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f04_data:/data
+  gateway-floor-05:
+    <<: *gateway
+    environment:
+      FLOOR: "05"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f05_data:/data
+  gateway-floor-06:
+    <<: *gateway
+    environment:
+      FLOOR: "06"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f06_data:/data
+  gateway-floor-07:
+    <<: *gateway
+    environment:
+      FLOOR: "07"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f07_data:/data
+  gateway-floor-08:
+    <<: *gateway
+    environment:
+      FLOOR: "08"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f08_data:/data
+  gateway-floor-09:
+    <<: *gateway
+    environment:
+      FLOOR: "09"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f09_data:/data
+  gateway-floor-10:
+    <<: *gateway
+    environment:
+      FLOOR: "10"
+      HIVEMQ_HOST: hivemq
+      HIVEMQ_PORT: "1883"
+      NODE_HOST: app
+      COAP_BASE_PORT: "5683"
+    volumes:
+      - gateway_f10_data:/data
+
+  # --- one-shot helpers -----------------------------------------------
+  cert-gen:
+    image: alpine:3.19
+    entrypoint: ["/bin/sh", "/secrets/generate_certs.sh"]
+    volumes:
+      - ./secrets:/secrets
+    profiles: [setup]
+    networks: [campus]
+
+  provisioner:
+    build: .
+    command: python scripts/provision_thingsboard.py
+    env_file: [.env]
+    environment:
+      TB_URL: http://thingsboard:9090
+      TB_USERNAME: tenant@thingsboard.org
+      TB_PASSWORD: tenant
+    volumes:
+      - ./data:/app/data
+      - ./secrets:/secrets:ro
+    depends_on: [thingsboard]
+    profiles: [setup]
+    networks: [campus]
 
 volumes:
-  mosquitto_data:
-  mosquitto_log:
+  tb_pg_data:
+  tb_data:
+  tb_logs:
+  gateway_f01_data:
+  gateway_f02_data:
+  gateway_f03_data:
+  gateway_f04_data:
+  gateway_f05_data:
+  gateway_f06_data:
+  gateway_f07_data:
+  gateway_f08_data:
+  gateway_f09_data:
+  gateway_f10_data:
+
+networks:
+  campus:
+    driver: bridge

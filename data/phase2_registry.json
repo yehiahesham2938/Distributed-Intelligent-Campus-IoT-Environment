@@ -1,0 +1,2002 @@
+[
+  {
+    "access_token": "Nq0soslv0Dj7S65XVC7R",
+    "device_id": "83401940-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r101",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "8351a570-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r101"
+  },
+  {
+    "access_token": "Xvwq5SSXFCqNAC1UcB6v",
+    "device_id": "835eebe0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r102",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83675050-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r102"
+  },
+  {
+    "access_token": "wLZQFu8YSq62lrTwg0bT",
+    "device_id": "8372c200-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r103",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "837951b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r103"
+  },
+  {
+    "access_token": "q406Pg87iVNOfKc3Os0a",
+    "device_id": "8382a080-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r104",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "8389cc70-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r104"
+  },
+  {
+    "access_token": "WA4JUEDuZWWOPLf75z0f",
+    "device_id": "83936960-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r105",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "839983e0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r105"
+  },
+  {
+    "access_token": "DVUoDO07MvuvzjwcSiKT",
+    "device_id": "83a14c10-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r106",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83a7b4b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r106"
+  },
+  {
+    "access_token": "0eE7X1Hb0l1QOUDbFT08",
+    "device_id": "83aeb990-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r107",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83b485f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r107"
+  },
+  {
+    "access_token": "7OlPYo53I2bYS3iLre26",
+    "device_id": "83bd5f90-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r108",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83c3ef40-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r108"
+  },
+  {
+    "access_token": "q15thhfIKVG8EsSSuw4c",
+    "device_id": "83cd1700-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r109",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83d2e360-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r109"
+  },
+  {
+    "access_token": "BvB9HmI281cHr9vuYeTB",
+    "device_id": "83db20c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f01-r110",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "mqtt",
+    "room_asset_id": "83e273c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r110"
+  },
+  {
+    "access_token": "OeK3ZsIXo3HboGLegS6n",
+    "device_id": "83eb2650-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r111",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "83f22b30-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r111"
+  },
+  {
+    "access_token": "gPX7KKbqe0npPhfYnBhr",
+    "device_id": "83fbef30-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r112",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "84016d70-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r112"
+  },
+  {
+    "access_token": "ULyRVQeOBJCZABElqpTd",
+    "device_id": "8409d1e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r113",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "84103a80-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r113"
+  },
+  {
+    "access_token": "X6a7sd0cuPYL1GSEDlxV",
+    "device_id": "84198950-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r114",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "841fcae0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r114"
+  },
+  {
+    "access_token": "KXP4N4QjfFVfEG14EcgG",
+    "device_id": "84280840-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r115",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "842e49d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r115"
+  },
+  {
+    "access_token": "YYLDfefb65qGCoiaXeGf",
+    "device_id": "8435eaf0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r116",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "843bb750-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r116"
+  },
+  {
+    "access_token": "N4gT2GxuwaXhMyweh3fZ",
+    "device_id": "8443f4b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r117",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "8449c110-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r117"
+  },
+  {
+    "access_token": "Vr0dv2bzTDngBZpfGa5r",
+    "device_id": "845273a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r118",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "84584000-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r118"
+  },
+  {
+    "access_token": "JJ10sYEtwCREWvrFC2gl",
+    "device_id": "846167c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r119",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "84681e80-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r119"
+  },
+  {
+    "access_token": "G3wP4fOQOjkclkOlKzGl",
+    "device_id": "847257b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f01-r120",
+    "floor_asset_id": "82f46a40-37f4-11f1-b070-631fdef85036",
+    "floor_id": 1,
+    "protocol": "coap",
+    "room_asset_id": "847983a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f01-r120"
+  },
+  {
+    "access_token": "AmcOXTHH3SyWKiqzSkcX",
+    "device_id": "84843200-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r201",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "8489d750-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r201"
+  },
+  {
+    "access_token": "W1tl5C7zgqn1a2uz6NUl",
+    "device_id": "849289e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r202",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "8498a460-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r202"
+  },
+  {
+    "access_token": "X3HZivwnKNLeRtQbVB5v",
+    "device_id": "84a1cc20-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r203",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84a8f810-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r203"
+  },
+  {
+    "access_token": "bnqUUjuFGhCE1t24FKNR",
+    "device_id": "84b0c040-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r204",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84b61770-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r204"
+  },
+  {
+    "access_token": "h4a5FGjs35D8rxOozJLj",
+    "device_id": "84beca00-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r205",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84c42130-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r205"
+  },
+  {
+    "access_token": "tVt0Lf4WECfzZs6LRnzd",
+    "device_id": "84ccfad0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r206",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84d31550-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r206"
+  },
+  {
+    "access_token": "fSJzScoyjiDdzMIfEMyn",
+    "device_id": "84dba0d0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r207",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84e0d0f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r207"
+  },
+  {
+    "access_token": "PLBheJjrqnKf1ri7HvwJ",
+    "device_id": "84e93560-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r208",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84ef28d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r208"
+  },
+  {
+    "access_token": "rH5i2m48OlzL8JHd403V",
+    "device_id": "84f80270-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r209",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "84fdf5e0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r209"
+  },
+  {
+    "access_token": "qRsEMiBzDJzVpY9kvJ7h",
+    "device_id": "85065a50-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f02-r210",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "mqtt",
+    "room_asset_id": "850d3820-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r210"
+  },
+  {
+    "access_token": "FGVv8SklwTWLwYW6sz9R",
+    "device_id": "85172330-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r211",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "851f1270-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r211"
+  },
+  {
+    "access_token": "mb49I3dx8yxMT8WDnvf1",
+    "device_id": "852728c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r212",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "852cf520-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r212"
+  },
+  {
+    "access_token": "fIEzprfJ2nJ8Jg9z6lvF",
+    "device_id": "85349640-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r213",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "853afee0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r213"
+  },
+  {
+    "access_token": "B5TUCS89d4PZWkzK3x8s",
+    "device_id": "85458630-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r214",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "854a8f40-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r214"
+  },
+  {
+    "access_token": "7TuP3YVwRFjgsSRv02dV",
+    "device_id": "85519420-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r215",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "8556eb50-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r215"
+  },
+  {
+    "access_token": "BnRAAGMKjcLi8XeNZ4Oi",
+    "device_id": "855e3e50-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r216",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "8562ab20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r216"
+  },
+  {
+    "access_token": "KZdROqfTSuUULMO7kvRM",
+    "device_id": "856961e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r217",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "856dceb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r217"
+  },
+  {
+    "access_token": "OU8M7PRvixroWcbFXTRk",
+    "device_id": "85743750-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r218",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "8578cb30-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r218"
+  },
+  {
+    "access_token": "UqpW2IZWaO4cXUS5ypgH",
+    "device_id": "85804540-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r219",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "85852740-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r219"
+  },
+  {
+    "access_token": "aUGWgzu4VmSEZzgB0Ams",
+    "device_id": "858c2c20-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f02-r220",
+    "floor_asset_id": "82fca7a0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 2,
+    "protocol": "coap",
+    "room_asset_id": "8590c000-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f02-r220"
+  },
+  {
+    "access_token": "Ry6sMZkWxwIda1UgbdZT",
+    "device_id": "8597c4e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r301",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "859d6a30-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r301"
+  },
+  {
+    "access_token": "E3y6zJ6719KWRizrDLd6",
+    "device_id": "85a5a790-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r302",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85abc210-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r302"
+  },
+  {
+    "access_token": "uu7QqMSgKCpPJ9CGarHr",
+    "device_id": "85b29fe0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r303",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85b7a8f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r303"
+  },
+  {
+    "access_token": "T5PVatNzCa5K3KLo1kwJ",
+    "device_id": "85befbf0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r304",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85c45320-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r304"
+  },
+  {
+    "access_token": "e8Ga8U9SJWlfWGH4c4iH",
+    "device_id": "85cbf440-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r305",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85d1c0a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r305"
+  },
+  {
+    "access_token": "ZSsdEEdBP6xg1OQIj9gU",
+    "device_id": "85d913a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r306",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85dd3250-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r306"
+  },
+  {
+    "access_token": "fKJoVGLgb6jbKsjs0dt3",
+    "device_id": "85e43730-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r307",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85e91930-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r307"
+  },
+  {
+    "access_token": "HlsThDIwVqA6IbGxaxqS",
+    "device_id": "85f12f80-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r308",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "85f6d4d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r308"
+  },
+  {
+    "access_token": "9YFaHI6aL4868oA7YJzJ",
+    "device_id": "85ff1230-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r309",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "86049070-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r309"
+  },
+  {
+    "access_token": "1PJ25zLb6dRZi085w7FS",
+    "device_id": "860db830-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f03-r310",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "mqtt",
+    "room_asset_id": "86130f60-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r310"
+  },
+  {
+    "access_token": "AMXmDE4L9zoJBp1Q6J31",
+    "device_id": "861b25b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r311",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "86216740-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r311"
+  },
+  {
+    "access_token": "7r6d06x665lWAYd2ud7G",
+    "device_id": "86295680-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r312",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "862e86a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r312"
+  },
+  {
+    "access_token": "HIjpYQwqf6xm30RXt7Pa",
+    "device_id": "863675e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r313",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "863ae2b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r313"
+  },
+  {
+    "access_token": "IoYFJUypCTKoIl2Hewh0",
+    "device_id": "8641e790-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r314",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "8646a280-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r314"
+  },
+  {
+    "access_token": "lDFn5grjrWimapCyOWbq",
+    "device_id": "864e1c90-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r315",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "8652b070-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r315"
+  },
+  {
+    "access_token": "I588lgNI6ap1ftmp2tV5",
+    "device_id": "865a9fb0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r316",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "865ee570-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r316"
+  },
+  {
+    "access_token": "dlcchvkdrQ6UcZgH3q9k",
+    "device_id": "86665f80-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r317",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "866bb6b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r317"
+  },
+  {
+    "access_token": "iQaAU0vzcONDfiIlE1pC",
+    "device_id": "8673f410-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r318",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "867839d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r318"
+  },
+  {
+    "access_token": "4xzcRnfxvlsrajXM08kX",
+    "device_id": "86802910-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r319",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "8684e400-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r319"
+  },
+  {
+    "access_token": "YSzw3ngb2s9sK95FB1V9",
+    "device_id": "868c3700-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f03-r320",
+    "floor_asset_id": "83050c10-37f4-11f1-b070-631fdef85036",
+    "floor_id": 3,
+    "protocol": "coap",
+    "room_asset_id": "86907cc0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f03-r320"
+  },
+  {
+    "access_token": "ZuTxvhPRfHs8e3nWMWye",
+    "device_id": "869844f0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r401",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "869cb1c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r401"
+  },
+  {
+    "access_token": "b6LWaOa1rTDvfWy0wif3",
+    "device_id": "86a42bd0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r402",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86a90dd0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r402"
+  },
+  {
+    "access_token": "Dd1oLpeYfdi8BHYsTbjN",
+    "device_id": "86b0aef0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r403",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86b4cda0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r403"
+  },
+  {
+    "access_token": "jkppS9EDD4k3SvuRMJ4I",
+    "device_id": "86bc6ec0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r404",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86c0db90-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r404"
+  },
+  {
+    "access_token": "IXEQvBAVshWv2CWt05YJ",
+    "device_id": "86c82e90-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r405",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86cc9b60-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r405"
+  },
+  {
+    "access_token": "QyvUo8SudnDhWLxN2q5V",
+    "device_id": "86d3a040-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r406",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86d83420-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r406"
+  },
+  {
+    "access_token": "nHqjnZ946wISbOY9p8zS",
+    "device_id": "86e02360-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r407",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86e4de50-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r407"
+  },
+  {
+    "access_token": "ITVOhQ5qcdSquxS2ZEdK",
+    "device_id": "86ec0a40-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r408",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86f028f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r408"
+  },
+  {
+    "access_token": "oNVJJrXliQ0WxixYrMiS",
+    "device_id": "86f7f120-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r409",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "86fcac10-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r409"
+  },
+  {
+    "access_token": "CQH0d9ZcgD7o9EYc80k9",
+    "device_id": "8703d800-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f04-r410",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "mqtt",
+    "room_asset_id": "870844d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r410"
+  },
+  {
+    "access_token": "JGVL5PtxALBYNuZxqNjy",
+    "device_id": "870f49b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r411",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "87136860-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r411"
+  },
+  {
+    "access_token": "0093vyMRr0MwqTgLL8ib",
+    "device_id": "871abb60-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r412",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "871f0120-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r412"
+  },
+  {
+    "access_token": "Tkd49jJ2V9PuhHzqqtpI",
+    "device_id": "87265420-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r413",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "872ac0f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r413"
+  },
+  {
+    "access_token": "2uYEbrmJLKEySSAVjvYO",
+    "device_id": "8731c5d0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r414",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "8736a7d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r414"
+  },
+  {
+    "access_token": "mIHurVoC8ptwoSQwO1Pj",
+    "device_id": "873d85a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r415",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "8741f270-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r415"
+  },
+  {
+    "access_token": "lwQIXiRBKNtkuhbxmvTA",
+    "device_id": "8749baa0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r416",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "874e7590-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r416"
+  },
+  {
+    "access_token": "eobjI1AIk0cOI5aEQwo3",
+    "device_id": "8755efa0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r417",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "875ad1a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r417"
+  },
+  {
+    "access_token": "CrTRLxQYmazPew8E3o0v",
+    "device_id": "876272c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r418",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "8766b880-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r418"
+  },
+  {
+    "access_token": "N6i91lxljmC8UoTvj8zM",
+    "device_id": "876d9650-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r419",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "8771dc10-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r419"
+  },
+  {
+    "access_token": "0YiHkz6CIIK0j9235xHF",
+    "device_id": "8779a440-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f04-r420",
+    "floor_asset_id": "830d7080-37f4-11f1-b070-631fdef85036",
+    "floor_id": 4,
+    "protocol": "coap",
+    "room_asset_id": "877d74d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f04-r420"
+  },
+  {
+    "access_token": "XAB4JWLhQghYJVQUgjMk",
+    "device_id": "87858b20-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r501",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "878b7e90-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r501"
+  },
+  {
+    "access_token": "2tIeNndTgf25phQwaMIA",
+    "device_id": "87919910-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r502",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87962cf0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r502"
+  },
+  {
+    "access_token": "5qQ58Qv8KMoTJtQ15KYP",
+    "device_id": "879df520-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r503",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87a23ae0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r503"
+  },
+  {
+    "access_token": "rMWWcieBGc9LStFBiDno",
+    "device_id": "87a8f1a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r504",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87acc230-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r504"
+  },
+  {
+    "access_token": "TlgQxAOp5zb7YOPy1hXL",
+    "device_id": "87b3ee20-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r505",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87b7beb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r505"
+  },
+  {
+    "access_token": "rStxRRo8uNH4LuNeXd3o",
+    "device_id": "87be2750-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r506",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87c29420-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r506"
+  },
+  {
+    "access_token": "GUq7e0bHpXMIOWRk4MpM",
+    "device_id": "87cb1fa0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r507",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87d028b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r507"
+  },
+  {
+    "access_token": "FMaK3OlO2yGZrbshlRoV",
+    "device_id": "87d7a2c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r508",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87dbe880-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r508"
+  },
+  {
+    "access_token": "3RPWn3Na3Ah5IdimkOG7",
+    "device_id": "87e2ed60-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r509",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87e6e500-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r509"
+  },
+  {
+    "access_token": "egg9n7DCS7XjDRWM1FeT",
+    "device_id": "87edc2d0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f05-r510",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "mqtt",
+    "room_asset_id": "87f2a4d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r510"
+  },
+  {
+    "access_token": "S4wpXnwUhXJZftX8QpXE",
+    "device_id": "87fc1ab0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r511",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "880394c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r511"
+  },
+  {
+    "access_token": "63Ln0hudM59JcTK7kZX5",
+    "device_id": "880e4320-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r512",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "8813c160-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r512"
+  },
+  {
+    "access_token": "YAOkgg1CndaXwQ2f6zSy",
+    "device_id": "881b8990-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r513",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "881f3310-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r513"
+  },
+  {
+    "access_token": "Hf1RJQGPLDVtWvjmU1vp",
+    "device_id": "8824ff70-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r514",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "8828d000-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r514"
+  },
+  {
+    "access_token": "w3FaUMQuuYOXFwBSdQtk",
+    "device_id": "882f86c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r515",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "8833a570-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r515"
+  },
+  {
+    "access_token": "V4fA9h12bbT610LekG7a",
+    "device_id": "8839e700-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r516",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "883e05b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r516"
+  },
+  {
+    "access_token": "wMrqP2elQO3cAOAjkAHo",
+    "device_id": "88449560-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r517",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "884865f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r517"
+  },
+  {
+    "access_token": "KNUSQ4qa12eDI00x4Sxw",
+    "device_id": "884ea780-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r518",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "88527810-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r518"
+  },
+  {
+    "access_token": "fordvxjlVFuyPsv0m27K",
+    "device_id": "885955e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r519",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "885e5ef0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r519"
+  },
+  {
+    "access_token": "BkqGr5l2LA7uZMPQzVHO",
+    "device_id": "886563d0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f05-r520",
+    "floor_asset_id": "831586d0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 5,
+    "protocol": "coap",
+    "room_asset_id": "8869f7b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f05-r520"
+  },
+  {
+    "access_token": "wRVAcEXITY3GnJeYurpI",
+    "device_id": "8871bfe0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r601",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88762cb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r601"
+  },
+  {
+    "access_token": "KKghCut538FlV4ZdWPCJ",
+    "device_id": "887baaf0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r602",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "887f5470-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r602"
+  },
+  {
+    "access_token": "JigRaFcktoFL9Y4IfTHd",
+    "device_id": "888520d0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r603",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "8888a340-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r603"
+  },
+  {
+    "access_token": "oKyTBAfs7BmEAO2P5zkN",
+    "device_id": "888f0be0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r604",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88932a90-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r604"
+  },
+  {
+    "access_token": "obFGbRNLv4JREiI3TOM1",
+    "device_id": "88996c20-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r605",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "889db1e0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r605"
+  },
+  {
+    "access_token": "2GyN0qrNKtsCVnQ4Kxw8",
+    "device_id": "88a468a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r606",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88a83930-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r606"
+  },
+  {
+    "access_token": "aswUkFHA8x52vOZSewwS",
+    "device_id": "88b00160-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r607",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88b4bc50-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r607"
+  },
+  {
+    "access_token": "bg3VoO3RulRfpV3TVmQd",
+    "device_id": "88bc5d70-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r608",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88c0f150-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r608"
+  },
+  {
+    "access_token": "amrbGNIOaEG91ZNulx33",
+    "device_id": "88c8e090-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r609",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88cd7470-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r609"
+  },
+  {
+    "access_token": "e7qAXgMvjQqxdMFrXJhk",
+    "device_id": "88d5d8e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f06-r610",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "mqtt",
+    "room_asset_id": "88da1ea0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r610"
+  },
+  {
+    "access_token": "wCbTUCFI9JZ806DPYRFl",
+    "device_id": "88e1bfc0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r611",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "88e6efe0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r611"
+  },
+  {
+    "access_token": "JIW0wpiWy7HPGrbprIHP",
+    "device_id": "88ef0630-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r612",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "88f3e830-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r612"
+  },
+  {
+    "access_token": "3a3aQJEzbqD9I1mDvkYj",
+    "device_id": "88fc4ca0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r613",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "8900b970-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r613"
+  },
+  {
+    "access_token": "NNPd3IZPhMcrckjMJsAS",
+    "device_id": "89080c70-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r614",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "890c5230-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r614"
+  },
+  {
+    "access_token": "tdceTH8V8Pci8Rj3DZiZ",
+    "device_id": "8913cc40-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r615",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "89186020-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r615"
+  },
+  {
+    "access_token": "FFHDp4laL9KocxcfL0EH",
+    "device_id": "89207670-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r616",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "89250a50-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r616"
+  },
+  {
+    "access_token": "tMjl5b8B2AWvOIXEJ6cm",
+    "device_id": "892cf990-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r617",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "8931b480-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r617"
+  },
+  {
+    "access_token": "of6cBRsFiiB3hVzgENUd",
+    "device_id": "893a8e20-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r618",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "893f4910-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r618"
+  },
+  {
+    "access_token": "4ueIlfSeulh36d97AqHQ",
+    "device_id": "89471140-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r619",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "894bf340-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r619"
+  },
+  {
+    "access_token": "zRIgfzpezhoaySVOUa02",
+    "device_id": "89536d50-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f06-r620",
+    "floor_asset_id": "831c3d90-37f4-11f1-b070-631fdef85036",
+    "floor_id": 6,
+    "protocol": "coap",
+    "room_asset_id": "8957da20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f06-r620"
+  },
+  {
+    "access_token": "xili8aV4PtX8Sm0PFEC1",
+    "device_id": "89601780-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r701",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89656eb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r701"
+  },
+  {
+    "access_token": "J1OtBIZ7yTVIlgs502GW",
+    "device_id": "896f0ba0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r702",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "8974ff10-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r702"
+  },
+  {
+    "access_token": "0UHS40ZGsTgniaLnIAmq",
+    "device_id": "897c7920-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r703",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89815b20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r703"
+  },
+  {
+    "access_token": "9KEJaNaJMzXh2U3XAO96",
+    "device_id": "8987ead0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r704",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "898be270-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r704"
+  },
+  {
+    "access_token": "WFd3u8qE87xGQe8XYwIv",
+    "device_id": "8991aed0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r705",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89961ba0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r705"
+  },
+  {
+    "access_token": "sVY2YfGiBQRKul28sdKM",
+    "device_id": "899cd260-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r706",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89a1b460-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r706"
+  },
+  {
+    "access_token": "DFVrGeKTCfhcVLAHTA9A",
+    "device_id": "89a9cab0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r707",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89afe530-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r707"
+  },
+  {
+    "access_token": "mMV3A4t25E92uZ73VDF1",
+    "device_id": "89b7ad60-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r708",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89bc8f60-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r708"
+  },
+  {
+    "access_token": "BehiGqwrB9ErtQt0CiZU",
+    "device_id": "89c40970-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r709",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89c84f30-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r709"
+  },
+  {
+    "access_token": "JwOxea9eVXdVtLhJgwla",
+    "device_id": "89cf2d00-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f07-r710",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "mqtt",
+    "room_asset_id": "89d399d0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r710"
+  },
+  {
+    "access_token": "mzehUDXKgk6ZbowiXq1T",
+    "device_id": "89daecd0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r711",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "89df80b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r711"
+  },
+  {
+    "access_token": "VF9X2I9I1DGOBr2RbdT6",
+    "device_id": "89e68590-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r712",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "89eaf260-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r712"
+  },
+  {
+    "access_token": "dnKHEXoY91w1RALWwXbm",
+    "device_id": "89f1f740-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r713",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "89f63d00-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r713"
+  },
+  {
+    "access_token": "4BLWbpsmXzIPy2jqj1ze",
+    "device_id": "89fd9000-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r714",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a01d5c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r714"
+  },
+  {
+    "access_token": "Kk1YukxSv71otDdMYLQD",
+    "device_id": "8a0901b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r715",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a0d6e80-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r715"
+  },
+  {
+    "access_token": "stz7BTzG010AyThMIEbA",
+    "device_id": "8a142540-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r716",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a186b00-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r716"
+  },
+  {
+    "access_token": "VFAjcP9gEVZTmfJHxHoD",
+    "device_id": "8a1f96f0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r717",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a234070-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r717"
+  },
+  {
+    "access_token": "BP0X5ckVA4H75VSzDBZ3",
+    "device_id": "8a2a4550-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r718",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a2e3cf0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r718"
+  },
+  {
+    "access_token": "hZzHWbiMchKHb6HpsK6n",
+    "device_id": "8a3568e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r719",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a396080-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r719"
+  },
+  {
+    "access_token": "ZrTNSkbmNZQ0b2k6nCkE",
+    "device_id": "8a403e50-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f07-r720",
+    "floor_asset_id": "8322f450-37f4-11f1-b070-631fdef85036",
+    "floor_id": 7,
+    "protocol": "coap",
+    "room_asset_id": "8a44f940-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f07-r720"
+  },
+  {
+    "access_token": "gsBU4MqwwbmatmHMqgtW",
+    "device_id": "8a4ebd40-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r801",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a55c220-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r801"
+  },
+  {
+    "access_token": "UYLccAJxLcGdpVC4L2kG",
+    "device_id": "8a5e2690-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r802",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a6356b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r802"
+  },
+  {
+    "access_token": "tDNUx1MuqRlKbIoIH7w7",
+    "device_id": "8a6b9410-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r803",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a709d20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r803"
+  },
+  {
+    "access_token": "YY86hgkDPzu1S1DFPYx0",
+    "device_id": "8a790190-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r804",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a7dbc80-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r804"
+  },
+  {
+    "access_token": "RvGOwr4UWnjudldlovqd",
+    "device_id": "8a8584b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r805",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a8a66b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r805"
+  },
+  {
+    "access_token": "ZGBSlZ833hcmE9K2BHDF",
+    "device_id": "8a9192a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r806",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8a953c20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r806"
+  },
+  {
+    "access_token": "yTYo955uwXLb9DWhtu5T",
+    "device_id": "8a9c8f20-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r807",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8aa086c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r807"
+  },
+  {
+    "access_token": "TG2Xk8vjq8eqqnvdu9iw",
+    "device_id": "8aa78ba0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r808",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8aacbbc0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r808"
+  },
+  {
+    "access_token": "d4dxVR8N7ex8LBqodKiN",
+    "device_id": "8ab54740-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r809",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8aba0230-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r809"
+  },
+  {
+    "access_token": "JAcVpV9Z9PlzQt0cdjvV",
+    "device_id": "8ac21880-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f08-r810",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "mqtt",
+    "room_asset_id": "8ac6ac60-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r810"
+  },
+  {
+    "access_token": "2K6lg21ooEGPKX4DjIYO",
+    "device_id": "8acdb140-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r811",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8ad1cff0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r811"
+  },
+  {
+    "access_token": "S8V07t4GF0qmOQn4ech3",
+    "device_id": "8ad886b0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r812",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8add41a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r812"
+  },
+  {
+    "access_token": "9IpylLefWaxks52RZ5Ev",
+    "device_id": "8ae61b40-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r813",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8aead630-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r813"
+  },
+  {
+    "access_token": "3f5iYaAD5FBzqUTSEVS3",
+    "device_id": "8af388c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r814",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8af8b8e0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r814"
+  },
+  {
+    "access_token": "Q8kg0YiFQl5nC55Vw0pp",
+    "device_id": "8b011d50-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r815",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b056310-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r815"
+  },
+  {
+    "access_token": "ic9zbtrotm7FX6UlZjoQ",
+    "device_id": "8b0c8f00-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r816",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b10adb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r816"
+  },
+  {
+    "access_token": "svQ7nvmvNHOaEl5geglu",
+    "device_id": "8b178b80-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r817",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b1c4670-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r817"
+  },
+  {
+    "access_token": "pK0X9Lb9aOwxXroMLs5z",
+    "device_id": "8b240ea0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r818",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b28c990-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r818"
+  },
+  {
+    "access_token": "XFeGzC6j2vn1XgDv3ATq",
+    "device_id": "8b30dfe0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r819",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b359ad0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r819"
+  },
+  {
+    "access_token": "UuiT1uOxhDrGnY9OJ2YG",
+    "device_id": "8b3c9fb0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f08-r820",
+    "floor_asset_id": "832a4750-37f4-11f1-b070-631fdef85036",
+    "floor_id": 8,
+    "protocol": "coap",
+    "room_asset_id": "8b415aa0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f08-r820"
+  },
+  {
+    "access_token": "nwOmDjT2RGht0yrYdQ83",
+    "device_id": "8b472700-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r901",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b4af790-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r901"
+  },
+  {
+    "access_token": "E5Qs820TI47LyG0Qwx2D",
+    "device_id": "8b516030-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r902",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b54bb90-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r902"
+  },
+  {
+    "access_token": "s7FgrlQuHlq0lGMMtKkL",
+    "device_id": "8b5bc070-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r903",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b5fb810-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r903"
+  },
+  {
+    "access_token": "dcWhdhfCrRESi15hsDtd",
+    "device_id": "8b65f9a0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r904",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b69ca30-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r904"
+  },
+  {
+    "access_token": "6D58MehcBuVgEphr0vxj",
+    "device_id": "8b7059e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r905",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b758a00-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r905"
+  },
+  {
+    "access_token": "5sDb12tI5DkPXIN28ct3",
+    "device_id": "8b7cdd00-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r906",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b8170e0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r906"
+  },
+  {
+    "access_token": "rIBY8I0tPiTLAEiQd6J4",
+    "device_id": "8b8875c0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r907",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b8c6d60-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r907"
+  },
+  {
+    "access_token": "n178M785c4vHJywA0wr6",
+    "device_id": "8b945ca0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r908",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8b98a260-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r908"
+  },
+  {
+    "access_token": "smbWUczhWyKaYq6O6oBW",
+    "device_id": "8b9fce50-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r909",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8ba41410-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r909"
+  },
+  {
+    "access_token": "6faos2UGec0uciT4qcab",
+    "device_id": "8baaf1e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f09-r910",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "mqtt",
+    "room_asset_id": "8bb04910-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r910"
+  },
+  {
+    "access_token": "6oFhXmlENDIZqvSDIMzK",
+    "device_id": "8bb63c80-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r911",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bbad060-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r911"
+  },
+  {
+    "access_token": "8sK8E6qlitcbAUdFtLLU",
+    "device_id": "8bc13900-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r912",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bc557b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r912"
+  },
+  {
+    "access_token": "2Vjqu4FpG1WwyMpTsAHe",
+    "device_id": "8bcbc050-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r913",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bd02d20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r913"
+  },
+  {
+    "access_token": "9k2cuHurMbOUEfXqe5OG",
+    "device_id": "8bd66eb0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r914",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bda1830-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r914"
+  },
+  {
+    "access_token": "Gb95WGdEZFHnJQ6x8SHB",
+    "device_id": "8be0a7e0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r915",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8be40340-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r915"
+  },
+  {
+    "access_token": "zD60Q8mzlLiNvX1BeVmd",
+    "device_id": "8bea92f0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r916",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bee8a90-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r916"
+  },
+  {
+    "access_token": "hsvcvNjScBZMtQ0uoBrG",
+    "device_id": "8bf4a510-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r917",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8bf89cb0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r917"
+  },
+  {
+    "access_token": "HtjTN7tgmSE0xDkXDnFH",
+    "device_id": "8bff7a80-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r918",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8c02fcf0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r918"
+  },
+  {
+    "access_token": "hNZMrjxUSQE5wBOqZ2xO",
+    "device_id": "8c098ca0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r919",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8c0d0f10-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r919"
+  },
+  {
+    "access_token": "Sw6N99eBlm0BrfjLEkIv",
+    "device_id": "8c154c70-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f09-r920",
+    "floor_asset_id": "8330d700-37f4-11f1-b070-631fdef85036",
+    "floor_id": 9,
+    "protocol": "coap",
+    "room_asset_id": "8c196b20-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f09-r920"
+  },
+  {
+    "access_token": "y3AVaHK0MtrrSj842Pmx",
+    "device_id": "8c226bd0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1001",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c26d8a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1001"
+  },
+  {
+    "access_token": "B8989NOsSNQSKA5QqvED",
+    "device_id": "8c2e0490-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1002",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c31ae10-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1002"
+  },
+  {
+    "access_token": "OZewI9bdFOUOwjGhN3yI",
+    "device_id": "8c388be0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1003",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c3cf8b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1003"
+  },
+  {
+    "access_token": "jXRUKIUsaBTAaxEvIh75",
+    "device_id": "8c43af70-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1004",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c47a710-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1004"
+  },
+  {
+    "access_token": "NibI5yVuLzyZVaS6kIHj",
+    "device_id": "8c4efa10-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1005",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c52caa0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1005"
+  },
+  {
+    "access_token": "GJDbD0oK5t34hQrejY1i",
+    "device_id": "8c590c30-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1006",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c5d51f0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1006"
+  },
+  {
+    "access_token": "jHxbGmVvtJMyCjusVRVE",
+    "device_id": "8c642fc0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1007",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c68eab0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1007"
+  },
+  {
+    "access_token": "88dLnjNK93MktwxTsFyI",
+    "device_id": "8c703db0-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1008",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c743550-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1008"
+  },
+  {
+    "access_token": "WQAbCUq0ZXibxRdDDVtx",
+    "device_id": "8c7b6140-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1009",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c7f7ff0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1009"
+  },
+  {
+    "access_token": "6FJ9QoJbmgViDBoWGTAJ",
+    "device_id": "8c85c180-37f4-11f1-b070-631fdef85036",
+    "device_name": "mqtt-b01-f10-r1010",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "mqtt",
+    "room_asset_id": "8c891ce0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1010"
+  },
+  {
+    "access_token": "1p8Wt9DsNEmJDn869lkq",
+    "device_id": "8c8f3760-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1011",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8c9244a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1011"
+  },
+  {
+    "access_token": "5FqLQuvoB7qKuMUhvzKw",
+    "device_id": "8c98d450-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1012",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8c9c56c0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1012"
+  },
+  {
+    "access_token": "uAXnjhk52wvHdZq1r09o",
+    "device_id": "8ca22320-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1013",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8ca5cca0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1013"
+  },
+  {
+    "access_token": "WJ32o7jIghEXa94NAdT5",
+    "device_id": "8cac5c50-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1014",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8cafb7b0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1014"
+  },
+  {
+    "access_token": "jYj3sFLy5hGaXuVBGvmQ",
+    "device_id": "8cb5d230-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1015",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8cb954a0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1015"
+  },
+  {
+    "access_token": "MQIpydCZQdAqE0vkFa5K",
+    "device_id": "8cbf2100-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1016",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8cc2f190-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1016"
+  },
+  {
+    "access_token": "exQIVkPeS0qtb5jfLUtj",
+    "device_id": "8cc86fd0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1017",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8ccc6770-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1017"
+  },
+  {
+    "access_token": "NQFpXDTxgKa7iio4ZHwR",
+    "device_id": "8cd17080-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1018",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8cd4cbe0-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1018"
+  },
+  {
+    "access_token": "7sdCGW4tYBOl9ouOc3Jt",
+    "device_id": "8cd9d4f0-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1019",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8cdd3050-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1019"
+  },
+  {
+    "access_token": "XK2ybZq2OoffFsTIdCV7",
+    "device_id": "8ce28780-37f4-11f1-b070-631fdef85036",
+    "device_name": "coap-b01-f10-r1020",
+    "floor_asset_id": "833766b0-37f4-11f1-b070-631fdef85036",
+    "floor_id": 10,
+    "protocol": "coap",
+    "room_asset_id": "8ce6a630-37f4-11f1-b070-631fdef85036",
+    "room_key": "b01-f10-r1020"
+  }
+]

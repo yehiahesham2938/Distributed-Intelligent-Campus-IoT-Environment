@@ -31,10 +31,11 @@ def _env_int(name, default):
 
 
 class Room:
-    def __init__(self, building_id, floor_id, room_id):
+    def __init__(self, building_id, floor_id, room_id, protocol="mqtt"):
         self.building_id = building_id
         self.floor_id = floor_id
         self.room_id = room_id
+        self.protocol = protocol
 
         # State
         self.temperature = 22.0

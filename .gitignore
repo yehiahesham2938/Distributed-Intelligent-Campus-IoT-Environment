@@ -19,3 +19,14 @@ mosquitto/
 # OS
 .DS_Store
 Thumbs.db
+
+# Phase 2 secrets — regenerate locally
+secrets/*.key
+secrets/*.crt
+secrets/*.csv
+secrets/*.json
+secrets/*.srl
+hivemq/conf/credentials.xml
+
+# RTT telemetry output
+data/rtt_metrics.csv

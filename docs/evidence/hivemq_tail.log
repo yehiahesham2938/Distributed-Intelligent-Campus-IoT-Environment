@@ -1,0 +1,5 @@
+client_queue
+client_session_store
+client_session_subscriptions
+publish_payload_store
+retained_messages

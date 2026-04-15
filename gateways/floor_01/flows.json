@@ -1,0 +1,654 @@
+[
+    {
+        "id": "tab-floor-01",
+        "type": "tab",
+        "label": "Floor 01",
+        "disabled": false,
+        "info": "Dual-protocol gateway for floor 01: ingest 10 CoAP observable resources, re-publish as MQTT to HiveMQ, translate MQTT commands to CoAP PUT, compute 60s floor averages, and dedup DUP retransmits."
+    },
+    {
+        "id": "hivemq-broker",
+        "type": "mqtt-broker",
+        "name": "HiveMQ",
+        "broker": "hivemq",
+        "port": "1883",
+        "clientid": "gateway-floor-01",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "30",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "campus/b01/f01/gateway/status",
+        "birthQos": "1",
+        "birthPayload": "{\"status\":\"online\"}",
+        "closeTopic": "campus/b01/f01/gateway/status",
+        "closeQos": "1",
+        "closePayload": "{\"status\":\"offline\"}"
+    },
+    {
+        "id": "dedup-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "DUP dedup LRU (512)",
+        "func": "// 512-entry LRU keyed by (topic, msg_id, payload_hash). Drops MQTT DUP retransmits so rule chains see each logical message once.\nconst seen = context.get('seen') || new Map();\nconst key = (msg.topic || '') + '|' + (msg.messageId || '') + '|' + (msg.payload ? JSON.stringify(msg.payload) : '');\nif (seen.has(key)) { return null; }\nseen.set(key, Date.now());\nif (seen.size > 512) {\n    const firstKey = seen.keys().next().value;\n    seen.delete(firstKey);\n}\ncontext.set('seen', seen);\nreturn msg;",
+        "outputs": 1,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            [
+                "mqtt-out-telemetry-f01",
+                "average-f01"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt-out-telemetry-f01",
+        "type": "mqtt out",
+        "z": "tab-floor-01",
+        "name": "HiveMQ telemetry out",
+        "topic": "",
+        "qos": "1",
+        "retain": "false",
+        "broker": "hivemq-broker",
+        "x": 780,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "average-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "60s rolling average",
+        "func": "// Port of src/gateways/averaging.py \u2014 keeps a 60s window and emits a floor summary on the 60s inject tick.\nconst windowSeconds = 60;\nconst samples = context.get('samples') || [];\nconst now = Date.now() / 1000;\nif (msg.payload && msg.payload.temperature !== undefined) {\n    samples.push({\n        ts: now,\n        temp: msg.payload.temperature,\n        hum: msg.payload.humidity,\n        occ: msg.payload.occupancy ? 1 : 0,\n        room: msg.payload.sensor_id\n    });\n}\nwhile (samples.length && samples[0].ts < now - windowSeconds) samples.shift();\ncontext.set('samples', samples);\nreturn null;",
+        "outputs": 1,
+        "x": 470,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "inject-60s-f01",
+        "type": "inject",
+        "z": "tab-floor-01",
+        "name": "every 60s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "emit-summary-f01"
+            ]
+        ]
+    },
+    {
+        "id": "emit-summary-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "emit summary",
+        "func": "const samples = flow.get('samples_f01') || [];\nif (!samples.length) return null;\nconst n = samples.length;\nconst avgTemp = samples.reduce((s, x) => s + x.temp, 0) / n;\nconst avgHum = samples.reduce((s, x) => s + x.hum, 0) / n;\nconst occRatio = samples.reduce((s, x) => s + x.occ, 0) / n;\nconst rooms = new Set(samples.map(s => s.room)).size;\nmsg.topic = 'campus/b01/f01/summary';\nmsg.payload = {\n    window_seconds: 60,\n    samples: n,\n    rooms_seen: rooms,\n    avg_temperature: +avgTemp.toFixed(2),\n    avg_humidity: +avgHum.toFixed(2),\n    occupied_ratio: +occRatio.toFixed(3),\n    generated_at: Math.floor(Date.now() / 1000)\n};\nmsg.qos = 1;\nmsg.retain = true;\nreturn msg;",
+        "outputs": 1,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "mqtt-out-telemetry-f01"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt-in-cmd-f01",
+        "type": "mqtt in",
+        "z": "tab-floor-01",
+        "name": "cmd for floor 01",
+        "topic": "campus/b01/f01/+/cmd",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "hivemq-broker",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "route-cmd-f01"
+            ]
+        ]
+    },
+    {
+        "id": "route-cmd-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "route cmd (MQTT vs CoAP)",
+        "func": "// Topic pattern: campus/b01/fFF/rRRR/cmd\nconst parts = msg.topic.split('/');\nif (parts.length !== 5) return null;\nconst roomSeg = parts[3];\nconst roomNum = parseInt(roomSeg.replace('r', ''), 10);\nconst floorNum = parseInt(parts[2].replace('f', ''), 10);\nconst localRoom = roomNum - (floorNum * 100);\nmsg._targetRoom = localRoom;\nmsg._roomNum = roomNum;\nmsg._floorNum = floorNum;\nif (localRoom <= 10) {\n    // MQTT rooms: broker routes directly, gateway only taps for metrics.\n    msg._kind = 'mqtt';\n    return [msg, null];\n}\n// CoAP rooms: translate to CON PUT on the actuator resource.\nmsg._kind = 'coap';\nconst base = parseInt(global.get('coapBase') || 5683, 10);\nmsg.url = `coap://${global.get('nodeHost') || 'app'}:${base + floorNum * 100 + localRoom}/f${String(floorNum).padStart(2,'0')}/r${String(roomNum).padStart(3,'0')}/actuators/hvac`;\nmsg.method = 'PUT';\nmsg.confirmable = true;\nreturn [null, msg];",
+        "outputs": 2,
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "metrics-tap-f01"
+            ],
+            [
+                "coap-put-f01"
+            ]
+        ]
+    },
+    {
+        "id": "metrics-tap-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "metrics tap",
+        "func": "node.warn('mqtt cmd tapped for room ' + msg._roomNum);\nreturn null;",
+        "outputs": 0,
+        "x": 780,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "publish-response-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "build response topic",
+        "func": "msg.topic = `campus/b01/f${String(msg._floorNum).padStart(2,'0')}/r${String(msg._roomNum).padStart(3,'0')}/response`;\nmsg.qos = 1;\nmsg.retain = false;\nreturn msg;",
+        "outputs": 1,
+        "x": 1040,
+        "y": 400,
+        "wires": [
+            [
+                "mqtt-out-response-f01"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt-out-response-f01",
+        "type": "mqtt out",
+        "z": "tab-floor-01",
+        "name": "HiveMQ response out",
+        "topic": "",
+        "qos": "1",
+        "retain": "false",
+        "broker": "hivemq-broker",
+        "x": 1270,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "coap-tag-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "tag CoAP -> MQTT topic",
+        "func": "// Tag notification with the MQTT topic that matches the source room.\nmsg.topic = msg._target || 'campus/b01/f01/unknown/telemetry';\nreturn msg;",
+        "outputs": 1,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [
+                "dedup-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r111",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r111",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r111/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 80,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r111",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r111",
+        "url": "coap://app:5794/f01/r111/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "coap-set-f01-r111"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r112",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r112",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r112/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 110,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r112",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r112",
+        "url": "coap://app:5795/f01/r112/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 110,
+        "wires": [
+            [
+                "coap-set-f01-r112"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r113",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r113",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r113/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r113",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r113",
+        "url": "coap://app:5796/f01/r113/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "coap-set-f01-r113"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r114",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r114",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r114/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 170,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r114",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r114",
+        "url": "coap://app:5797/f01/r114/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 170,
+        "wires": [
+            [
+                "coap-set-f01-r114"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r115",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r115",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r115/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r115",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r115",
+        "url": "coap://app:5798/f01/r115/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "coap-set-f01-r115"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r116",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r116",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r116/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 230,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r116",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r116",
+        "url": "coap://app:5799/f01/r116/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 230,
+        "wires": [
+            [
+                "coap-set-f01-r116"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r117",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r117",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r117/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r117",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r117",
+        "url": "coap://app:5800/f01/r117/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "coap-set-f01-r117"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r118",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r118",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r118/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 290,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r118",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r118",
+        "url": "coap://app:5801/f01/r118/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 290,
+        "wires": [
+            [
+                "coap-set-f01-r118"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r119",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r119",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r119/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r119",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r119",
+        "url": "coap://app:5802/f01/r119/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "coap-set-f01-r119"
+            ]
+        ]
+    },
+    {
+        "id": "coap-set-f01-r120",
+        "type": "change",
+        "z": "tab-floor-01",
+        "name": "set target r120",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_target",
+                "pt": "msg",
+                "to": "campus/b01/f01/r120/telemetry",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 350,
+        "wires": [
+            [
+                "coap-tag-f01"
+            ]
+        ]
+    },
+    {
+        "id": "coap-obs-f01-r120",
+        "type": "coap request",
+        "z": "tab-floor-01",
+        "name": "observe r120",
+        "url": "coap://app:5803/f01/r120/telemetry",
+        "method": "GET",
+        "observe": true,
+        "contentFormat": "application/json",
+        "x": 120,
+        "y": 350,
+        "wires": [
+            [
+                "coap-set-f01-r120"
+            ]
+        ]
+    },
+    {
+        "id": "coap-put-f01",
+        "type": "function",
+        "z": "tab-floor-01",
+        "name": "CoAP PUT CON (function)",
+        "func": "// Southbound Command Mapping (MQTT -> CoAP PUT).\n// Inputs from `route cmd`:\n//   msg._floorNum, msg._roomNum, msg.payload (command body)\n// Output: passes through to `build response topic` once the PUT\n// has been acknowledged by the node (CHANGED response).\n// The `coap` module is exposed via functionGlobalContext in settings.js\nconst coap = global.get('coap');\nif (!coap) { node.warn('coap module not in globalContext'); return null; }\nconst floorNum = msg._floorNum || 1;\nconst roomNum = msg._roomNum;\nconst base = parseInt(global.get('coapBase') || 5683, 10);\nconst port = base + floorNum * 100 + (roomNum - floorNum * 100);\nconst pathFloor = 'f' + String(floorNum).padStart(2,'0');\nconst pathRoom  = 'r' + String(roomNum).padStart(3,'0');\nconst req = coap.request({\n    hostname: global.get('nodeHost') || 'app',\n    port,\n    method: 'PUT',\n    confirmable: true,\n    pathname: `/${pathFloor}/${pathRoom}/actuators/hvac`,\n});\nreq.write(JSON.stringify(msg.payload || {}));\nreq.on('response', (res) => {\n    let chunks = [];\n    res.on('data', (d) => chunks.push(d));\n    res.on('end', () => {\n        try { msg.payload = JSON.parse(Buffer.concat(chunks).toString()); }\n        catch (e) { msg.payload = { raw: Buffer.concat(chunks).toString() }; }\n        node.send(msg);\n    });\n});\nreq.on('error', (e) => { node.warn('CoAP PUT error: ' + e.message); });\nreq.end();\nreturn null;",
+        "outputs": 1,
+        "x": 780,
+        "y": 400,
+        "wires": [
+            [
+                "publish-response-f01"
+            ]
+        ]
+    }
+]

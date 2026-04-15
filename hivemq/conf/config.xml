@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  HiveMQ CE configuration for the Phase 2 Campus IoT backbone.
+
+  Two listeners:
+    * plain TCP 1883 — kept for development convenience only; set
+      HIVEMQ_DISABLE_PLAIN=1 in the container to have this stripped at
+      start time if an external audit requires TLS-only.
+    * TLS 8883 — server cert/key under /certs (bind-mounted from
+      ./hivemq/certs in docker-compose.yml). The CA chain is the same
+      self-signed root the engine pins via MQTT_CA_CERT.
+
+  File-based RBAC is enabled through the hivemq-file-rbac-extension and
+  reads credentials.xml / acl.xml from /opt/hivemq/extensions/.../conf/.
+-->
+<hivemq>
+    <listeners>
+        <tcp-listener>
+            <port>1883</port>
+            <bind-address>0.0.0.0</bind-address>
+            <name>campus-plain</name>
+        </tcp-listener>
+        <!--
+          TLS listener disabled by default. To enable:
+          1. Build /certs/hivemq_keystore.jks from secrets/hivemq_server.{crt,key}
+             using the keytool sequence in hivemq/README.md
+          2. Uncomment the tls-tcp-listener block below
+          3. Restart the hivemq service
+        -->
+        <!--
+        <tls-tcp-listener>
+            <port>8883</port>
+            <bind-address>0.0.0.0</bind-address>
+            <name>campus-tls</name>
+            <tls>
+                <keystore>
+                    <path>/certs/hivemq_keystore.jks</path>
+                    <password>changeit</password>
+                    <private-key-password>changeit</private-key-password>
+                </keystore>
+                <client-authentication-mode>NONE</client-authentication-mode>
+                <protocols>
+                    <protocol>TLSv1.3</protocol>
+                    <protocol>TLSv1.2</protocol>
+                </protocols>
+            </tls>
+        </tls-tcp-listener>
+        -->
+    </listeners>
+
+    <mqtt>
+        <session-expiry>
+            <max-interval>3600</max-interval>
+        </session-expiry>
+        <message-expiry>
+            <max-interval>600</max-interval>
+        </message-expiry>
+        <packets>
+            <max-packet-size>10240</max-packet-size>
+        </packets>
+        <queued-messages>
+            <max-queue-size>5000</max-queue-size>
+            <strategy>discard</strategy>
+        </queued-messages>
+        <keep-alive>
+            <max-keep-alive>120</max-keep-alive>
+            <allow-unlimited>false</allow-unlimited>
+        </keep-alive>
+        <receive-maximum>
+            <server-receive-maximum>10</server-receive-maximum>
+        </receive-maximum>
+    </mqtt>
+
+    <restrictions>
+        <max-client-id-length>65535</max-client-id-length>
+        <max-connections>512</max-connections>
+        <incoming-bandwidth-throttling>0</incoming-bandwidth-throttling>
+        <no-connect-idle-timeout>10000</no-connect-idle-timeout>
+    </restrictions>
+
+    <anonymous-usage-statistics>
+        <enabled>false</enabled>
+    </anonymous-usage-statistics>
+</hivemq>

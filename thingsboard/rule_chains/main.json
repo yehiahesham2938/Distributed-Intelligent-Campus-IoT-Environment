@@ -1,0 +1,73 @@
+{
+    "ruleChain": {
+        "name": "Campus Root Rule Chain",
+        "type": "CORE",
+        "root": true,
+        "debugMode": false,
+        "configuration": null
+    },
+    "metadata": {
+        "firstNodeIndex": 0,
+        "nodes": [
+            {
+                "type": "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode",
+                "name": "Message Type Switch",
+                "debugMode": false,
+                "configuration": {"version": 0}
+            },
+            {
+                "type": "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode",
+                "name": "Save Timeseries",
+                "debugMode": false,
+                "configuration": {"defaultTTL": 0, "skipLatestPersistence": false, "useServerTs": true}
+            },
+            {
+                "type": "org.thingsboard.rule.engine.filter.TbJsFilterNode",
+                "name": "Temp out-of-range",
+                "debugMode": false,
+                "configuration": {
+                    "scriptLang": "JS",
+                    "jsScript": "return typeof msg.temperature === 'number' && (msg.temperature > 30 || msg.temperature < 15);"
+                }
+            },
+            {
+                "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+                "name": "Create TEMP_OUT_OF_RANGE alarm",
+                "debugMode": false,
+                "configuration": {
+                    "alarmType": "TEMP_OUT_OF_RANGE",
+                    "severity": "MAJOR",
+                    "propagate": true,
+                    "useMessageAlarmData": false,
+                    "overwriteAlarmDetails": false,
+                    "relationTypes": []
+                }
+            },
+            {
+                "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+                "name": "Clear alarm",
+                "debugMode": false,
+                "configuration": {"alarmType": "TEMP_OUT_OF_RANGE"}
+            },
+            {
+                "type": "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode",
+                "name": "Save server attributes",
+                "debugMode": false,
+                "configuration": {
+                    "scope": "SERVER_SCOPE",
+                    "notifyDevice": false,
+                    "sendAttributesUpdatedNotification": true,
+                    "updateAttributesOnlyOnValueChange": true
+                }
+            }
+        ],
+        "connections": [
+            {"fromIndex": 0, "toIndex": 1, "type": "Post telemetry"},
+            {"fromIndex": 1, "toIndex": 2, "type": "Success"},
+            {"fromIndex": 2, "toIndex": 3, "type": "True"},
+            {"fromIndex": 2, "toIndex": 4, "type": "False"},
+            {"fromIndex": 0, "toIndex": 5, "type": "Post attributes"}
+        ],
+        "ruleChainConnections": []
+    }
+}
