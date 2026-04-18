@@ -60,7 +60,7 @@
         "type": "function",
         "z": "tab-floor-04",
         "name": "60s rolling average",
-        "func": "// Port of src/gateways/averaging.py \u2014 keeps a 60s window and emits a floor summary on the 60s inject tick.\nconst windowSeconds = 60;\nconst samples = context.get('samples') || [];\nconst now = Date.now() / 1000;\nif (msg.payload && msg.payload.temperature !== undefined) {\n    samples.push({\n        ts: now,\n        temp: msg.payload.temperature,\n        hum: msg.payload.humidity,\n        occ: msg.payload.occupancy ? 1 : 0,\n        room: msg.payload.sensor_id\n    });\n}\nwhile (samples.length && samples[0].ts < now - windowSeconds) samples.shift();\ncontext.set('samples', samples);\nreturn null;",
+        "func": "// Port of src/gateways/averaging.py \u00e2\u20ac\u201d keeps a 60s window and emits a floor summary on the 60s inject tick.\nconst windowSeconds = 60;\nconst samples = context.get('samples') || [];\nconst now = Date.now() / 1000;\nif (msg.payload && msg.payload.temperature !== undefined) {\n    samples.push({\n        ts: now,\n        temp: msg.payload.temperature,\n        hum: msg.payload.humidity,\n        occ: msg.payload.occupancy ? 1 : 0,\n        room: msg.payload.sensor_id\n    });\n}\nwhile (samples.length && samples[0].ts < now - windowSeconds) samples.shift();\ncontext.set('samples', samples);\nreturn null;",
         "outputs": 1,
         "x": 470,
         "y": 180,

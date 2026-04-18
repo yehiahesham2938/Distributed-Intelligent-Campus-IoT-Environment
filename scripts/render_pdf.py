@@ -21,6 +21,7 @@ But this script is good enough for an ungraded-but-submittable PDF.
 
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 from fpdf import FPDF
@@ -28,6 +29,25 @@ from fpdf import FPDF
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "docs" / "phase2_report.md"
 OUT = ROOT / "docs" / "phase2_report.pdf"
+
+
+UNICODE_REPLACEMENTS = str.maketrans(
+    {
+        "–": "-",
+        "—": "-",
+        "−": "-",
+        "→": "->",
+        "←": "<-",
+        "▶": "->",
+        "─": "-",
+        "├": "|-",
+        "└": "`-",
+        "✅": "[OK]",
+        "⚠": "[WARN]",
+        "✔": "[OK]",
+        "✖": "[X]",
+    }
+)
 
 
 class Report(FPDF):
@@ -59,7 +79,7 @@ def strip_front_matter(text):
 
 
 def main():
-    md = SRC.read_text()
+    md = SRC.read_text(encoding="utf-8")
     md = strip_front_matter(md)
 
     pdf = Report(orientation="P", unit="mm", format="A4")
@@ -250,8 +270,20 @@ def main():
 
 
 def _sanitize(s):
-    # fpdf2 default font is Latin-1; strip anything it can't encode.
-    return s.encode("latin-1", errors="replace").decode("latin-1")
+    # fpdf2 default core fonts are Latin-1 only. Convert known Unicode symbols
+    # to readable ASCII and drop any remaining unsupported glyphs.
+    text = s.translate(UNICODE_REPLACEMENTS)
+    out = []
+    for ch in text:
+        if ord(ch) <= 255:
+            out.append(ch)
+            continue
+
+        folded = unicodedata.normalize("NFKD", ch).encode("ascii", errors="ignore").decode("ascii")
+        if folded:
+            out.append(folded)
+
+    return "".join(out)
 
 
 if __name__ == "__main__":

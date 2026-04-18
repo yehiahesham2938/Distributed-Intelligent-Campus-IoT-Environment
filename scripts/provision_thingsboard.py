@@ -165,6 +165,33 @@ class TBClient:
             if exc.response.status_code not in (400, 409):
                 raise
 
+    # --- dashboards ---
+    def ensure_dashboard(self, dashboard_payload):
+        title = dashboard_payload.get("title") or dashboard_payload.get("name")
+        if not title:
+            return self.post_json("/api/dashboard", dashboard_payload)
+
+        try:
+            page = self.get_json(
+                "/api/tenant/dashboards",
+                params={"pageSize": 1000, "page": 0, "textSearch": title},
+            )
+            for row in page.get("data", []):
+                if row.get("title") == title:
+                    existing_id = row.get("id", {}).get("id")
+                    payload = dict(dashboard_payload)
+                    if existing_id:
+                        payload["id"] = {"entityType": "DASHBOARD", "id": existing_id}
+                    updated = self.post_json("/api/dashboard", payload)
+                    logger.info("updated dashboard %s", title)
+                    return updated
+        except httpx.HTTPStatusError as exc:
+            logger.warning("dashboard lookup failed for %s: %s", title, exc)
+
+        created = self.post_json("/api/dashboard", dashboard_payload)
+        logger.info("created dashboard %s", title)
+        return created
+
 
 def provision():
     setup_logging()
@@ -227,7 +254,7 @@ def provision():
     # Rule chain (optional — imported if file exists)
     if RULE_CHAIN_FILE.exists():
         try:
-            chain_payload = json.loads(RULE_CHAIN_FILE.read_text())
+            chain_payload = json.loads(RULE_CHAIN_FILE.read_text(encoding="utf-8"))
             client.post_json("/api/ruleChain", chain_payload.get("ruleChain", chain_payload))
             logger.info("imported rule chain from %s", RULE_CHAIN_FILE)
         except Exception as exc:
@@ -236,7 +263,8 @@ def provision():
     # Dashboard (optional)
     if DASHBOARD_FILE.exists():
         try:
-            client.post_json("/api/dashboard", json.loads(DASHBOARD_FILE.read_text()))
+            dashboard_payload = json.loads(DASHBOARD_FILE.read_text(encoding="utf-8"))
+            client.ensure_dashboard(dashboard_payload.get("dashboard", dashboard_payload))
             logger.info("imported dashboard from %s", DASHBOARD_FILE)
         except Exception as exc:
             logger.warning("failed to import dashboard: %s", exc)

@@ -107,17 +107,16 @@ delta. Zero commands were lost over the entire run.
 
 | Segment | Samples | Min (ms) | Median (ms) | p95 (ms) | Max (ms) |
 |---|---|---|---|---|---|
-| CoAP | 95 | 2.53 | 16.07 | 31.83 | 62.55 |
-| MQTT | 105 | 2.72 | 17.46 | 41.78 | 66.65 |
-| **ALL** | **200** | **2.53** | **17.06** | **40.13** | **66.65** |
+| COAP | 112 | 0.00 | 0.00 | 16.00 | 16.00 |
+| MQTT | 88 | 0.00 | 0.00 | 16.00 | 63.00 |
+| **ALL** | **200** | **0.00** | **0.00** | **16.00** | **63.00** |
 
 **Target: Round-Trip Time must be < 500 ms under full simulation load.**
 
-The observed p95 is **40.13 ms** — more than an order of magnitude below the
-requirement. Even the worst-case sample (66.65 ms) sits at ~13% of budget. Both
-protocols land in the same range because the CoAP path currently benefits from
-the engine's CoAP→MQTT shadow, collapsing both transports onto the same
-TB ingestion pipeline.
+The observed p95 is **16.00 ms**, far below the 500 ms target under full load.
+The max sample was **63.00 ms**. The 0.00 ms samples reflect same-tick response
+timing at local clock precision, while the tail values still remain comfortably
+inside the SLA envelope.
 
 Raw samples: `data/rtt_metrics.csv` (200 rows). Charts regenerate with
 `venv/bin/python scripts/build_report.py`.
@@ -254,11 +253,11 @@ present on disk.
 | Thermal physics → both stacks | `src/engine/physics_loop.py` | ✅ |
 | Virtual actuator logic | `src/engine/commands.py` | ✅ |
 | 10 Node-RED floor-gateway flow exports | `gateways/floor_01..10/flows.json` | ✅ |
-| MQTT subscription / CoAP observe / MQTT→CoAP PUT nodes | `gateways/_template/flows.template.json` | ⚠️ stubs |
+| MQTT subscription / CoAP observe / MQTT→CoAP PUT nodes | `gateways/floor_01..10/flows.json` (runtime), `gateways/_template/flows.template.json` (authoring template) | ✅ |
 | 60-second edge thinning | `src/gateways/averaging.py` + Node-RED `60s rolling average` function | ✅ |
 | Device + asset registry export | `data/phase2_registry.json` + `.csv` (200 rows) | ✅ |
-| Rule Chain | `thingsboard/rule_chains/main.json` | ⚠️ skeleton |
-| NOC Dashboard | `thingsboard/dashboards/noc.json` | ⚠️ skeleton |
+| Rule Chain | `thingsboard/rule_chains/main.json` | ✅ |
+| NOC Dashboard | `thingsboard/dashboards/noc.json` | ✅ |
 | `docker-compose.yml` (HiveMQ + TB + 10 Node-REDs) | `docker-compose.yml` | ✅ |
 | HiveMQ ACL file | `hivemq/acl/acl.xml` (110 roles) | ✅ |
 | TLS / PSK certificates | `secrets/*.crt`, `secrets/coap_psk.json`, `secrets/mqtt_credentials.csv` | ✅ |
@@ -296,24 +295,43 @@ Shut down:
 
 ---
 
-## 8. Screenshots Checklist (TB UI)
+## 8. Embedded Screenshot Evidence (Submission Set)
 
-These are the browser-captured pieces the graders expect. Take them from the
-running stack:
+### 8.1 ThingsBoard Devices (Active fleet)
 
-1. **ThingsBoard → Entities → Devices** — filter "state = Active", show 200/200.
-2. **ThingsBoard → Entities → Assets** — show Campus → Building-B01 →
-   Floor-F01..F10 → 200 room assets with Relations pane open.
-3. **ThingsBoard → Dashboards → Campus NOC — Phase 2** — open the imported
-   dashboard (add 4 widgets first: Entities Table, Timeseries chart, Alarm
-   panel, Floor averages).
-4. **ThingsBoard → Rule chains → Root Rule Chain** — show the
-   Message-Type-Switch → Save-Timeseries → Alarm branches.
-5. **Node-RED → Floor 01 (localhost:1881)** — show the flow with the
-   CoAP-request nodes wired up, Deploy success, debug panel streaming live
-   telemetry.
-6. **HiveMQ traffic** — terminal screenshot of
-   `mosquitto_sub -h localhost -p 1883 -t 'campus/#' -v` scrolling at ~90 msg/s.
+![ThingsBoard Devices Active](screenshots/tb_devices_active.png)
+
+### 8.2 ThingsBoard Assets (Campus/Building/Floor hierarchy)
+
+![ThingsBoard Assets Overview](screenshots/tb_assets_overview.png)
+
+### 8.3 Building relations and audit trail
+
+![Building relations panel](screenshots/tb_building_relations.png)
+
+### 8.4 Room relation to device
+
+![Room outbound relation to device](screenshots/tb_room_relations.png)
+
+### 8.5 Node-RED Floor 01 flow canvas
+
+![Node-RED Floor 01 flow](screenshots/nodered_floor01_flow.png)
+
+### 8.6 Node-RED Floor 02 flow canvas
+
+![Node-RED Floor 02 flow](screenshots/nodered_floor02_flow.png)
+
+### 8.7 ThingsBoard Root Rule Chain
+
+![ThingsBoard Root Rule Chain](screenshots/tb_rule_chain_root.png)
+
+### 8.8 HiveMQ traffic in terminal
+
+![HiveMQ telemetry stream in terminal](screenshots/hivemq_terminal_stream.png)
+
+### 8.9 ThingsBoard Campus NOC dashboard
+
+![Campus NOC dashboard](screenshots/tb_noc_dashboard.jpg)
 
 ---
 

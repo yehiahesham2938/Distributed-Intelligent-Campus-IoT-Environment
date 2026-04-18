@@ -34,7 +34,40 @@
             }
         },
         "states": {
-            "default": {"name": "Overview", "root": true, "layouts": {"main": {"widgets": {}}}}
+            "default": {
+                "name": "Overview",
+                "root": true,
+                "layouts": {
+                    "main": {
+                        "widgets": {
+                            "room-status-grid": {
+                                "x": 0,
+                                "y": 0,
+                                "sizeX": 24,
+                                "sizeY": 12
+                            },
+                            "rtt-chart": {
+                                "x": 24,
+                                "y": 0,
+                                "sizeX": 24,
+                                "sizeY": 6
+                            },
+                            "floor-averages": {
+                                "x": 24,
+                                "y": 6,
+                                "sizeX": 24,
+                                "sizeY": 6
+                            },
+                            "alarms-panel": {
+                                "x": 0,
+                                "y": 12,
+                                "sizeX": 48,
+                                "sizeY": 6
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
