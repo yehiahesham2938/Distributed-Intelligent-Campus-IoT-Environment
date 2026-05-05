@@ -48,6 +48,9 @@ class Room:
         self.hvac_mode = "OFF"
         self.target_temp = 22.0
 
+        # Phase 3: OTA versioning. Updated by engine.ota.apply_to_room.
+        self.config_version = "1.0"
+
         self.last_update = time.time()
 
         # Configurable thermal constants

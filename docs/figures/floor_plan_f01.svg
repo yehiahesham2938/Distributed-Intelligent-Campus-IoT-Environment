@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600">
+  <!-- Phase 3 floor plan placeholder (Floor 01).
+       20 rooms in a 5x4 grid. Cell origin (60,40), 200x140 each.
+       Coordinates match scripts/p3_provision_metadata.py output, so
+       a TB Image Map widget can use coordinates_x / coordinates_y of
+       each Room asset to place polygon hotspots over these cells. -->
+  <rect width="1100" height="600" fill="#f5f5f7"/>
+  <text x="550" y="28" font-family="sans-serif" font-size="18" font-weight="bold"
+        text-anchor="middle" fill="#333">Building B01 — Floor 01 (Phase 3 placeholder)</text>
+
+  <!-- 5x4 grid of rooms.  -->
+  <g font-family="sans-serif" font-size="14" fill="#333">
+    <!-- Row 0: r101 r102 r103 r104 r105 -->
+    <rect x="60"  y="40"  width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="160"  y="115" text-anchor="middle">r101 (mqtt)</text>
+    <rect x="260" y="40"  width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="360"  y="115" text-anchor="middle">r102 (mqtt)</text>
+    <rect x="460" y="40"  width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="560"  y="115" text-anchor="middle">r103 (mqtt)</text>
+    <rect x="660" y="40"  width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="760"  y="115" text-anchor="middle">r104 (mqtt)</text>
+    <rect x="860" y="40"  width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="960"  y="115" text-anchor="middle">r105 (mqtt)</text>
+
+    <!-- Row 1: r106 r107 r108 r109 r110 -->
+    <rect x="60"  y="180" width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="160"  y="255" text-anchor="middle">r106 (mqtt)</text>
+    <rect x="260" y="180" width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="360"  y="255" text-anchor="middle">r107 (mqtt)</text>
+    <rect x="460" y="180" width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="560"  y="255" text-anchor="middle">r108 (mqtt)</text>
+    <rect x="660" y="180" width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="760"  y="255" text-anchor="middle">r109 (mqtt)</text>
+    <rect x="860" y="180" width="200" height="140" fill="#e3f2fd" stroke="#444" stroke-width="2"/>
+    <text x="960"  y="255" text-anchor="middle">r110 (mqtt)</text>
+
+    <!-- Row 2: r111 r112 r113 r114 r115 -->
+    <rect x="60"  y="320" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="160"  y="395" text-anchor="middle">r111 (coap)</text>
+    <rect x="260" y="320" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="360"  y="395" text-anchor="middle">r112 (coap)</text>
+    <rect x="460" y="320" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="560"  y="395" text-anchor="middle">r113 (coap)</text>
+    <rect x="660" y="320" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="760"  y="395" text-anchor="middle">r114 (coap)</text>
+    <rect x="860" y="320" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="960"  y="395" text-anchor="middle">r115 (coap)</text>
+
+    <!-- Row 3: r116 r117 r118 r119 r120 -->
+    <rect x="60"  y="460" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="160"  y="535" text-anchor="middle">r116 (coap)</text>
+    <rect x="260" y="460" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="360"  y="535" text-anchor="middle">r117 (coap)</text>
+    <rect x="460" y="460" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="560"  y="535" text-anchor="middle">r118 (coap)</text>
+    <rect x="660" y="460" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="760"  y="535" text-anchor="middle">r119 (coap)</text>
+    <rect x="860" y="460" width="200" height="140" fill="#fff3e0" stroke="#444" stroke-width="2"/>
+    <text x="960"  y="535" text-anchor="middle">r120 (coap)</text>
+  </g>
+
+  <text x="20" y="595" font-family="sans-serif" font-size="11" fill="#888">
+    Blue = MQTT rooms (r101-r110)  |  Orange = CoAP rooms (r111-r120)  |  Coordinates per cell match TB SERVER_SCOPE attributes
+  </text>
+</svg>

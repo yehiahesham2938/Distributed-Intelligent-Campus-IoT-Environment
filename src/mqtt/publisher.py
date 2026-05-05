@@ -117,6 +117,13 @@ class MqttNodeClient:
         logger.info("MQTT node %s connected rc=%s", self.client_id, rc)
         # Subscribe ONLY to own cmd topic at QoS 2.
         client.subscribe(cmd_topic(self.room), qos=2)
+        # Phase 3: subscribe to OTA scopes — broadcast, floor, single room.
+        building = self.room.building_id
+        floor = f"f{self.room.floor_id:02d}"
+        room_seg = f"r{self.room.floor_id * 100 + self.room.room_id:03d}"
+        client.subscribe(f"campus/{building}/ota/config", qos=1)
+        client.subscribe(f"campus/{building}/{floor}/ota", qos=1)
+        client.subscribe(f"campus/{building}/{floor}/{room_seg}/ota", qos=1)
         # Overwrite LWT retained marker with an online state.
         client.publish(
             heartbeat_topic(self.room),
@@ -150,7 +157,34 @@ class MqttNodeClient:
 
         data = parse_payload(payload)
         if data is None:
-            logger.warning("malformed cmd on %s", topic)
+            logger.warning("malformed message on %s", topic)
+            return 0
+
+        # Route OTA topics through engine.ota; everything else is a cmd.
+        if "/ota" in topic:
+            from ..engine import ota
+            if not ota.topic_targets_room(topic, self.room):
+                return 0
+            result = ota.apply_to_room(self.room, data, topic=topic)
+            # Always publish an OTA report on a per-room topic so the
+            # dashboard / bridge can update current_version + alarm on
+            # tampering. The bridge picks this up and forwards as
+            # device attributes.
+            from .topics import room_base
+            report = {
+                "sensor_id": self.room.room_key,
+                "topic": topic,
+                "rejected": result.get("rejected", False),
+                "reason": result.get("reason", ""),
+                "version": result.get("version") or getattr(self.room, "config_version", "?"),
+                "applied": result.get("applied", {}),
+                "timestamp": int(time.time()),
+            }
+            client.publish(
+                f"{room_base(self.room)}/ota/report",
+                json.dumps(report),
+                qos=1,
+            )
             return 0
 
         cmd_id = data.get("cmd_id")

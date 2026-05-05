@@ -48,9 +48,20 @@ class TestMqttNodeClient(unittest.TestCase):
     def test_on_connect_subscribes_own_cmd_topic(self):
         node, instance, _ = self._make_node()
         node._on_connect(instance, flags=0, rc=0, properties={})
-        # Should subscribe to cmd topic with qos=2
-        instance.subscribe.assert_called_with(cmd_topic(self.room), qos=2)
-        # Should publish an online retained heartbeat
+        # Should subscribe to cmd topic with qos=2 (Phase 3 also adds OTA subs).
+        sub_calls = instance.subscribe.call_args_list
+        self.assertTrue(
+            any(
+                c.args == (cmd_topic(self.room),) and c.kwargs.get("qos") == 2
+                for c in sub_calls
+            ),
+            f"expected QoS-2 subscribe to cmd topic; got {sub_calls}",
+        )
+        # Phase 3: also subscribes to OTA scopes (broadcast + floor + room).
+        sub_topics = [c.args[0] for c in sub_calls]
+        self.assertTrue(any(t.endswith("/ota/config") for t in sub_topics))
+        self.assertTrue(any(t.endswith("/ota") for t in sub_topics))
+        # Should publish an online retained heartbeat.
         publish_calls = instance.publish.call_args_list
         self.assertTrue(any(heartbeat_topic(self.room) == c.args[0] for c in publish_calls))
 

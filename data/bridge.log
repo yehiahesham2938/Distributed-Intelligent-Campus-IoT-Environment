@@ -1,574 +1,884 @@
-15:48:05 | bridge | INFO | loaded 200 devices with access tokens from registry
-15:48:05 | bridge | INFO | [CONNECTION MADE]
-15:48:06 | bridge | INFO | hivemq connected rc=0, subscribing to campus/#
-15:48:06 | bridge | INFO | [SEND SUB] 1 [b'campus/#']
-15:48:06 | bridge | INFO | [SUBACK] 1 (1,)
-15:48:06 | bridge | INFO | [CONNECTION MADE]
-15:48:06 | bridge | INFO | [CONNECTION MADE]
-15:48:06 | bridge | INFO | [CONNECTION MADE]
-15:48:06 | bridge | INFO | [CONNECTION MADE]
-15:48:06 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:07 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:08 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:09 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:10 | bridge | INFO | [CONNECTION MADE]
-15:48:11 | bridge | INFO | [CONNECTION MADE]
-15:48:11 | bridge | INFO | [CONNECTION MADE]
-15:48:11 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:12 | bridge | INFO | [CONNECTION MADE]
-15:48:13 | bridge | INFO | [CONNECTION MADE]
-15:48:13 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:14 | bridge | INFO | [CONNECTION MADE]
-15:48:15 | bridge | INFO | [CONNECTION MADE]
-15:48:15 | bridge | INFO | [CONNECTION MADE]
-15:48:16 | bridge | INFO | forwarded=507 by_leaf={'heartbeat': 363, 'telemetry': 144} tb_clients=109
-15:48:17 | bridge | INFO | [CONNECTION MADE]
-15:48:17 | bridge | INFO | [CONNECTION MADE]
-15:48:17 | bridge | INFO | [CONNECTION MADE]
-15:48:17 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:17 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:18 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:19 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:20 | bridge | INFO | [CONNECTION MADE]
-15:48:21 | bridge | INFO | [CONNECTION MADE]
-15:48:21 | bridge | INFO | [CONNECTION MADE]
-15:48:21 | bridge | INFO | [CONNECTION MADE]
-15:48:21 | bridge | INFO | [CONNECTION MADE]
-15:48:22 | bridge | INFO | [CONNECTION MADE]
-15:48:23 | bridge | INFO | [CONNECTION MADE]
-15:48:23 | bridge | INFO | [CONNECTION MADE]
-15:48:24 | bridge | INFO | [CONNECTION MADE]
-15:48:24 | bridge | INFO | [CONNECTION MADE]
-15:48:24 | bridge | INFO | [CONNECTION MADE]
-15:48:24 | bridge | INFO | [CONNECTION MADE]
-15:48:24 | bridge | INFO | forwarded=809 by_leaf={'heartbeat': 552, 'telemetry': 257} tb_clients=147
-15:48:25 | bridge | INFO | [CONNECTION MADE]
-15:48:25 | bridge | INFO | [CONNECTION MADE]
-15:48:25 | bridge | INFO | [CONNECTION MADE]
-15:48:25 | bridge | INFO | [CONNECTION MADE]
-15:48:26 | bridge | INFO | [CONNECTION MADE]
-15:48:26 | bridge | INFO | [CONNECTION MADE]
-15:48:26 | bridge | INFO | [CONNECTION MADE]
-15:48:26 | bridge | INFO | [CONNECTION MADE]
-15:48:27 | bridge | INFO | [CONNECTION MADE]
-15:48:27 | bridge | INFO | [CONNECTION MADE]
-15:48:27 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:28 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:29 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:30 | bridge | INFO | [CONNECTION MADE]
-15:48:31 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:32 | bridge | INFO | [CONNECTION MADE]
-15:48:33 | bridge | INFO | [CONNECTION MADE]
-15:48:33 | bridge | INFO | [CONNECTION MADE]
-15:48:33 | bridge | INFO | [CONNECTION MADE]
-15:48:34 | bridge | INFO | [CONNECTION MADE]
-15:48:34 | bridge | INFO | [CONNECTION MADE]
-15:48:34 | bridge | INFO | [CONNECTION MADE]
-15:48:34 | bridge | INFO | [CONNECTION MADE]
-15:48:34 | bridge | INFO | forwarded=1539 by_leaf={'heartbeat': 972, 'telemetry': 567} tb_clients=192
-15:48:34 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:35 | bridge | INFO | [CONNECTION MADE]
-15:48:44 | bridge | INFO | forwarded=2311 by_leaf={'heartbeat': 1365, 'telemetry': 946} tb_clients=200
-15:48:53 | bridge | INFO | forwarded=3061 by_leaf={'heartbeat': 1740, 'telemetry': 1321} tb_clients=200
-15:49:03 | bridge | INFO | forwarded=3777 by_leaf={'heartbeat': 2098, 'telemetry': 1679} tb_clients=200
-15:49:13 | bridge | INFO | forwarded=4501 by_leaf={'heartbeat': 2460, 'telemetry': 2041} tb_clients=200
-15:49:22 | bridge | INFO | forwarded=5227 by_leaf={'heartbeat': 2823, 'telemetry': 2404} tb_clients=200
-15:49:32 | bridge | INFO | forwarded=5949 by_leaf={'heartbeat': 3184, 'telemetry': 2765} tb_clients=200
-15:49:42 | bridge | INFO | forwarded=6649 by_leaf={'heartbeat': 3534, 'telemetry': 3115} tb_clients=200
-15:49:51 | bridge | INFO | forwarded=7329 by_leaf={'heartbeat': 3874, 'telemetry': 3455} tb_clients=200
-15:50:01 | bridge | INFO | forwarded=8017 by_leaf={'heartbeat': 4218, 'telemetry': 3799} tb_clients=200
-15:50:11 | bridge | INFO | forwarded=8701 by_leaf={'heartbeat': 4560, 'telemetry': 4141} tb_clients=200
-15:50:21 | bridge | INFO | forwarded=9403 by_leaf={'heartbeat': 4911, 'telemetry': 4492} tb_clients=200
-15:50:30 | bridge | INFO | forwarded=10075 by_leaf={'heartbeat': 5247, 'telemetry': 4828} tb_clients=200
-15:50:40 | bridge | INFO | forwarded=10749 by_leaf={'heartbeat': 5584, 'telemetry': 5165} tb_clients=200
-15:50:50 | bridge | INFO | forwarded=11439 by_leaf={'heartbeat': 5929, 'telemetry': 5510} tb_clients=200
-15:50:58 | bridge | INFO | forwarded=12135 by_leaf={'heartbeat': 6277, 'telemetry': 5858} tb_clients=200
-15:51:08 | bridge | INFO | forwarded=12823 by_leaf={'heartbeat': 6621, 'telemetry': 6202} tb_clients=200
-15:51:18 | bridge | INFO | forwarded=13535 by_leaf={'heartbeat': 6977, 'telemetry': 6558} tb_clients=200
-15:51:27 | bridge | INFO | forwarded=14239 by_leaf={'heartbeat': 7329, 'telemetry': 6910} tb_clients=200
-15:51:37 | bridge | INFO | forwarded=14933 by_leaf={'heartbeat': 7676, 'telemetry': 7257} tb_clients=200
-15:51:47 | bridge | INFO | forwarded=15599 by_leaf={'heartbeat': 8009, 'telemetry': 7590} tb_clients=200
-15:51:56 | bridge | INFO | forwarded=16116 by_leaf={'heartbeat': 8398, 'telemetry': 7718} tb_clients=200
-15:52:06 | bridge | INFO | forwarded=16674 by_leaf={'heartbeat': 8721, 'telemetry': 7953} tb_clients=200
-15:52:16 | bridge | INFO | forwarded=17475 by_leaf={'heartbeat': 9147, 'telemetry': 8328} tb_clients=200
-15:52:26 | bridge | INFO | forwarded=18193 by_leaf={'heartbeat': 9506, 'telemetry': 8687} tb_clients=200
-15:52:35 | bridge | INFO | forwarded=18905 by_leaf={'heartbeat': 9862, 'telemetry': 9043} tb_clients=200
-15:52:45 | bridge | INFO | forwarded=19621 by_leaf={'heartbeat': 10220, 'telemetry': 9401} tb_clients=200
-15:52:55 | bridge | INFO | forwarded=20319 by_leaf={'heartbeat': 10569, 'telemetry': 9750} tb_clients=200
-15:53:03 | bridge | INFO | forwarded=21037 by_leaf={'heartbeat': 10928, 'telemetry': 10109} tb_clients=200
-15:53:13 | bridge | INFO | forwarded=21747 by_leaf={'heartbeat': 11283, 'telemetry': 10464} tb_clients=200
-15:53:23 | bridge | INFO | forwarded=22447 by_leaf={'heartbeat': 11633, 'telemetry': 10814} tb_clients=200
-15:53:32 | bridge | INFO | forwarded=23131 by_leaf={'heartbeat': 11975, 'telemetry': 11156} tb_clients=200
-15:53:42 | bridge | INFO | forwarded=23847 by_leaf={'heartbeat': 12333, 'telemetry': 11514} tb_clients=200
-15:53:52 | bridge | INFO | forwarded=24563 by_leaf={'heartbeat': 12691, 'telemetry': 11872} tb_clients=200
-15:54:01 | bridge | INFO | forwarded=25273 by_leaf={'heartbeat': 13046, 'telemetry': 12227} tb_clients=200
-15:54:11 | bridge | INFO | forwarded=25953 by_leaf={'heartbeat': 13386, 'telemetry': 12567} tb_clients=200
-15:54:21 | bridge | INFO | forwarded=26639 by_leaf={'heartbeat': 13729, 'telemetry': 12910} tb_clients=200
-15:54:30 | bridge | INFO | forwarded=27321 by_leaf={'heartbeat': 14070, 'telemetry': 13251} tb_clients=200
-15:54:40 | bridge | INFO | forwarded=28013 by_leaf={'heartbeat': 14416, 'telemetry': 13597} tb_clients=200
-15:54:50 | bridge | INFO | forwarded=28713 by_leaf={'heartbeat': 14766, 'telemetry': 13947} tb_clients=200
-15:55:00 | bridge | INFO | forwarded=29435 by_leaf={'heartbeat': 15127, 'telemetry': 14308} tb_clients=200
-15:55:09 | bridge | INFO | forwarded=30141 by_leaf={'heartbeat': 15480, 'telemetry': 14661} tb_clients=200
-15:55:19 | bridge | INFO | forwarded=30847 by_leaf={'heartbeat': 15833, 'telemetry': 15014} tb_clients=200
-15:55:29 | bridge | INFO | forwarded=31542 by_leaf={'heartbeat': 16180, 'telemetry': 15361, 'response': 1} tb_clients=200
-15:55:37 | bridge | INFO | forwarded=32214 by_leaf={'heartbeat': 16516, 'telemetry': 15697, 'response': 1} tb_clients=200
-15:55:47 | bridge | INFO | forwarded=32900 by_leaf={'heartbeat': 16859, 'telemetry': 16040, 'response': 1} tb_clients=200
-15:55:57 | bridge | INFO | forwarded=33590 by_leaf={'heartbeat': 17204, 'telemetry': 16385, 'response': 1} tb_clients=200
-15:56:06 | bridge | INFO | forwarded=34168 by_leaf={'heartbeat': 17617, 'telemetry': 16550, 'response': 1} tb_clients=200
-15:56:16 | bridge | INFO | forwarded=34715 by_leaf={'heartbeat': 17937, 'telemetry': 16777, 'response': 1} tb_clients=200
-15:56:26 | bridge | INFO | forwarded=35502 by_leaf={'heartbeat': 18360, 'telemetry': 17141, 'response': 1} tb_clients=200
-15:56:35 | bridge | INFO | forwarded=36216 by_leaf={'heartbeat': 18717, 'telemetry': 17498, 'response': 1} tb_clients=200
-15:56:45 | bridge | INFO | forwarded=36880 by_leaf={'heartbeat': 19049, 'telemetry': 17830, 'response': 1} tb_clients=200
-15:56:55 | bridge | INFO | forwarded=37359 by_leaf={'heartbeat': 19417, 'telemetry': 17941, 'response': 1} tb_clients=200
-15:57:05 | bridge | INFO | forwarded=37944 by_leaf={'heartbeat': 19756, 'telemetry': 18187, 'response': 1} tb_clients=200
-15:57:14 | bridge | INFO | forwarded=38750 by_leaf={'heartbeat': 20184, 'telemetry': 18565, 'response': 1} tb_clients=200
-15:57:24 | bridge | INFO | forwarded=39452 by_leaf={'heartbeat': 20534, 'telemetry': 18915, 'response': 3} tb_clients=200
-15:57:34 | bridge | INFO | forwarded=40128 by_leaf={'heartbeat': 20872, 'telemetry': 19253, 'response': 3} tb_clients=200
-15:57:43 | bridge | INFO | forwarded=40788 by_leaf={'heartbeat': 21201, 'telemetry': 19582, 'response': 5} tb_clients=200
-15:57:53 | bridge | INFO | forwarded=41466 by_leaf={'heartbeat': 21540, 'telemetry': 19921, 'response': 5} tb_clients=200
-15:58:03 | bridge | INFO | forwarded=42176 by_leaf={'heartbeat': 21895, 'telemetry': 20276, 'response': 5} tb_clients=200
-15:58:11 | bridge | INFO | forwarded=42888 by_leaf={'heartbeat': 22251, 'telemetry': 20632, 'response': 5} tb_clients=200
-15:58:21 | bridge | INFO | forwarded=43604 by_leaf={'heartbeat': 22609, 'telemetry': 20990, 'response': 5} tb_clients=200
-15:58:31 | bridge | INFO | forwarded=44294 by_leaf={'heartbeat': 22954, 'telemetry': 21335, 'response': 5} tb_clients=200
-15:58:40 | bridge | INFO | forwarded=44948 by_leaf={'heartbeat': 23281, 'telemetry': 21662, 'response': 5} tb_clients=200
-15:58:50 | bridge | INFO | forwarded=45439 by_leaf={'heartbeat': 23665, 'telemetry': 21769, 'response': 5} tb_clients=200
-15:59:00 | bridge | INFO | forwarded=46123 by_leaf={'heartbeat': 24052, 'telemetry': 22066, 'response': 5} tb_clients=200
-15:59:09 | bridge | INFO | forwarded=46910 by_leaf={'heartbeat': 24462, 'telemetry': 22443, 'response': 5} tb_clients=200
-15:59:19 | bridge | INFO | forwarded=47642 by_leaf={'heartbeat': 24828, 'telemetry': 22809, 'response': 5} tb_clients=200
-15:59:29 | bridge | INFO | forwarded=48350 by_leaf={'heartbeat': 25182, 'telemetry': 23163, 'response': 5} tb_clients=200
-15:59:39 | bridge | INFO | forwarded=49066 by_leaf={'heartbeat': 25540, 'telemetry': 23521, 'response': 5} tb_clients=200
-15:59:48 | bridge | INFO | forwarded=49772 by_leaf={'heartbeat': 25893, 'telemetry': 23874, 'response': 5} tb_clients=200
-15:59:58 | bridge | INFO | forwarded=50494 by_leaf={'heartbeat': 26254, 'telemetry': 24235, 'response': 5} tb_clients=200
-16:00:08 | bridge | INFO | forwarded=51188 by_leaf={'heartbeat': 26601, 'telemetry': 24582, 'response': 5} tb_clients=200
-16:00:16 | bridge | INFO | forwarded=51852 by_leaf={'heartbeat': 26933, 'telemetry': 24914, 'response': 5} tb_clients=200
-16:00:26 | bridge | INFO | forwarded=52530 by_leaf={'heartbeat': 27272, 'telemetry': 25253, 'response': 5} tb_clients=200
-16:00:36 | bridge | INFO | forwarded=53222 by_leaf={'heartbeat': 27618, 'telemetry': 25599, 'response': 5} tb_clients=200
-16:00:45 | bridge | INFO | forwarded=53930 by_leaf={'heartbeat': 27972, 'telemetry': 25953, 'response': 5} tb_clients=200
-16:00:55 | bridge | INFO | forwarded=54644 by_leaf={'heartbeat': 28329, 'telemetry': 26310, 'response': 5} tb_clients=200
-16:01:05 | bridge | INFO | forwarded=55340 by_leaf={'heartbeat': 28677, 'telemetry': 26658, 'response': 5} tb_clients=200
-16:01:14 | bridge | INFO | forwarded=56068 by_leaf={'heartbeat': 29041, 'telemetry': 27022, 'response': 5} tb_clients=200
-16:01:24 | bridge | INFO | forwarded=56768 by_leaf={'heartbeat': 29391, 'telemetry': 27372, 'response': 5} tb_clients=200
-16:01:34 | bridge | INFO | forwarded=57460 by_leaf={'heartbeat': 29737, 'telemetry': 27718, 'response': 5} tb_clients=200
-16:01:44 | bridge | INFO | forwarded=58160 by_leaf={'heartbeat': 30087, 'telemetry': 28068, 'response': 5} tb_clients=200
-16:01:53 | bridge | INFO | forwarded=58870 by_leaf={'heartbeat': 30442, 'telemetry': 28423, 'response': 5} tb_clients=200
-16:02:03 | bridge | INFO | forwarded=59560 by_leaf={'heartbeat': 30787, 'telemetry': 28768, 'response': 5} tb_clients=200
-16:02:13 | bridge | INFO | forwarded=60250 by_leaf={'heartbeat': 31132, 'telemetry': 29113, 'response': 5} tb_clients=200
-16:02:22 | bridge | INFO | forwarded=60958 by_leaf={'heartbeat': 31486, 'telemetry': 29467, 'response': 5} tb_clients=200
-16:02:32 | bridge | INFO | forwarded=61646 by_leaf={'heartbeat': 31830, 'telemetry': 29811, 'response': 5} tb_clients=200
-16:02:42 | bridge | INFO | forwarded=62341 by_leaf={'heartbeat': 32177, 'telemetry': 30158, 'response': 6} tb_clients=200
-16:02:50 | bridge | INFO | forwarded=63039 by_leaf={'heartbeat': 32626, 'telemetry': 30407, 'response': 6} tb_clients=200
-16:03:00 | bridge | INFO | forwarded=63360 by_leaf={'heartbeat': 32832, 'telemetry': 30522, 'response': 6} tb_clients=200
-16:03:10 | bridge | INFO | forwarded=64111 by_leaf={'heartbeat': 33255, 'telemetry': 30850, 'response': 6} tb_clients=200
-16:03:19 | bridge | INFO | forwarded=64877 by_leaf={'heartbeat': 33645, 'telemetry': 31226, 'response': 6} tb_clients=200
-16:03:29 | bridge | INFO | forwarded=65581 by_leaf={'heartbeat': 33997, 'telemetry': 31578, 'response': 6} tb_clients=200
-16:03:39 | bridge | INFO | forwarded=66277 by_leaf={'heartbeat': 34345, 'telemetry': 31926, 'response': 6} tb_clients=200
-16:03:49 | bridge | INFO | forwarded=66975 by_leaf={'heartbeat': 34694, 'telemetry': 32275, 'response': 6} tb_clients=200
-16:03:58 | bridge | INFO | forwarded=67685 by_leaf={'heartbeat': 35049, 'telemetry': 32630, 'response': 6} tb_clients=200
-16:04:08 | bridge | INFO | forwarded=68405 by_leaf={'heartbeat': 35409, 'telemetry': 32990, 'response': 6} tb_clients=200
-16:04:18 | bridge | INFO | forwarded=69121 by_leaf={'heartbeat': 35767, 'telemetry': 33348, 'response': 6} tb_clients=200
-16:04:27 | bridge | INFO | forwarded=69843 by_leaf={'heartbeat': 36128, 'telemetry': 33709, 'response': 6} tb_clients=200
-16:04:37 | bridge | INFO | forwarded=70543 by_leaf={'heartbeat': 36478, 'telemetry': 34059, 'response': 6} tb_clients=200
-16:04:47 | bridge | INFO | forwarded=71263 by_leaf={'heartbeat': 36838, 'telemetry': 34419, 'response': 6} tb_clients=200
-16:04:55 | bridge | INFO | forwarded=71981 by_leaf={'heartbeat': 37197, 'telemetry': 34778, 'response': 6} tb_clients=200
-16:05:05 | bridge | INFO | forwarded=72703 by_leaf={'heartbeat': 37558, 'telemetry': 35139, 'response': 6} tb_clients=200
-16:05:15 | bridge | INFO | forwarded=73423 by_leaf={'heartbeat': 37918, 'telemetry': 35499, 'response': 6} tb_clients=200
-16:05:24 | bridge | INFO | forwarded=74158 by_leaf={'heartbeat': 38285, 'telemetry': 35866, 'response': 7} tb_clients=200
-16:05:34 | bridge | INFO | forwarded=74882 by_leaf={'heartbeat': 38647, 'telemetry': 36228, 'response': 7} tb_clients=200
-16:05:44 | bridge | INFO | forwarded=75606 by_leaf={'heartbeat': 39009, 'telemetry': 36590, 'response': 7} tb_clients=200
-16:05:53 | bridge | INFO | forwarded=76320 by_leaf={'heartbeat': 39366, 'telemetry': 36947, 'response': 7} tb_clients=200
-16:06:03 | bridge | INFO | forwarded=77020 by_leaf={'heartbeat': 39716, 'telemetry': 37297, 'response': 7} tb_clients=200
-16:06:13 | bridge | INFO | forwarded=77721 by_leaf={'heartbeat': 40066, 'telemetry': 37647, 'response': 8} tb_clients=200
-16:06:23 | bridge | INFO | forwarded=78403 by_leaf={'heartbeat': 40407, 'telemetry': 37988, 'response': 8} tb_clients=200
-16:06:32 | bridge | INFO | forwarded=79105 by_leaf={'heartbeat': 40758, 'telemetry': 38339, 'response': 8} tb_clients=200
-16:06:42 | bridge | INFO | forwarded=79809 by_leaf={'heartbeat': 41110, 'telemetry': 38691, 'response': 8} tb_clients=200
-16:06:52 | bridge | INFO | forwarded=80508 by_leaf={'heartbeat': 41459, 'telemetry': 39040, 'response': 9} tb_clients=200
-16:07:00 | bridge | INFO | forwarded=81220 by_leaf={'heartbeat': 41815, 'telemetry': 39396, 'response': 9} tb_clients=200
-16:07:10 | bridge | INFO | forwarded=81926 by_leaf={'heartbeat': 42168, 'telemetry': 39749, 'response': 9} tb_clients=200
-16:07:20 | bridge | INFO | forwarded=82632 by_leaf={'heartbeat': 42521, 'telemetry': 40102, 'response': 9} tb_clients=200
-16:07:29 | bridge | INFO | forwarded=83140 by_leaf={'heartbeat': 42875, 'telemetry': 40256, 'response': 9} tb_clients=200
-16:07:39 | bridge | INFO | forwarded=83432 by_leaf={'heartbeat': 43059, 'telemetry': 40364, 'response': 9} tb_clients=200
-16:07:49 | bridge | INFO | forwarded=84159 by_leaf={'heartbeat': 43480, 'telemetry': 40670, 'response': 9} tb_clients=200
-16:07:58 | bridge | INFO | forwarded=84907 by_leaf={'heartbeat': 43858, 'telemetry': 41039, 'response': 10} tb_clients=200
-16:08:08 | bridge | INFO | forwarded=85607 by_leaf={'heartbeat': 44208, 'telemetry': 41389, 'response': 10} tb_clients=200
-16:08:18 | bridge | INFO | forwarded=86291 by_leaf={'heartbeat': 44550, 'telemetry': 41731, 'response': 10} tb_clients=200
-16:08:28 | bridge | INFO | forwarded=86987 by_leaf={'heartbeat': 44898, 'telemetry': 42079, 'response': 10} tb_clients=200
-16:08:37 | bridge | INFO | forwarded=87693 by_leaf={'heartbeat': 45251, 'telemetry': 42432, 'response': 10} tb_clients=200
-16:08:47 | bridge | INFO | forwarded=88381 by_leaf={'heartbeat': 45595, 'telemetry': 42776, 'response': 10} tb_clients=200
-16:08:57 | bridge | INFO | forwarded=89069 by_leaf={'heartbeat': 45939, 'telemetry': 43120, 'response': 10} tb_clients=200
-16:09:06 | bridge | INFO | forwarded=89751 by_leaf={'heartbeat': 46280, 'telemetry': 43461, 'response': 10} tb_clients=200
-16:09:16 | bridge | INFO | forwarded=90433 by_leaf={'heartbeat': 46621, 'telemetry': 43802, 'response': 10} tb_clients=200
-16:09:26 | bridge | INFO | forwarded=91115 by_leaf={'heartbeat': 46962, 'telemetry': 44143, 'response': 10} tb_clients=200
-16:09:34 | bridge | INFO | forwarded=91813 by_leaf={'heartbeat': 47311, 'telemetry': 44492, 'response': 10} tb_clients=200
-16:09:44 | bridge | INFO | forwarded=92527 by_leaf={'heartbeat': 47668, 'telemetry': 44849, 'response': 10} tb_clients=200
-16:09:54 | bridge | INFO | forwarded=93259 by_leaf={'heartbeat': 48034, 'telemetry': 45215, 'response': 10} tb_clients=200
-16:10:03 | bridge | INFO | forwarded=94015 by_leaf={'heartbeat': 48412, 'telemetry': 45593, 'response': 10} tb_clients=200
-16:10:13 | bridge | INFO | forwarded=94725 by_leaf={'heartbeat': 48767, 'telemetry': 45948, 'response': 10} tb_clients=200
-16:10:23 | bridge | INFO | forwarded=95421 by_leaf={'heartbeat': 49115, 'telemetry': 46296, 'response': 10} tb_clients=200
-16:10:32 | bridge | INFO | forwarded=96131 by_leaf={'heartbeat': 49470, 'telemetry': 46651, 'response': 10} tb_clients=200
-16:10:42 | bridge | INFO | forwarded=96835 by_leaf={'heartbeat': 49822, 'telemetry': 47003, 'response': 10} tb_clients=200
-16:10:52 | bridge | INFO | forwarded=97567 by_leaf={'heartbeat': 50188, 'telemetry': 47369, 'response': 10} tb_clients=200
-16:11:02 | bridge | INFO | forwarded=98297 by_leaf={'heartbeat': 50553, 'telemetry': 47734, 'response': 10} tb_clients=200
-16:11:11 | bridge | INFO | forwarded=99009 by_leaf={'heartbeat': 50909, 'telemetry': 48090, 'response': 10} tb_clients=200
-16:11:21 | bridge | INFO | forwarded=99713 by_leaf={'heartbeat': 51261, 'telemetry': 48442, 'response': 10} tb_clients=200
-16:11:31 | bridge | INFO | forwarded=100417 by_leaf={'heartbeat': 51613, 'telemetry': 48794, 'response': 10} tb_clients=200
-16:11:39 | bridge | INFO | forwarded=101086 by_leaf={'heartbeat': 52054, 'telemetry': 49022, 'response': 10} tb_clients=200
-16:11:49 | bridge | INFO | forwarded=101538 by_leaf={'heartbeat': 52330, 'telemetry': 49198, 'response': 10} tb_clients=200
-16:11:59 | bridge | INFO | forwarded=102327 by_leaf={'heartbeat': 52768, 'telemetry': 49549, 'response': 10} tb_clients=200
-16:12:08 | bridge | INFO | forwarded=103057 by_leaf={'heartbeat': 53133, 'telemetry': 49914, 'response': 10} tb_clients=200
-16:12:18 | bridge | INFO | forwarded=103777 by_leaf={'heartbeat': 53493, 'telemetry': 50274, 'response': 10} tb_clients=200
-16:12:28 | bridge | INFO | forwarded=104461 by_leaf={'heartbeat': 53835, 'telemetry': 50616, 'response': 10} tb_clients=200
-16:12:37 | bridge | INFO | forwarded=105165 by_leaf={'heartbeat': 54187, 'telemetry': 50968, 'response': 10} tb_clients=200
-16:12:47 | bridge | INFO | forwarded=105839 by_leaf={'heartbeat': 54524, 'telemetry': 51305, 'response': 10} tb_clients=200
-16:12:57 | bridge | INFO | forwarded=106487 by_leaf={'heartbeat': 54848, 'telemetry': 51629, 'response': 10} tb_clients=200
-16:13:07 | bridge | INFO | forwarded=106944 by_leaf={'heartbeat': 55206, 'telemetry': 51728, 'response': 10} tb_clients=200
-16:13:16 | bridge | INFO | forwarded=107602 by_leaf={'heartbeat': 55591, 'telemetry': 52001, 'response': 10} tb_clients=200
-16:13:26 | bridge | INFO | forwarded=108401 by_leaf={'heartbeat': 56005, 'telemetry': 52386, 'response': 10} tb_clients=200
-16:13:36 | bridge | INFO | forwarded=109141 by_leaf={'heartbeat': 56375, 'telemetry': 52756, 'response': 10} tb_clients=200
-16:13:44 | bridge | INFO | forwarded=109862 by_leaf={'heartbeat': 56735, 'telemetry': 53116, 'response': 11} tb_clients=200
-16:13:54 | bridge | INFO | forwarded=110568 by_leaf={'heartbeat': 57088, 'telemetry': 53469, 'response': 11} tb_clients=200
-16:14:04 | bridge | INFO | forwarded=111266 by_leaf={'heartbeat': 57437, 'telemetry': 53818, 'response': 11} tb_clients=200
-16:14:13 | bridge | INFO | forwarded=111967 by_leaf={'heartbeat': 57787, 'telemetry': 54168, 'response': 12} tb_clients=200
-16:14:23 | bridge | INFO | forwarded=112679 by_leaf={'heartbeat': 58143, 'telemetry': 54524, 'response': 12} tb_clients=200
-16:14:33 | bridge | INFO | forwarded=113395 by_leaf={'heartbeat': 58501, 'telemetry': 54882, 'response': 12} tb_clients=200
-16:14:42 | bridge | INFO | forwarded=114109 by_leaf={'heartbeat': 58858, 'telemetry': 55239, 'response': 12} tb_clients=200
-16:14:52 | bridge | INFO | forwarded=114795 by_leaf={'heartbeat': 59201, 'telemetry': 55582, 'response': 12} tb_clients=200
-16:15:02 | bridge | INFO | forwarded=115507 by_leaf={'heartbeat': 59557, 'telemetry': 55938, 'response': 12} tb_clients=200
-16:15:11 | bridge | INFO | forwarded=116217 by_leaf={'heartbeat': 59912, 'telemetry': 56293, 'response': 12} tb_clients=200
-16:15:21 | bridge | INFO | forwarded=116925 by_leaf={'heartbeat': 60266, 'telemetry': 56647, 'response': 12} tb_clients=200
-16:15:31 | bridge | INFO | forwarded=117615 by_leaf={'heartbeat': 60611, 'telemetry': 56992, 'response': 12} tb_clients=200
-16:15:41 | bridge | INFO | forwarded=118301 by_leaf={'heartbeat': 60954, 'telemetry': 57335, 'response': 12} tb_clients=200
-16:15:49 | bridge | INFO | forwarded=118997 by_leaf={'heartbeat': 61302, 'telemetry': 57683, 'response': 12} tb_clients=200
-16:15:59 | bridge | INFO | forwarded=119685 by_leaf={'heartbeat': 61646, 'telemetry': 58027, 'response': 12} tb_clients=200
-16:16:09 | bridge | INFO | forwarded=120389 by_leaf={'heartbeat': 61998, 'telemetry': 58379, 'response': 12} tb_clients=200
-16:16:18 | bridge | INFO | forwarded=121061 by_leaf={'heartbeat': 62334, 'telemetry': 58715, 'response': 12} tb_clients=200
-16:16:28 | bridge | INFO | forwarded=121741 by_leaf={'heartbeat': 62674, 'telemetry': 59055, 'response': 12} tb_clients=200
-16:16:38 | bridge | INFO | forwarded=122421 by_leaf={'heartbeat': 63014, 'telemetry': 59395, 'response': 12} tb_clients=200
-16:16:47 | bridge | INFO | forwarded=123123 by_leaf={'heartbeat': 63365, 'telemetry': 59746, 'response': 12} tb_clients=200
-16:16:57 | bridge | INFO | forwarded=123843 by_leaf={'heartbeat': 63725, 'telemetry': 60106, 'response': 12} tb_clients=200
-16:17:07 | bridge | INFO | forwarded=124563 by_leaf={'heartbeat': 64085, 'telemetry': 60466, 'response': 12} tb_clients=200
-16:17:16 | bridge | INFO | forwarded=125283 by_leaf={'heartbeat': 64445, 'telemetry': 60826, 'response': 12} tb_clients=200
-16:17:26 | bridge | INFO | forwarded=125972 by_leaf={'heartbeat': 64789, 'telemetry': 61170, 'response': 13} tb_clients=200
-16:17:36 | bridge | INFO | forwarded=126658 by_leaf={'heartbeat': 65132, 'telemetry': 61513, 'response': 13} tb_clients=200
-16:17:46 | bridge | INFO | forwarded=127342 by_leaf={'heartbeat': 65474, 'telemetry': 61855, 'response': 13} tb_clients=200
-16:17:54 | bridge | INFO | forwarded=128036 by_leaf={'heartbeat': 65821, 'telemetry': 62202, 'response': 13} tb_clients=200
-16:18:04 | bridge | INFO | forwarded=128734 by_leaf={'heartbeat': 66170, 'telemetry': 62551, 'response': 13} tb_clients=200
-16:18:14 | bridge | INFO | forwarded=129432 by_leaf={'heartbeat': 66519, 'telemetry': 62900, 'response': 13} tb_clients=200
-16:18:23 | bridge | INFO | forwarded=130148 by_leaf={'heartbeat': 66877, 'telemetry': 63258, 'response': 13} tb_clients=200
-16:18:33 | bridge | INFO | forwarded=130864 by_leaf={'heartbeat': 67235, 'telemetry': 63616, 'response': 13} tb_clients=200
-16:18:43 | bridge | INFO | forwarded=131580 by_leaf={'heartbeat': 67593, 'telemetry': 63974, 'response': 13} tb_clients=200
-16:18:52 | bridge | INFO | forwarded=132280 by_leaf={'heartbeat': 68043, 'telemetry': 64224, 'response': 13} tb_clients=200
-16:19:02 | bridge | INFO | forwarded=132637 by_leaf={'heartbeat': 68267, 'telemetry': 64357, 'response': 13} tb_clients=200
-16:19:12 | bridge | INFO | forwarded=133404 by_leaf={'heartbeat': 68705, 'telemetry': 64686, 'response': 13} tb_clients=200
-16:19:21 | bridge | INFO | forwarded=134142 by_leaf={'heartbeat': 69074, 'telemetry': 65055, 'response': 13} tb_clients=200
-16:19:31 | bridge | INFO | forwarded=134842 by_leaf={'heartbeat': 69424, 'telemetry': 65405, 'response': 13} tb_clients=200
-16:19:41 | bridge | INFO | forwarded=135542 by_leaf={'heartbeat': 69774, 'telemetry': 65755, 'response': 13} tb_clients=200
-16:19:49 | bridge | INFO | forwarded=136256 by_leaf={'heartbeat': 70131, 'telemetry': 66112, 'response': 13} tb_clients=200
-16:19:59 | bridge | INFO | forwarded=136954 by_leaf={'heartbeat': 70480, 'telemetry': 66461, 'response': 13} tb_clients=200
-16:20:09 | bridge | INFO | forwarded=137664 by_leaf={'heartbeat': 70835, 'telemetry': 66816, 'response': 13} tb_clients=200
-16:20:19 | bridge | INFO | forwarded=138366 by_leaf={'heartbeat': 71186, 'telemetry': 67167, 'response': 13} tb_clients=200
-16:20:28 | bridge | INFO | forwarded=139076 by_leaf={'heartbeat': 71541, 'telemetry': 67522, 'response': 13} tb_clients=200
-16:20:38 | bridge | INFO | forwarded=139780 by_leaf={'heartbeat': 71893, 'telemetry': 67874, 'response': 13} tb_clients=200
-16:20:48 | bridge | INFO | forwarded=140482 by_leaf={'heartbeat': 72244, 'telemetry': 68225, 'response': 13} tb_clients=200
-16:20:57 | bridge | INFO | forwarded=141188 by_leaf={'heartbeat': 72597, 'telemetry': 68578, 'response': 13} tb_clients=200
-16:21:07 | bridge | INFO | forwarded=141890 by_leaf={'heartbeat': 72948, 'telemetry': 68929, 'response': 13} tb_clients=200
-16:21:17 | bridge | INFO | forwarded=142586 by_leaf={'heartbeat': 73296, 'telemetry': 69277, 'response': 13} tb_clients=200
-16:21:26 | bridge | INFO | forwarded=143293 by_leaf={'heartbeat': 73649, 'telemetry': 69630, 'response': 14} tb_clients=200
-16:21:36 | bridge | INFO | forwarded=143985 by_leaf={'heartbeat': 73995, 'telemetry': 69976, 'response': 14} tb_clients=200
-16:21:46 | bridge | INFO | forwarded=144663 by_leaf={'heartbeat': 74334, 'telemetry': 70315, 'response': 14} tb_clients=200
-16:21:54 | bridge | INFO | forwarded=145327 by_leaf={'heartbeat': 74666, 'telemetry': 70647, 'response': 14} tb_clients=200
-16:22:04 | bridge | INFO | forwarded=145822 by_leaf={'heartbeat': 75045, 'telemetry': 70763, 'response': 14} tb_clients=200
-16:22:14 | bridge | INFO | forwarded=146467 by_leaf={'heartbeat': 75418, 'telemetry': 71035, 'response': 14} tb_clients=200
-16:22:24 | bridge | INFO | forwarded=147257 by_leaf={'heartbeat': 75831, 'telemetry': 71412, 'response': 14} tb_clients=200
-16:22:33 | bridge | INFO | forwarded=147971 by_leaf={'heartbeat': 76188, 'telemetry': 71769, 'response': 14} tb_clients=200
-16:22:43 | bridge | INFO | forwarded=148677 by_leaf={'heartbeat': 76541, 'telemetry': 72122, 'response': 14} tb_clients=200
-16:22:53 | bridge | INFO | forwarded=149373 by_leaf={'heartbeat': 76889, 'telemetry': 72470, 'response': 14} tb_clients=200
-16:23:02 | bridge | INFO | forwarded=150061 by_leaf={'heartbeat': 77233, 'telemetry': 72814, 'response': 14} tb_clients=200
-16:23:12 | bridge | INFO | forwarded=150751 by_leaf={'heartbeat': 77578, 'telemetry': 73159, 'response': 14} tb_clients=200
-16:23:22 | bridge | INFO | forwarded=151439 by_leaf={'heartbeat': 77922, 'telemetry': 73503, 'response': 14} tb_clients=200
-16:23:30 | bridge | INFO | forwarded=152151 by_leaf={'heartbeat': 78278, 'telemetry': 73859, 'response': 14} tb_clients=200
-16:23:40 | bridge | INFO | forwarded=152857 by_leaf={'heartbeat': 78631, 'telemetry': 74212, 'response': 14} tb_clients=200
-16:23:50 | bridge | INFO | forwarded=153563 by_leaf={'heartbeat': 78984, 'telemetry': 74565, 'response': 14} tb_clients=200
-16:23:59 | bridge | INFO | forwarded=154269 by_leaf={'heartbeat': 79337, 'telemetry': 74918, 'response': 14} tb_clients=200
-16:24:09 | bridge | INFO | forwarded=154969 by_leaf={'heartbeat': 79687, 'telemetry': 75268, 'response': 14} tb_clients=200
-16:24:19 | bridge | INFO | forwarded=155683 by_leaf={'heartbeat': 80044, 'telemetry': 75625, 'response': 14} tb_clients=200
-16:24:28 | bridge | INFO | forwarded=156401 by_leaf={'heartbeat': 80403, 'telemetry': 75984, 'response': 14} tb_clients=200
-16:24:38 | bridge | INFO | forwarded=157117 by_leaf={'heartbeat': 80761, 'telemetry': 76342, 'response': 14} tb_clients=200
-16:24:48 | bridge | INFO | forwarded=157819 by_leaf={'heartbeat': 81112, 'telemetry': 76693, 'response': 14} tb_clients=200
-16:24:58 | bridge | INFO | forwarded=158511 by_leaf={'heartbeat': 81458, 'telemetry': 77039, 'response': 14} tb_clients=200
-16:25:07 | bridge | INFO | forwarded=159213 by_leaf={'heartbeat': 81809, 'telemetry': 77390, 'response': 14} tb_clients=200
-16:25:17 | bridge | INFO | forwarded=159911 by_leaf={'heartbeat': 82158, 'telemetry': 77739, 'response': 14} tb_clients=200
-16:25:27 | bridge | INFO | forwarded=160617 by_leaf={'heartbeat': 82511, 'telemetry': 78092, 'response': 14} tb_clients=200
-16:25:35 | bridge | INFO | forwarded=161339 by_leaf={'heartbeat': 82872, 'telemetry': 78453, 'response': 14} tb_clients=200
-16:25:45 | bridge | INFO | forwarded=162071 by_leaf={'heartbeat': 83238, 'telemetry': 78819, 'response': 14} tb_clients=200
-16:25:55 | bridge | INFO | forwarded=162753 by_leaf={'heartbeat': 83579, 'telemetry': 79160, 'response': 14} tb_clients=200
-16:26:04 | bridge | INFO | forwarded=163409 by_leaf={'heartbeat': 83907, 'telemetry': 79488, 'response': 14} tb_clients=200
-16:26:14 | bridge | INFO | forwarded=164073 by_leaf={'heartbeat': 84239, 'telemetry': 79820, 'response': 14} tb_clients=200
-16:26:24 | bridge | INFO | forwarded=164757 by_leaf={'heartbeat': 84581, 'telemetry': 80162, 'response': 14} tb_clients=200
-16:26:33 | bridge | INFO | forwarded=165433 by_leaf={'heartbeat': 84919, 'telemetry': 80500, 'response': 14} tb_clients=200
-16:26:43 | bridge | INFO | forwarded=165890 by_leaf={'heartbeat': 85272, 'telemetry': 80604, 'response': 14} tb_clients=200
-16:26:53 | bridge | INFO | forwarded=166509 by_leaf={'heartbeat': 85641, 'telemetry': 80854, 'response': 14} tb_clients=200
-16:27:03 | bridge | INFO | forwarded=167297 by_leaf={'heartbeat': 86051, 'telemetry': 81232, 'response': 14} tb_clients=200
-16:27:12 | bridge | INFO | forwarded=168003 by_leaf={'heartbeat': 86404, 'telemetry': 81585, 'response': 14} tb_clients=200
-16:27:22 | bridge | INFO | forwarded=168697 by_leaf={'heartbeat': 86751, 'telemetry': 81932, 'response': 14} tb_clients=200
-16:27:32 | bridge | INFO | forwarded=169403 by_leaf={'heartbeat': 87104, 'telemetry': 82285, 'response': 14} tb_clients=200
-16:27:40 | bridge | INFO | forwarded=170131 by_leaf={'heartbeat': 87468, 'telemetry': 82649, 'response': 14} tb_clients=200
-16:27:50 | bridge | INFO | forwarded=170841 by_leaf={'heartbeat': 87823, 'telemetry': 83004, 'response': 14} tb_clients=200
-16:28:00 | bridge | INFO | forwarded=171428 by_leaf={'heartbeat': 88221, 'telemetry': 83193, 'response': 14} tb_clients=200
-16:28:09 | bridge | INFO | forwarded=171861 by_leaf={'heartbeat': 88489, 'telemetry': 83358, 'response': 14} tb_clients=200
-16:28:19 | bridge | INFO | forwarded=172645 by_leaf={'heartbeat': 88925, 'telemetry': 83706, 'response': 14} tb_clients=200
-16:28:29 | bridge | INFO | forwarded=173403 by_leaf={'heartbeat': 89304, 'telemetry': 84085, 'response': 14} tb_clients=200
-16:28:38 | bridge | INFO | forwarded=174153 by_leaf={'heartbeat': 89679, 'telemetry': 84460, 'response': 14} tb_clients=200
-16:28:48 | bridge | INFO | forwarded=174887 by_leaf={'heartbeat': 90046, 'telemetry': 84827, 'response': 14} tb_clients=200
-16:28:58 | bridge | INFO | forwarded=175603 by_leaf={'heartbeat': 90404, 'telemetry': 85185, 'response': 14} tb_clients=200
-16:29:08 | bridge | INFO | forwarded=176317 by_leaf={'heartbeat': 90761, 'telemetry': 85542, 'response': 14} tb_clients=200
-16:29:16 | bridge | INFO | forwarded=177019 by_leaf={'heartbeat': 91112, 'telemetry': 85893, 'response': 14} tb_clients=200
-16:29:26 | bridge | INFO | forwarded=177749 by_leaf={'heartbeat': 91477, 'telemetry': 86258, 'response': 14} tb_clients=200
-16:29:36 | bridge | INFO | forwarded=178477 by_leaf={'heartbeat': 91841, 'telemetry': 86622, 'response': 14} tb_clients=200
-16:29:45 | bridge | INFO | forwarded=179203 by_leaf={'heartbeat': 92204, 'telemetry': 86985, 'response': 14} tb_clients=200
-16:29:55 | bridge | INFO | forwarded=179913 by_leaf={'heartbeat': 92559, 'telemetry': 87340, 'response': 14} tb_clients=200
-16:30:05 | bridge | INFO | forwarded=180639 by_leaf={'heartbeat': 92922, 'telemetry': 87703, 'response': 14} tb_clients=200
-16:30:14 | bridge | INFO | forwarded=181363 by_leaf={'heartbeat': 93284, 'telemetry': 88065, 'response': 14} tb_clients=200
-16:30:24 | bridge | INFO | forwarded=182093 by_leaf={'heartbeat': 93649, 'telemetry': 88430, 'response': 14} tb_clients=200
-16:30:34 | bridge | INFO | forwarded=182801 by_leaf={'heartbeat': 94003, 'telemetry': 88784, 'response': 14} tb_clients=200
-16:30:43 | bridge | INFO | forwarded=183515 by_leaf={'heartbeat': 94360, 'telemetry': 89141, 'response': 14} tb_clients=200
-16:30:53 | bridge | INFO | forwarded=184231 by_leaf={'heartbeat': 94718, 'telemetry': 89499, 'response': 14} tb_clients=200
-16:31:03 | bridge | INFO | forwarded=184967 by_leaf={'heartbeat': 95086, 'telemetry': 89867, 'response': 14} tb_clients=200
-16:31:11 | bridge | INFO | forwarded=185687 by_leaf={'heartbeat': 95446, 'telemetry': 90227, 'response': 14} tb_clients=200
-16:31:21 | bridge | INFO | forwarded=186399 by_leaf={'heartbeat': 95802, 'telemetry': 90583, 'response': 14} tb_clients=200
-16:31:31 | bridge | INFO | forwarded=187107 by_leaf={'heartbeat': 96156, 'telemetry': 90937, 'response': 14} tb_clients=200
-16:31:41 | bridge | INFO | forwarded=187807 by_leaf={'heartbeat': 96506, 'telemetry': 91287, 'response': 14} tb_clients=200
-16:31:50 | bridge | INFO | forwarded=188513 by_leaf={'heartbeat': 96859, 'telemetry': 91640, 'response': 14} tb_clients=200
-16:32:00 | bridge | INFO | forwarded=189227 by_leaf={'heartbeat': 97216, 'telemetry': 91997, 'response': 14} tb_clients=200
-16:32:10 | bridge | INFO | forwarded=189933 by_leaf={'heartbeat': 97569, 'telemetry': 92350, 'response': 14} tb_clients=200
-16:32:19 | bridge | INFO | forwarded=190647 by_leaf={'heartbeat': 97926, 'telemetry': 92707, 'response': 14} tb_clients=200
-16:32:29 | bridge | INFO | forwarded=191311 by_leaf={'heartbeat': 98258, 'telemetry': 93039, 'response': 14} tb_clients=200
-16:32:39 | bridge | INFO | forwarded=191989 by_leaf={'heartbeat': 98597, 'telemetry': 93378, 'response': 14} tb_clients=200
-16:32:48 | bridge | INFO | forwarded=192671 by_leaf={'heartbeat': 98938, 'telemetry': 93719, 'response': 14} tb_clients=200
-16:32:58 | bridge | INFO | forwarded=193361 by_leaf={'heartbeat': 99283, 'telemetry': 94064, 'response': 14} tb_clients=200
-16:33:08 | bridge | INFO | forwarded=194083 by_leaf={'heartbeat': 99644, 'telemetry': 94425, 'response': 14} tb_clients=200
-16:33:16 | bridge | INFO | forwarded=194777 by_leaf={'heartbeat': 99991, 'telemetry': 94772, 'response': 14} tb_clients=200
-16:33:26 | bridge | INFO | forwarded=195511 by_leaf={'heartbeat': 100358, 'telemetry': 95139, 'response': 14} tb_clients=200
-16:33:36 | bridge | INFO | forwarded=196207 by_leaf={'heartbeat': 100706, 'telemetry': 95487, 'response': 14} tb_clients=200
-16:33:46 | bridge | INFO | forwarded=196821 by_leaf={'heartbeat': 101013, 'telemetry': 95794, 'response': 14} tb_clients=200
-16:33:55 | bridge | INFO | forwarded=197275 by_leaf={'heartbeat': 101361, 'telemetry': 95900, 'response': 14} tb_clients=200
-16:34:05 | bridge | INFO | forwarded=197797 by_leaf={'heartbeat': 101668, 'telemetry': 96115, 'response': 14} tb_clients=200
-16:34:15 | bridge | INFO | forwarded=198591 by_leaf={'heartbeat': 102098, 'telemetry': 96479, 'response': 14} tb_clients=200
-16:34:24 | bridge | INFO | forwarded=199307 by_leaf={'heartbeat': 102456, 'telemetry': 96837, 'response': 14} tb_clients=200
-16:34:34 | bridge | INFO | forwarded=200019 by_leaf={'heartbeat': 102812, 'telemetry': 97193, 'response': 14} tb_clients=200
-16:34:44 | bridge | INFO | forwarded=200717 by_leaf={'heartbeat': 103161, 'telemetry': 97542, 'response': 14} tb_clients=200
-16:34:52 | bridge | INFO | forwarded=201401 by_leaf={'heartbeat': 103503, 'telemetry': 97884, 'response': 14} tb_clients=200
-16:35:02 | bridge | INFO | forwarded=202081 by_leaf={'heartbeat': 103843, 'telemetry': 98224, 'response': 14} tb_clients=200
-16:35:12 | bridge | INFO | forwarded=202761 by_leaf={'heartbeat': 104183, 'telemetry': 98564, 'response': 14} tb_clients=200
-16:35:21 | bridge | INFO | forwarded=203467 by_leaf={'heartbeat': 104536, 'telemetry': 98917, 'response': 14} tb_clients=200
-16:35:31 | bridge | INFO | forwarded=204141 by_leaf={'heartbeat': 104873, 'telemetry': 99254, 'response': 14} tb_clients=200
-16:35:41 | bridge | INFO | forwarded=204823 by_leaf={'heartbeat': 105214, 'telemetry': 99595, 'response': 14} tb_clients=200
-16:35:50 | bridge | INFO | forwarded=205511 by_leaf={'heartbeat': 105558, 'telemetry': 99939, 'response': 14} tb_clients=200
-16:36:00 | bridge | INFO | forwarded=206211 by_leaf={'heartbeat': 105908, 'telemetry': 100289, 'response': 14} tb_clients=200
-16:36:10 | bridge | INFO | forwarded=206933 by_leaf={'heartbeat': 106269, 'telemetry': 100650, 'response': 14} tb_clients=200
-16:36:20 | bridge | INFO | forwarded=207645 by_leaf={'heartbeat': 106625, 'telemetry': 101006, 'response': 14} tb_clients=200
-16:36:29 | bridge | INFO | forwarded=208367 by_leaf={'heartbeat': 106986, 'telemetry': 101367, 'response': 14} tb_clients=200
-16:36:39 | bridge | INFO | forwarded=209067 by_leaf={'heartbeat': 107336, 'telemetry': 101717, 'response': 14} tb_clients=200
-16:36:49 | bridge | INFO | forwarded=209763 by_leaf={'heartbeat': 107684, 'telemetry': 102065, 'response': 14} tb_clients=200
-16:36:57 | bridge | INFO | forwarded=210459 by_leaf={'heartbeat': 108032, 'telemetry': 102413, 'response': 14} tb_clients=200
-16:37:07 | bridge | INFO | forwarded=211165 by_leaf={'heartbeat': 108385, 'telemetry': 102766, 'response': 14} tb_clients=200
-16:37:17 | bridge | INFO | forwarded=211881 by_leaf={'heartbeat': 108743, 'telemetry': 103124, 'response': 14} tb_clients=200
-16:37:26 | bridge | INFO | forwarded=212589 by_leaf={'heartbeat': 109097, 'telemetry': 103478, 'response': 14} tb_clients=200
-16:37:36 | bridge | INFO | forwarded=213265 by_leaf={'heartbeat': 109435, 'telemetry': 103816, 'response': 14} tb_clients=200
-16:37:46 | bridge | INFO | forwarded=213935 by_leaf={'heartbeat': 109770, 'telemetry': 104151, 'response': 14} tb_clients=200
-16:37:55 | bridge | INFO | forwarded=214553 by_leaf={'heartbeat': 110079, 'telemetry': 104460, 'response': 14} tb_clients=200
-16:38:05 | bridge | INFO | forwarded=215118 by_leaf={'heartbeat': 110501, 'telemetry': 104603, 'response': 14} tb_clients=200
-16:38:15 | bridge | INFO | forwarded=215774 by_leaf={'heartbeat': 110874, 'telemetry': 104886, 'response': 14} tb_clients=200
-16:38:25 | bridge | INFO | forwarded=216585 by_leaf={'heartbeat': 111295, 'telemetry': 105276, 'response': 14} tb_clients=200
-16:38:33 | bridge | INFO | forwarded=217331 by_leaf={'heartbeat': 111668, 'telemetry': 105649, 'response': 14} tb_clients=200
-16:38:43 | bridge | INFO | forwarded=218039 by_leaf={'heartbeat': 112022, 'telemetry': 106003, 'response': 14} tb_clients=200
-16:38:53 | bridge | INFO | forwarded=218733 by_leaf={'heartbeat': 112369, 'telemetry': 106350, 'response': 14} tb_clients=200
-16:39:02 | bridge | INFO | forwarded=219425 by_leaf={'heartbeat': 112715, 'telemetry': 106696, 'response': 14} tb_clients=200
-16:39:12 | bridge | INFO | forwarded=220131 by_leaf={'heartbeat': 113068, 'telemetry': 107049, 'response': 14} tb_clients=200
-16:39:22 | bridge | INFO | forwarded=220843 by_leaf={'heartbeat': 113424, 'telemetry': 107405, 'response': 14} tb_clients=200
-16:39:31 | bridge | INFO | forwarded=221575 by_leaf={'heartbeat': 113790, 'telemetry': 107771, 'response': 14} tb_clients=200
-16:39:41 | bridge | INFO | forwarded=222295 by_leaf={'heartbeat': 114150, 'telemetry': 108131, 'response': 14} tb_clients=200
-16:39:51 | bridge | INFO | forwarded=223013 by_leaf={'heartbeat': 114509, 'telemetry': 108490, 'response': 14} tb_clients=200
-16:40:00 | bridge | INFO | forwarded=223725 by_leaf={'heartbeat': 114865, 'telemetry': 108846, 'response': 14} tb_clients=200
-16:40:10 | bridge | INFO | forwarded=224423 by_leaf={'heartbeat': 115214, 'telemetry': 109195, 'response': 14} tb_clients=200
-16:40:20 | bridge | INFO | forwarded=225105 by_leaf={'heartbeat': 115555, 'telemetry': 109536, 'response': 14} tb_clients=200
-16:40:28 | bridge | INFO | forwarded=225797 by_leaf={'heartbeat': 115901, 'telemetry': 109882, 'response': 14} tb_clients=200
-16:40:38 | bridge | INFO | forwarded=226503 by_leaf={'heartbeat': 116254, 'telemetry': 110235, 'response': 14} tb_clients=200
-16:40:48 | bridge | INFO | forwarded=227221 by_leaf={'heartbeat': 116613, 'telemetry': 110594, 'response': 14} tb_clients=200
-16:40:58 | bridge | INFO | forwarded=227931 by_leaf={'heartbeat': 116968, 'telemetry': 110949, 'response': 14} tb_clients=200
-16:41:07 | bridge | INFO | forwarded=228651 by_leaf={'heartbeat': 117328, 'telemetry': 111309, 'response': 14} tb_clients=200
-16:41:17 | bridge | INFO | forwarded=229355 by_leaf={'heartbeat': 117680, 'telemetry': 111661, 'response': 14} tb_clients=200
-16:41:27 | bridge | INFO | forwarded=230053 by_leaf={'heartbeat': 118029, 'telemetry': 112010, 'response': 14} tb_clients=200
-16:41:36 | bridge | INFO | forwarded=230751 by_leaf={'heartbeat': 118378, 'telemetry': 112359, 'response': 14} tb_clients=200
-16:41:46 | bridge | INFO | forwarded=231451 by_leaf={'heartbeat': 118728, 'telemetry': 112709, 'response': 14} tb_clients=200
-16:41:56 | bridge | INFO | forwarded=232151 by_leaf={'heartbeat': 119078, 'telemetry': 113059, 'response': 14} tb_clients=200
-16:42:04 | bridge | INFO | forwarded=232933 by_leaf={'heartbeat': 119569, 'telemetry': 113350, 'response': 14} tb_clients=200
-16:42:14 | bridge | INFO | forwarded=233259 by_leaf={'heartbeat': 119774, 'telemetry': 113471, 'response': 14} tb_clients=200
-16:42:24 | bridge | INFO | forwarded=233980 by_leaf={'heartbeat': 120188, 'telemetry': 113778, 'response': 14} tb_clients=200
-16:42:33 | bridge | INFO | forwarded=234725 by_leaf={'heartbeat': 120565, 'telemetry': 114146, 'response': 14} tb_clients=200
-16:42:43 | bridge | INFO | forwarded=235431 by_leaf={'heartbeat': 120918, 'telemetry': 114499, 'response': 14} tb_clients=200
-16:42:53 | bridge | INFO | forwarded=236141 by_leaf={'heartbeat': 121273, 'telemetry': 114854, 'response': 14} tb_clients=200
-16:43:03 | bridge | INFO | forwarded=236837 by_leaf={'heartbeat': 121621, 'telemetry': 115202, 'response': 14} tb_clients=200
-16:43:12 | bridge | INFO | forwarded=237519 by_leaf={'heartbeat': 121962, 'telemetry': 115543, 'response': 14} tb_clients=200
-16:43:22 | bridge | INFO | forwarded=238191 by_leaf={'heartbeat': 122298, 'telemetry': 115879, 'response': 14} tb_clients=200
-16:43:32 | bridge | INFO | forwarded=238887 by_leaf={'heartbeat': 122646, 'telemetry': 116227, 'response': 14} tb_clients=200
-16:43:41 | bridge | INFO | forwarded=239605 by_leaf={'heartbeat': 123005, 'telemetry': 116586, 'response': 14} tb_clients=200
-16:43:51 | bridge | INFO | forwarded=240305 by_leaf={'heartbeat': 123355, 'telemetry': 116936, 'response': 14} tb_clients=200
-16:44:01 | bridge | INFO | forwarded=241001 by_leaf={'heartbeat': 123703, 'telemetry': 117284, 'response': 14} tb_clients=200
-16:44:09 | bridge | INFO | forwarded=241695 by_leaf={'heartbeat': 124050, 'telemetry': 117631, 'response': 14} tb_clients=200
-16:44:19 | bridge | INFO | forwarded=242397 by_leaf={'heartbeat': 124401, 'telemetry': 117982, 'response': 14} tb_clients=200
-16:44:29 | bridge | INFO | forwarded=243093 by_leaf={'heartbeat': 124749, 'telemetry': 118330, 'response': 14} tb_clients=200
-16:44:38 | bridge | INFO | forwarded=243813 by_leaf={'heartbeat': 125109, 'telemetry': 118690, 'response': 14} tb_clients=200
-16:44:48 | bridge | INFO | forwarded=244555 by_leaf={'heartbeat': 125480, 'telemetry': 119061, 'response': 14} tb_clients=200
-16:44:58 | bridge | INFO | forwarded=245271 by_leaf={'heartbeat': 125838, 'telemetry': 119419, 'response': 14} tb_clients=200
-16:45:07 | bridge | INFO | forwarded=245977 by_leaf={'heartbeat': 126191, 'telemetry': 119772, 'response': 14} tb_clients=200
-16:45:17 | bridge | INFO | forwarded=246667 by_leaf={'heartbeat': 126536, 'telemetry': 120117, 'response': 14} tb_clients=200
-16:45:27 | bridge | INFO | forwarded=247341 by_leaf={'heartbeat': 126873, 'telemetry': 120454, 'response': 14} tb_clients=200
-16:45:37 | bridge | INFO | forwarded=248025 by_leaf={'heartbeat': 127215, 'telemetry': 120796, 'response': 14} tb_clients=200
-16:45:45 | bridge | INFO | forwarded=248751 by_leaf={'heartbeat': 127578, 'telemetry': 121159, 'response': 14} tb_clients=200
-16:45:55 | bridge | INFO | forwarded=249501 by_leaf={'heartbeat': 127953, 'telemetry': 121534, 'response': 14} tb_clients=200
-16:46:05 | bridge | INFO | forwarded=250223 by_leaf={'heartbeat': 128314, 'telemetry': 121895, 'response': 14} tb_clients=200
-16:46:14 | bridge | INFO | forwarded=250712 by_leaf={'heartbeat': 128675, 'telemetry': 122023, 'response': 14} tb_clients=200
-16:46:24 | bridge | INFO | forwarded=251230 by_leaf={'heartbeat': 128983, 'telemetry': 122233, 'response': 14} tb_clients=200
-16:46:34 | bridge | INFO | forwarded=252015 by_leaf={'heartbeat': 129410, 'telemetry': 122591, 'response': 14} tb_clients=200
-16:46:43 | bridge | INFO | forwarded=252725 by_leaf={'heartbeat': 129765, 'telemetry': 122946, 'response': 14} tb_clients=200
-16:46:53 | bridge | INFO | forwarded=253403 by_leaf={'heartbeat': 130104, 'telemetry': 123285, 'response': 14} tb_clients=200
-16:47:03 | bridge | INFO | forwarded=254067 by_leaf={'heartbeat': 130436, 'telemetry': 123617, 'response': 14} tb_clients=200
-16:47:11 | bridge | INFO | forwarded=254749 by_leaf={'heartbeat': 130777, 'telemetry': 123958, 'response': 14} tb_clients=200
+23:47:35 | bridge | INFO | loaded 200 devices with access tokens from registry
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | hivemq connected rc=0, subscribing to campus/#
+23:47:35 | bridge | INFO | [SEND SUB] 1 [b'campus/#']
+23:47:35 | bridge | INFO | [SUBACK] 1 (1,)
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SEND SUB] 2 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [SUBACK] 2 (1,)
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SEND SUB] 4 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [SUBACK] 4 (1,)
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SEND SUB] 6 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [SUBACK] 6 (1,)
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SEND SUB] 8 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SUBACK] 8 (1,)
+23:47:35 | bridge | INFO | [SEND SUB] 10 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [SUBACK] 10 (1,)
+23:47:35 | bridge | INFO | [CONNECTION MADE]
+23:47:35 | bridge | INFO | [SEND SUB] 12 [b'v1/devices/me/attributes']
+23:47:35 | bridge | INFO | [SUBACK] 12 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 14 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 14 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 16 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 16 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 18 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 18 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 20 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 20 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 22 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 22 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 24 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 24 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 26 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 26 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 28 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 28 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 30 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 30 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 32 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 32 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 34 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 34 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 36 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 36 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 38 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 38 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 42 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 42 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 46 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 46 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 48 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 48 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 50 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 50 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 52 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 52 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 54 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 54 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 56 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 56 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 58 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 58 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 60 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 60 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 62 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 62 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 64 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 64 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 66 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 66 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 68 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 68 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 70 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 70 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 72 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 72 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 76 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 76 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 78 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SUBACK] 78 (1,)
+23:47:36 | bridge | INFO | [SEND SUB] 80 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 80 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 82 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 82 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 84 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 84 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 86 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 86 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:36 | bridge | INFO | [SEND SUB] 92 [b'v1/devices/me/attributes']
+23:47:36 | bridge | INFO | [SUBACK] 92 (1,)
+23:47:36 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 94 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 94 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 100 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 100 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 104 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 104 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 108 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 108 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 112 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 112 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 116 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 116 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 118 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 118 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 122 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 122 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 124 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 124 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 126 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 126 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 128 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 128 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 130 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 130 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 132 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 132 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 134 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 134 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 138 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 138 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 140 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 140 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 142 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 142 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 144 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 144 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:37 | bridge | INFO | [SEND SUB] 146 [b'v1/devices/me/attributes']
+23:47:37 | bridge | INFO | [SUBACK] 146 (1,)
+23:47:37 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 150 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 150 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 154 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 154 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 158 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 158 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 160 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 160 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 162 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 162 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 164 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 164 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 166 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 166 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 168 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 168 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 172 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 172 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 174 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 174 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 176 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 176 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 178 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 178 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 180 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 180 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 184 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 184 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 188 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 188 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 192 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 192 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 196 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 196 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 198 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 198 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 200 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 200 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:38 | bridge | INFO | [SEND SUB] 204 [b'v1/devices/me/attributes']
+23:47:38 | bridge | INFO | [SUBACK] 204 (1,)
+23:47:38 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 208 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 208 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 210 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 210 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 216 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 216 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 220 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 220 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 222 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 222 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 230 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 230 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 232 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 232 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 238 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 238 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 242 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 242 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 244 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 244 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 246 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 246 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 248 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 248 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 250 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 250 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 254 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 254 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 256 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 256 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 258 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 258 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 260 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 260 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 262 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 262 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 266 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 266 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 278 [b'v1/devices/me/attributes']
+23:47:39 | bridge | INFO | [SUBACK] 278 (1,)
+23:47:39 | bridge | INFO | [CONNECTION MADE]
+23:47:39 | bridge | INFO | [SEND SUB] 282 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 282 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 286 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 286 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 290 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 290 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 302 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 302 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 308 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 308 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 314 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 314 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 316 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 316 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 320 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 320 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 328 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 328 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 331 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 331 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 336 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 336 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 342 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 342 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 348 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 348 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 350 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 350 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 354 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 354 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 358 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 358 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 362 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 362 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 366 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SUBACK] 366 (1,)
+23:47:40 | bridge | INFO | [SEND SUB] 370 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 370 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:40 | bridge | INFO | [SEND SUB] 374 [b'v1/devices/me/attributes']
+23:47:40 | bridge | INFO | [SUBACK] 374 (1,)
+23:47:40 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 376 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 376 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 382 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 382 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 384 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 384 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 386 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SUBACK] 386 (1,)
+23:47:41 | bridge | INFO | [SEND SUB] 400 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 400 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 404 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 404 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 408 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 408 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 414 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 414 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 422 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 422 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 426 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 426 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 430 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 430 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 434 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 434 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 438 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 438 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 442 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 442 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 446 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 446 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 450 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 450 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 452 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 452 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 456 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 456 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 460 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 460 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:41 | bridge | INFO | [SEND SUB] 466 [b'v1/devices/me/attributes']
+23:47:41 | bridge | INFO | [SUBACK] 466 (1,)
+23:47:41 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 470 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 470 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 476 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 476 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 478 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 478 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 484 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 484 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 488 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 488 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 492 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 492 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 494 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 494 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 500 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 500 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 504 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 504 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 506 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 506 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 508 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 508 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 516 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 516 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 518 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 518 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 524 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 524 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 526 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 526 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 530 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 530 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 532 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 532 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 538 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 538 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 540 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 540 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:42 | bridge | INFO | [SEND SUB] 542 [b'v1/devices/me/attributes']
+23:47:42 | bridge | INFO | [SUBACK] 542 (1,)
+23:47:42 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 550 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 550 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 554 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 554 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 558 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 558 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 560 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 560 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 562 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 562 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 570 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 570 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 574 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 574 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 578 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 578 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 586 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 586 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 590 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 590 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 596 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 596 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 600 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 600 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 606 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 606 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 612 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 612 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 616 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 616 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 621 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 621 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 624 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 624 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 628 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 628 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 632 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 632 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:43 | bridge | INFO | [SEND SUB] 636 [b'v1/devices/me/attributes']
+23:47:43 | bridge | INFO | [SUBACK] 636 (1,)
+23:47:43 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 642 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SUBACK] 642 (1,)
+23:47:44 | bridge | INFO | [SEND SUB] 644 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 644 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 652 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 652 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 656 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 656 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 662 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 662 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 670 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 670 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 674 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 674 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 682 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 682 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 684 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 684 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 690 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 690 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 694 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 694 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 704 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 704 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 706 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 706 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 712 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 712 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 714 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 714 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 716 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 716 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 720 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 720 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 728 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 728 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:44 | bridge | INFO | [SEND SUB] 748 [b'v1/devices/me/attributes']
+23:47:44 | bridge | INFO | [SUBACK] 748 (1,)
+23:47:44 | bridge | INFO | [CONNECTION MADE]
+23:47:45 | bridge | INFO | [SEND SUB] 756 [b'v1/devices/me/attributes']
+23:47:45 | bridge | INFO | [SUBACK] 756 (1,)
+23:47:45 | bridge | INFO | forwarded=944 by_leaf={'heartbeat': 572, 'telemetry': 372} tb_clients=200
+23:47:55 | bridge | INFO | forwarded=1694 by_leaf={'heartbeat': 947, 'telemetry': 747} tb_clients=200
+23:48:05 | bridge | INFO | forwarded=2419 by_leaf={'heartbeat': 1309, 'telemetry': 1109, 'response': 1} tb_clients=200
+23:48:15 | bridge | INFO | forwarded=3153 by_leaf={'heartbeat': 1676, 'telemetry': 1476, 'response': 1} tb_clients=200
+23:48:18 | bridge | INFO | desired -> cmd on campus/b01/f01/r101/cmd: {'hvac_mode': 'ECO', 'target_temp': 24.5, 'cmd_id': 'shared-1778014098195'}
+23:48:25 | bridge | INFO | forwarded=3882 by_leaf={'heartbeat': 2040, 'telemetry': 1840, 'response': 2} tb_clients=200
+23:48:35 | bridge | INFO | forwarded=4618 by_leaf={'heartbeat': 2408, 'telemetry': 2208, 'response': 2} tb_clients=200
+23:48:45 | bridge | INFO | forwarded=5352 by_leaf={'heartbeat': 2775, 'telemetry': 2575, 'response': 2} tb_clients=200
+23:48:55 | bridge | INFO | forwarded=6100 by_leaf={'heartbeat': 3149, 'telemetry': 2949, 'response': 2} tb_clients=200
+23:49:05 | bridge | INFO | forwarded=6832 by_leaf={'heartbeat': 3515, 'telemetry': 3315, 'response': 2} tb_clients=200
+23:49:15 | bridge | INFO | forwarded=7532 by_leaf={'heartbeat': 3865, 'telemetry': 3665, 'response': 2} tb_clients=200
+23:49:25 | bridge | INFO | forwarded=8208 by_leaf={'heartbeat': 4203, 'telemetry': 4003, 'response': 2} tb_clients=200
+23:49:35 | bridge | INFO | forwarded=8894 by_leaf={'heartbeat': 4546, 'telemetry': 4346, 'response': 2} tb_clients=200
+23:49:45 | bridge | INFO | forwarded=9580 by_leaf={'heartbeat': 4889, 'telemetry': 4689, 'response': 2} tb_clients=200
+23:49:55 | bridge | INFO | forwarded=10274 by_leaf={'heartbeat': 5236, 'telemetry': 5036, 'response': 2} tb_clients=200
+23:50:05 | bridge | INFO | forwarded=10972 by_leaf={'heartbeat': 5585, 'telemetry': 5385, 'response': 2} tb_clients=200
+23:50:15 | bridge | INFO | forwarded=11692 by_leaf={'heartbeat': 5945, 'telemetry': 5745, 'response': 2} tb_clients=200
+23:50:25 | bridge | INFO | forwarded=12406 by_leaf={'heartbeat': 6302, 'telemetry': 6102, 'response': 2} tb_clients=200
+23:50:35 | bridge | INFO | forwarded=13102 by_leaf={'heartbeat': 6650, 'telemetry': 6450, 'response': 2} tb_clients=200
+23:50:45 | bridge | INFO | forwarded=13806 by_leaf={'heartbeat': 7002, 'telemetry': 6802, 'response': 2} tb_clients=200
+23:50:55 | bridge | INFO | forwarded=14512 by_leaf={'heartbeat': 7355, 'telemetry': 7155, 'response': 2} tb_clients=200
+23:51:05 | bridge | INFO | forwarded=15228 by_leaf={'heartbeat': 7713, 'telemetry': 7513, 'response': 2} tb_clients=200
+23:51:15 | bridge | INFO | forwarded=15938 by_leaf={'heartbeat': 8068, 'telemetry': 7868, 'response': 2} tb_clients=200
+23:51:25 | bridge | INFO | forwarded=16644 by_leaf={'heartbeat': 8421, 'telemetry': 8221, 'response': 2} tb_clients=200
+23:51:35 | bridge | INFO | forwarded=17336 by_leaf={'heartbeat': 8767, 'telemetry': 8567, 'response': 2} tb_clients=200
+23:51:45 | bridge | INFO | forwarded=18048 by_leaf={'heartbeat': 9123, 'telemetry': 8923, 'response': 2} tb_clients=200
+23:51:55 | bridge | INFO | forwarded=18764 by_leaf={'heartbeat': 9481, 'telemetry': 9281, 'response': 2} tb_clients=200
+23:52:05 | bridge | INFO | forwarded=19474 by_leaf={'heartbeat': 9836, 'telemetry': 9636, 'response': 2} tb_clients=200
+23:52:15 | bridge | INFO | forwarded=20172 by_leaf={'heartbeat': 10185, 'telemetry': 9985, 'response': 2} tb_clients=200
+23:52:25 | bridge | INFO | forwarded=20874 by_leaf={'heartbeat': 10536, 'telemetry': 10336, 'response': 2} tb_clients=200
+23:52:35 | bridge | INFO | forwarded=21560 by_leaf={'heartbeat': 10879, 'telemetry': 10679, 'response': 2} tb_clients=200
+23:52:45 | bridge | INFO | forwarded=22260 by_leaf={'heartbeat': 11229, 'telemetry': 11029, 'response': 2} tb_clients=200
+23:52:55 | bridge | INFO | forwarded=22984 by_leaf={'heartbeat': 11591, 'telemetry': 11391, 'response': 2} tb_clients=200
+23:53:05 | bridge | INFO | forwarded=23722 by_leaf={'heartbeat': 11960, 'telemetry': 11760, 'response': 2} tb_clients=200
+23:53:15 | bridge | INFO | forwarded=24446 by_leaf={'heartbeat': 12322, 'telemetry': 12122, 'response': 2} tb_clients=200
+23:53:25 | bridge | INFO | forwarded=25136 by_leaf={'heartbeat': 12667, 'telemetry': 12467, 'response': 2} tb_clients=200
+23:53:35 | bridge | INFO | forwarded=25802 by_leaf={'heartbeat': 13000, 'telemetry': 12800, 'response': 2} tb_clients=200
+23:53:45 | bridge | INFO | forwarded=26498 by_leaf={'heartbeat': 13348, 'telemetry': 13148, 'response': 2} tb_clients=200
+23:53:55 | bridge | INFO | forwarded=27226 by_leaf={'heartbeat': 13712, 'telemetry': 13512, 'response': 2} tb_clients=200
+23:54:05 | bridge | INFO | forwarded=27958 by_leaf={'heartbeat': 14078, 'telemetry': 13878, 'response': 2} tb_clients=200
+23:54:15 | bridge | INFO | forwarded=28662 by_leaf={'heartbeat': 14430, 'telemetry': 14230, 'response': 2} tb_clients=200
+23:54:25 | bridge | INFO | forwarded=29368 by_leaf={'heartbeat': 14783, 'telemetry': 14583, 'response': 2} tb_clients=200
+23:54:35 | bridge | INFO | forwarded=30048 by_leaf={'heartbeat': 15123, 'telemetry': 14923, 'response': 2} tb_clients=200
+23:54:45 | bridge | INFO | forwarded=30710 by_leaf={'heartbeat': 15454, 'telemetry': 15254, 'response': 2} tb_clients=200
+23:54:55 | bridge | INFO | forwarded=31396 by_leaf={'heartbeat': 15797, 'telemetry': 15597, 'response': 2} tb_clients=200
+23:55:05 | bridge | INFO | forwarded=32080 by_leaf={'heartbeat': 16139, 'telemetry': 15939, 'response': 2} tb_clients=200
+23:55:15 | bridge | INFO | forwarded=32778 by_leaf={'heartbeat': 16488, 'telemetry': 16288, 'response': 2} tb_clients=200
+23:55:25 | bridge | INFO | forwarded=33474 by_leaf={'heartbeat': 16836, 'telemetry': 16636, 'response': 2} tb_clients=200
+23:55:35 | bridge | INFO | forwarded=34174 by_leaf={'heartbeat': 17186, 'telemetry': 16986, 'response': 2} tb_clients=200
+23:55:45 | bridge | INFO | forwarded=34898 by_leaf={'heartbeat': 17548, 'telemetry': 17348, 'response': 2} tb_clients=200
+23:55:55 | bridge | INFO | forwarded=35612 by_leaf={'heartbeat': 17905, 'telemetry': 17705, 'response': 2} tb_clients=200
+23:56:05 | bridge | INFO | forwarded=36328 by_leaf={'heartbeat': 18263, 'telemetry': 18063, 'response': 2} tb_clients=200
+23:56:15 | bridge | INFO | forwarded=37046 by_leaf={'heartbeat': 18622, 'telemetry': 18422, 'response': 2} tb_clients=200
+23:56:25 | bridge | INFO | forwarded=37746 by_leaf={'heartbeat': 18972, 'telemetry': 18772, 'response': 2} tb_clients=200
+23:56:35 | bridge | INFO | forwarded=38468 by_leaf={'heartbeat': 19333, 'telemetry': 19133, 'response': 2} tb_clients=200
+23:56:45 | bridge | INFO | forwarded=39176 by_leaf={'heartbeat': 19687, 'telemetry': 19487, 'response': 2} tb_clients=200
+23:56:55 | bridge | INFO | forwarded=39906 by_leaf={'heartbeat': 20052, 'telemetry': 19852, 'response': 2} tb_clients=200
+23:57:05 | bridge | INFO | forwarded=40610 by_leaf={'heartbeat': 20404, 'telemetry': 20204, 'response': 2} tb_clients=200
+23:57:15 | bridge | INFO | forwarded=41294 by_leaf={'heartbeat': 20746, 'telemetry': 20546, 'response': 2} tb_clients=200
+23:57:25 | bridge | INFO | forwarded=41980 by_leaf={'heartbeat': 21089, 'telemetry': 20889, 'response': 2} tb_clients=200
+23:57:35 | bridge | INFO | forwarded=42656 by_leaf={'heartbeat': 21427, 'telemetry': 21227, 'response': 2} tb_clients=200
+23:57:45 | bridge | INFO | forwarded=43352 by_leaf={'heartbeat': 21775, 'telemetry': 21575, 'response': 2} tb_clients=200
+23:57:55 | bridge | INFO | forwarded=44076 by_leaf={'heartbeat': 22137, 'telemetry': 21937, 'response': 2} tb_clients=200
+23:58:05 | bridge | INFO | forwarded=44804 by_leaf={'heartbeat': 22501, 'telemetry': 22301, 'response': 2} tb_clients=200
+23:58:15 | bridge | INFO | forwarded=45516 by_leaf={'heartbeat': 22857, 'telemetry': 22657, 'response': 2} tb_clients=200
+23:58:25 | bridge | INFO | forwarded=46228 by_leaf={'heartbeat': 23213, 'telemetry': 23013, 'response': 2} tb_clients=200
+23:58:35 | bridge | INFO | forwarded=46938 by_leaf={'heartbeat': 23568, 'telemetry': 23368, 'response': 2} tb_clients=200
+23:58:45 | bridge | INFO | forwarded=47638 by_leaf={'heartbeat': 23918, 'telemetry': 23718, 'response': 2} tb_clients=200
+23:58:55 | bridge | INFO | forwarded=48326 by_leaf={'heartbeat': 24262, 'telemetry': 24062, 'response': 2} tb_clients=200
+23:59:05 | bridge | INFO | forwarded=49032 by_leaf={'heartbeat': 24615, 'telemetry': 24415, 'response': 2} tb_clients=200
+23:59:15 | bridge | INFO | forwarded=49730 by_leaf={'heartbeat': 24964, 'telemetry': 24764, 'response': 2} tb_clients=200
+23:59:25 | bridge | INFO | forwarded=50596 by_leaf={'heartbeat': 25497, 'telemetry': 25097, 'response': 2} tb_clients=200
+23:59:35 | bridge | INFO | forwarded=50845 by_leaf={'heartbeat': 25663, 'telemetry': 25180, 'response': 2} tb_clients=200
+23:59:45 | bridge | INFO | forwarded=51201 by_leaf={'heartbeat': 25921, 'telemetry': 25278, 'response': 2} tb_clients=200
+23:59:55 | bridge | INFO | forwarded=51824 by_leaf={'heartbeat': 26282, 'telemetry': 25540, 'response': 2} tb_clients=200
+00:00:05 | bridge | INFO | forwarded=52622 by_leaf={'heartbeat': 26699, 'telemetry': 25921, 'response': 2} tb_clients=200
+00:00:15 | bridge | INFO | forwarded=53356 by_leaf={'heartbeat': 27066, 'telemetry': 26288, 'response': 2} tb_clients=200
+00:00:25 | bridge | INFO | forwarded=54088 by_leaf={'heartbeat': 27432, 'telemetry': 26654, 'response': 2} tb_clients=200
+00:00:35 | bridge | INFO | forwarded=54828 by_leaf={'heartbeat': 27802, 'telemetry': 27024, 'response': 2} tb_clients=200
+00:00:45 | bridge | INFO | forwarded=55560 by_leaf={'heartbeat': 28168, 'telemetry': 27390, 'response': 2} tb_clients=200
+00:00:55 | bridge | INFO | forwarded=56282 by_leaf={'heartbeat': 28529, 'telemetry': 27751, 'response': 2} tb_clients=200
+00:01:05 | bridge | INFO | forwarded=56994 by_leaf={'heartbeat': 28885, 'telemetry': 28107, 'response': 2} tb_clients=200
+00:01:15 | bridge | INFO | forwarded=57726 by_leaf={'heartbeat': 29251, 'telemetry': 28473, 'response': 2} tb_clients=200
+00:01:25 | bridge | INFO | forwarded=58436 by_leaf={'heartbeat': 29606, 'telemetry': 28828, 'response': 2} tb_clients=200
+00:01:35 | bridge | INFO | forwarded=59146 by_leaf={'heartbeat': 29961, 'telemetry': 29183, 'response': 2} tb_clients=200
+00:01:45 | bridge | INFO | forwarded=59820 by_leaf={'heartbeat': 30298, 'telemetry': 29520, 'response': 2} tb_clients=200
+00:01:55 | bridge | INFO | forwarded=60512 by_leaf={'heartbeat': 30644, 'telemetry': 29866, 'response': 2} tb_clients=200
+00:02:05 | bridge | INFO | forwarded=61218 by_leaf={'heartbeat': 30997, 'telemetry': 30219, 'response': 2} tb_clients=200
+00:02:15 | bridge | INFO | forwarded=61942 by_leaf={'heartbeat': 31359, 'telemetry': 30581, 'response': 2} tb_clients=200
+00:02:25 | bridge | INFO | forwarded=62662 by_leaf={'heartbeat': 31719, 'telemetry': 30941, 'response': 2} tb_clients=200
+00:02:35 | bridge | INFO | forwarded=63374 by_leaf={'heartbeat': 32075, 'telemetry': 31297, 'response': 2} tb_clients=200
+00:02:45 | bridge | INFO | forwarded=64070 by_leaf={'heartbeat': 32423, 'telemetry': 31645, 'response': 2} tb_clients=200
+00:02:55 | bridge | INFO | forwarded=64762 by_leaf={'heartbeat': 32769, 'telemetry': 31991, 'response': 2} tb_clients=200
+00:03:05 | bridge | INFO | forwarded=65466 by_leaf={'heartbeat': 33121, 'telemetry': 32343, 'response': 2} tb_clients=200
+00:03:15 | bridge | INFO | forwarded=66186 by_leaf={'heartbeat': 33481, 'telemetry': 32703, 'response': 2} tb_clients=200
+00:03:25 | bridge | INFO | forwarded=66886 by_leaf={'heartbeat': 33831, 'telemetry': 33053, 'response': 2} tb_clients=200
+00:03:35 | bridge | INFO | forwarded=67608 by_leaf={'heartbeat': 34192, 'telemetry': 33414, 'response': 2} tb_clients=200
+00:03:45 | bridge | INFO | forwarded=68328 by_leaf={'heartbeat': 34552, 'telemetry': 33774, 'response': 2} tb_clients=200
+00:03:55 | bridge | INFO | forwarded=69058 by_leaf={'heartbeat': 34917, 'telemetry': 34139, 'response': 2} tb_clients=200
+00:04:05 | bridge | INFO | forwarded=69788 by_leaf={'heartbeat': 35282, 'telemetry': 34504, 'response': 2} tb_clients=200
+00:04:15 | bridge | INFO | forwarded=70522 by_leaf={'heartbeat': 35649, 'telemetry': 34871, 'response': 2} tb_clients=200
+00:04:25 | bridge | INFO | forwarded=71252 by_leaf={'heartbeat': 36014, 'telemetry': 35236, 'response': 2} tb_clients=200
+00:04:35 | bridge | INFO | forwarded=71980 by_leaf={'heartbeat': 36378, 'telemetry': 35600, 'response': 2} tb_clients=200
+00:04:45 | bridge | INFO | forwarded=72710 by_leaf={'heartbeat': 36743, 'telemetry': 35965, 'response': 2} tb_clients=200
+00:04:55 | bridge | INFO | forwarded=73412 by_leaf={'heartbeat': 37094, 'telemetry': 36316, 'response': 2} tb_clients=200
+00:05:05 | bridge | INFO | forwarded=74142 by_leaf={'heartbeat': 37459, 'telemetry': 36681, 'response': 2} tb_clients=200
+00:05:15 | bridge | INFO | forwarded=74850 by_leaf={'heartbeat': 37813, 'telemetry': 37035, 'response': 2} tb_clients=200
+00:05:25 | bridge | INFO | forwarded=75578 by_leaf={'heartbeat': 38177, 'telemetry': 37399, 'response': 2} tb_clients=200
+00:05:35 | bridge | INFO | forwarded=76302 by_leaf={'heartbeat': 38539, 'telemetry': 37761, 'response': 2} tb_clients=200
+00:05:45 | bridge | INFO | forwarded=77024 by_leaf={'heartbeat': 38900, 'telemetry': 38122, 'response': 2} tb_clients=200
+00:05:55 | bridge | INFO | forwarded=77724 by_leaf={'heartbeat': 39250, 'telemetry': 38472, 'response': 2} tb_clients=200
+00:06:05 | bridge | INFO | forwarded=78450 by_leaf={'heartbeat': 39613, 'telemetry': 38835, 'response': 2} tb_clients=200
+00:06:15 | bridge | INFO | forwarded=79180 by_leaf={'heartbeat': 39978, 'telemetry': 39200, 'response': 2} tb_clients=200
+00:06:25 | bridge | INFO | forwarded=79912 by_leaf={'heartbeat': 40344, 'telemetry': 39566, 'response': 2} tb_clients=200
+00:06:35 | bridge | INFO | forwarded=80642 by_leaf={'heartbeat': 40709, 'telemetry': 39931, 'response': 2} tb_clients=200
+00:06:45 | bridge | INFO | forwarded=81334 by_leaf={'heartbeat': 41055, 'telemetry': 40277, 'response': 2} tb_clients=200
+00:06:55 | bridge | INFO | forwarded=82012 by_leaf={'heartbeat': 41394, 'telemetry': 40616, 'response': 2} tb_clients=200
+00:07:05 | bridge | INFO | forwarded=82668 by_leaf={'heartbeat': 41722, 'telemetry': 40944, 'response': 2} tb_clients=200
+00:07:15 | bridge | INFO | forwarded=83354 by_leaf={'heartbeat': 42065, 'telemetry': 41287, 'response': 2} tb_clients=200
+00:07:25 | bridge | INFO | forwarded=84052 by_leaf={'heartbeat': 42414, 'telemetry': 41636, 'response': 2} tb_clients=200
+00:07:35 | bridge | INFO | forwarded=84756 by_leaf={'heartbeat': 42766, 'telemetry': 41988, 'response': 2} tb_clients=200
+00:07:45 | bridge | INFO | forwarded=85470 by_leaf={'heartbeat': 43123, 'telemetry': 42345, 'response': 2} tb_clients=200
+00:07:55 | bridge | INFO | forwarded=86176 by_leaf={'heartbeat': 43476, 'telemetry': 42698, 'response': 2} tb_clients=200
+00:08:05 | bridge | INFO | forwarded=86882 by_leaf={'heartbeat': 43829, 'telemetry': 43051, 'response': 2} tb_clients=200
+00:08:15 | bridge | INFO | forwarded=87596 by_leaf={'heartbeat': 44186, 'telemetry': 43408, 'response': 2} tb_clients=200
+00:08:25 | bridge | INFO | forwarded=88328 by_leaf={'heartbeat': 44552, 'telemetry': 43774, 'response': 2} tb_clients=200
+00:08:35 | bridge | INFO | forwarded=89076 by_leaf={'heartbeat': 44926, 'telemetry': 44148, 'response': 2} tb_clients=200
+00:08:45 | bridge | INFO | forwarded=89806 by_leaf={'heartbeat': 45291, 'telemetry': 44513, 'response': 2} tb_clients=200
+00:08:55 | bridge | INFO | forwarded=90512 by_leaf={'heartbeat': 45644, 'telemetry': 44866, 'response': 2} tb_clients=200
+00:09:05 | bridge | INFO | forwarded=91204 by_leaf={'heartbeat': 45990, 'telemetry': 45212, 'response': 2} tb_clients=200
+00:09:15 | bridge | INFO | forwarded=91912 by_leaf={'heartbeat': 46344, 'telemetry': 45566, 'response': 2} tb_clients=200
+00:09:25 | bridge | INFO | forwarded=92608 by_leaf={'heartbeat': 46692, 'telemetry': 45914, 'response': 2} tb_clients=200
+00:09:35 | bridge | INFO | forwarded=93093 by_leaf={'heartbeat': 47062, 'telemetry': 46029, 'response': 2} tb_clients=200
+00:09:45 | bridge | INFO | forwarded=93663 by_leaf={'heartbeat': 47392, 'telemetry': 46269, 'response': 2} tb_clients=200
+00:09:55 | bridge | INFO | forwarded=94456 by_leaf={'heartbeat': 47816, 'telemetry': 46638, 'response': 2} tb_clients=200
+00:10:05 | bridge | INFO | forwarded=95168 by_leaf={'heartbeat': 48172, 'telemetry': 46994, 'response': 2} tb_clients=200
+00:10:15 | bridge | INFO | forwarded=95880 by_leaf={'heartbeat': 48528, 'telemetry': 47350, 'response': 2} tb_clients=200
+00:10:25 | bridge | INFO | forwarded=96582 by_leaf={'heartbeat': 48879, 'telemetry': 47701, 'response': 2} tb_clients=200
+00:10:35 | bridge | INFO | forwarded=97296 by_leaf={'heartbeat': 49236, 'telemetry': 48058, 'response': 2} tb_clients=200
+00:10:45 | bridge | INFO | forwarded=98008 by_leaf={'heartbeat': 49592, 'telemetry': 48414, 'response': 2} tb_clients=200
+00:10:55 | bridge | INFO | forwarded=98732 by_leaf={'heartbeat': 49954, 'telemetry': 48776, 'response': 2} tb_clients=200
+00:11:05 | bridge | INFO | forwarded=99466 by_leaf={'heartbeat': 50321, 'telemetry': 49143, 'response': 2} tb_clients=200
+00:11:15 | bridge | INFO | forwarded=100202 by_leaf={'heartbeat': 50689, 'telemetry': 49511, 'response': 2} tb_clients=200
+00:11:25 | bridge | INFO | forwarded=100932 by_leaf={'heartbeat': 51054, 'telemetry': 49876, 'response': 2} tb_clients=200
+00:11:35 | bridge | INFO | forwarded=101626 by_leaf={'heartbeat': 51401, 'telemetry': 50223, 'response': 2} tb_clients=200
+00:11:45 | bridge | INFO | forwarded=102354 by_leaf={'heartbeat': 51765, 'telemetry': 50587, 'response': 2} tb_clients=200
+00:11:55 | bridge | INFO | forwarded=103082 by_leaf={'heartbeat': 52129, 'telemetry': 50951, 'response': 2} tb_clients=200
+00:12:05 | bridge | INFO | forwarded=103794 by_leaf={'heartbeat': 52485, 'telemetry': 51307, 'response': 2} tb_clients=200
+00:12:15 | bridge | INFO | forwarded=104500 by_leaf={'heartbeat': 52838, 'telemetry': 51660, 'response': 2} tb_clients=200
+00:12:25 | bridge | INFO | forwarded=105192 by_leaf={'heartbeat': 53184, 'telemetry': 52006, 'response': 2} tb_clients=200
+00:12:35 | bridge | INFO | forwarded=105894 by_leaf={'heartbeat': 53535, 'telemetry': 52357, 'response': 2} tb_clients=200
+00:12:45 | bridge | INFO | forwarded=106592 by_leaf={'heartbeat': 53884, 'telemetry': 52706, 'response': 2} tb_clients=200
+00:12:55 | bridge | INFO | forwarded=107286 by_leaf={'heartbeat': 54231, 'telemetry': 53053, 'response': 2} tb_clients=200
+00:13:05 | bridge | INFO | forwarded=108008 by_leaf={'heartbeat': 54592, 'telemetry': 53414, 'response': 2} tb_clients=200
+00:13:15 | bridge | INFO | forwarded=108730 by_leaf={'heartbeat': 54953, 'telemetry': 53775, 'response': 2} tb_clients=200
+00:13:25 | bridge | INFO | forwarded=109444 by_leaf={'heartbeat': 55310, 'telemetry': 54132, 'response': 2} tb_clients=200
+00:13:35 | bridge | INFO | forwarded=110142 by_leaf={'heartbeat': 55659, 'telemetry': 54481, 'response': 2} tb_clients=200
+00:13:45 | bridge | INFO | forwarded=110842 by_leaf={'heartbeat': 56009, 'telemetry': 54831, 'response': 2} tb_clients=200
+00:13:55 | bridge | INFO | forwarded=111558 by_leaf={'heartbeat': 56367, 'telemetry': 55189, 'response': 2} tb_clients=200
+00:14:05 | bridge | INFO | forwarded=112268 by_leaf={'heartbeat': 56722, 'telemetry': 55544, 'response': 2} tb_clients=200
+00:14:15 | bridge | INFO | forwarded=112992 by_leaf={'heartbeat': 57084, 'telemetry': 55906, 'response': 2} tb_clients=200
+00:14:25 | bridge | INFO | forwarded=113704 by_leaf={'heartbeat': 57440, 'telemetry': 56262, 'response': 2} tb_clients=200
+00:14:35 | bridge | INFO | forwarded=114412 by_leaf={'heartbeat': 57794, 'telemetry': 56616, 'response': 2} tb_clients=200
+00:14:45 | bridge | INFO | forwarded=115108 by_leaf={'heartbeat': 58142, 'telemetry': 56964, 'response': 2} tb_clients=200
+00:14:55 | bridge | INFO | forwarded=115798 by_leaf={'heartbeat': 58487, 'telemetry': 57309, 'response': 2} tb_clients=200
+00:15:05 | bridge | INFO | forwarded=116476 by_leaf={'heartbeat': 58826, 'telemetry': 57648, 'response': 2} tb_clients=200
+00:15:15 | bridge | INFO | forwarded=117158 by_leaf={'heartbeat': 59167, 'telemetry': 57989, 'response': 2} tb_clients=200
+00:15:25 | bridge | INFO | forwarded=117868 by_leaf={'heartbeat': 59522, 'telemetry': 58344, 'response': 2} tb_clients=200
+00:15:35 | bridge | INFO | forwarded=118588 by_leaf={'heartbeat': 59882, 'telemetry': 58704, 'response': 2} tb_clients=200
+00:15:45 | bridge | INFO | forwarded=119306 by_leaf={'heartbeat': 60241, 'telemetry': 59063, 'response': 2} tb_clients=200
+00:15:55 | bridge | INFO | forwarded=120022 by_leaf={'heartbeat': 60599, 'telemetry': 59421, 'response': 2} tb_clients=200
+00:16:05 | bridge | INFO | forwarded=120712 by_leaf={'heartbeat': 60944, 'telemetry': 59766, 'response': 2} tb_clients=200
+00:16:15 | bridge | INFO | forwarded=121406 by_leaf={'heartbeat': 61291, 'telemetry': 60113, 'response': 2} tb_clients=200
+00:16:25 | bridge | INFO | forwarded=122142 by_leaf={'heartbeat': 61659, 'telemetry': 60481, 'response': 2} tb_clients=200
+00:16:35 | bridge | INFO | forwarded=122880 by_leaf={'heartbeat': 62028, 'telemetry': 60850, 'response': 2} tb_clients=200
+00:16:45 | bridge | INFO | forwarded=123608 by_leaf={'heartbeat': 62392, 'telemetry': 61214, 'response': 2} tb_clients=200
+00:16:56 | bridge | INFO | forwarded=124296 by_leaf={'heartbeat': 62736, 'telemetry': 61558, 'response': 2} tb_clients=200
+00:17:06 | bridge | INFO | forwarded=124986 by_leaf={'heartbeat': 63081, 'telemetry': 61903, 'response': 2} tb_clients=200
+00:17:16 | bridge | INFO | forwarded=125692 by_leaf={'heartbeat': 63434, 'telemetry': 62256, 'response': 2} tb_clients=200
+00:17:26 | bridge | INFO | forwarded=126410 by_leaf={'heartbeat': 63793, 'telemetry': 62615, 'response': 2} tb_clients=200
+00:17:36 | bridge | INFO | forwarded=127142 by_leaf={'heartbeat': 64159, 'telemetry': 62981, 'response': 2} tb_clients=200
+00:17:46 | bridge | INFO | forwarded=127862 by_leaf={'heartbeat': 64519, 'telemetry': 63341, 'response': 2} tb_clients=200
+00:17:56 | bridge | INFO | forwarded=128608 by_leaf={'heartbeat': 64892, 'telemetry': 63714, 'response': 2} tb_clients=200
+00:18:06 | bridge | INFO | forwarded=129342 by_leaf={'heartbeat': 65259, 'telemetry': 64081, 'response': 2} tb_clients=200
+00:18:16 | bridge | INFO | forwarded=130076 by_leaf={'heartbeat': 65626, 'telemetry': 64448, 'response': 2} tb_clients=200
+00:18:26 | bridge | INFO | forwarded=130780 by_leaf={'heartbeat': 65978, 'telemetry': 64800, 'response': 2} tb_clients=200
+00:18:36 | bridge | INFO | forwarded=131490 by_leaf={'heartbeat': 66333, 'telemetry': 65155, 'response': 2} tb_clients=200
+00:18:46 | bridge | INFO | forwarded=132218 by_leaf={'heartbeat': 66697, 'telemetry': 65519, 'response': 2} tb_clients=200
+00:18:56 | bridge | INFO | forwarded=132952 by_leaf={'heartbeat': 67064, 'telemetry': 65886, 'response': 2} tb_clients=200
+00:19:06 | bridge | INFO | forwarded=133688 by_leaf={'heartbeat': 67432, 'telemetry': 66254, 'response': 2} tb_clients=200
+00:19:16 | bridge | INFO | forwarded=134424 by_leaf={'heartbeat': 67800, 'telemetry': 66622, 'response': 2} tb_clients=200
+00:19:26 | bridge | INFO | forwarded=135160 by_leaf={'heartbeat': 68168, 'telemetry': 66990, 'response': 2} tb_clients=200
+00:19:36 | bridge | INFO | forwarded=135870 by_leaf={'heartbeat': 68523, 'telemetry': 67345, 'response': 2} tb_clients=200
+00:19:46 | bridge | INFO | forwarded=136578 by_leaf={'heartbeat': 68877, 'telemetry': 67699, 'response': 2} tb_clients=200
+00:19:56 | bridge | INFO | forwarded=137290 by_leaf={'heartbeat': 69233, 'telemetry': 68055, 'response': 2} tb_clients=200
+00:20:06 | bridge | INFO | forwarded=138016 by_leaf={'heartbeat': 69596, 'telemetry': 68418, 'response': 2} tb_clients=200
+00:20:16 | bridge | INFO | forwarded=138748 by_leaf={'heartbeat': 69962, 'telemetry': 68784, 'response': 2} tb_clients=200
+00:20:26 | bridge | INFO | forwarded=139466 by_leaf={'heartbeat': 70321, 'telemetry': 69143, 'response': 2} tb_clients=200
+00:20:36 | bridge | INFO | forwarded=140142 by_leaf={'heartbeat': 70659, 'telemetry': 69481, 'response': 2} tb_clients=200
+00:20:46 | bridge | INFO | forwarded=140657 by_leaf={'heartbeat': 71035, 'telemetry': 69620, 'response': 2} tb_clients=200
+00:20:56 | bridge | INFO | forwarded=141203 by_leaf={'heartbeat': 71359, 'telemetry': 69842, 'response': 2} tb_clients=200
+00:21:06 | bridge | INFO | forwarded=141970 by_leaf={'heartbeat': 71773, 'telemetry': 70195, 'response': 2} tb_clients=200
+00:21:16 | bridge | INFO | forwarded=142670 by_leaf={'heartbeat': 72123, 'telemetry': 70545, 'response': 2} tb_clients=200
+00:21:26 | bridge | INFO | forwarded=143352 by_leaf={'heartbeat': 72464, 'telemetry': 70886, 'response': 2} tb_clients=200
+00:21:36 | bridge | INFO | forwarded=144036 by_leaf={'heartbeat': 72806, 'telemetry': 71228, 'response': 2} tb_clients=200
+00:21:46 | bridge | INFO | forwarded=144724 by_leaf={'heartbeat': 73150, 'telemetry': 71572, 'response': 2} tb_clients=200
+00:21:56 | bridge | INFO | forwarded=145430 by_leaf={'heartbeat': 73503, 'telemetry': 71925, 'response': 2} tb_clients=200
+00:22:06 | bridge | INFO | forwarded=146166 by_leaf={'heartbeat': 73871, 'telemetry': 72293, 'response': 2} tb_clients=200
+00:22:16 | bridge | INFO | forwarded=146914 by_leaf={'heartbeat': 74245, 'telemetry': 72667, 'response': 2} tb_clients=200
+00:22:26 | bridge | INFO | forwarded=147658 by_leaf={'heartbeat': 74617, 'telemetry': 73039, 'response': 2} tb_clients=200
+00:22:36 | bridge | INFO | forwarded=148378 by_leaf={'heartbeat': 74977, 'telemetry': 73399, 'response': 2} tb_clients=200
+00:22:46 | bridge | INFO | forwarded=149082 by_leaf={'heartbeat': 75329, 'telemetry': 73751, 'response': 2} tb_clients=200
+00:22:56 | bridge | INFO | forwarded=149792 by_leaf={'heartbeat': 75684, 'telemetry': 74106, 'response': 2} tb_clients=200
+00:23:06 | bridge | INFO | forwarded=150518 by_leaf={'heartbeat': 76047, 'telemetry': 74469, 'response': 2} tb_clients=200
+00:23:16 | bridge | INFO | forwarded=151282 by_leaf={'heartbeat': 76429, 'telemetry': 74851, 'response': 2} tb_clients=200
+00:23:26 | bridge | INFO | forwarded=152030 by_leaf={'heartbeat': 76803, 'telemetry': 75225, 'response': 2} tb_clients=200
+00:23:36 | bridge | INFO | forwarded=152762 by_leaf={'heartbeat': 77169, 'telemetry': 75591, 'response': 2} tb_clients=200
+00:23:46 | bridge | INFO | forwarded=153486 by_leaf={'heartbeat': 77531, 'telemetry': 75953, 'response': 2} tb_clients=200
+00:23:56 | bridge | INFO | forwarded=154196 by_leaf={'heartbeat': 77886, 'telemetry': 76308, 'response': 2} tb_clients=200
+00:24:06 | bridge | INFO | forwarded=154912 by_leaf={'heartbeat': 78244, 'telemetry': 76666, 'response': 2} tb_clients=200
+00:24:16 | bridge | INFO | forwarded=155628 by_leaf={'heartbeat': 78602, 'telemetry': 77024, 'response': 2} tb_clients=200
+00:24:26 | bridge | INFO | forwarded=156354 by_leaf={'heartbeat': 78965, 'telemetry': 77387, 'response': 2} tb_clients=200
+00:24:36 | bridge | INFO | forwarded=157078 by_leaf={'heartbeat': 79327, 'telemetry': 77749, 'response': 2} tb_clients=200
+00:24:46 | bridge | INFO | forwarded=157762 by_leaf={'heartbeat': 79669, 'telemetry': 78091, 'response': 2} tb_clients=200
+00:24:56 | bridge | INFO | forwarded=158450 by_leaf={'heartbeat': 80013, 'telemetry': 78435, 'response': 2} tb_clients=200
+00:25:06 | bridge | INFO | forwarded=159142 by_leaf={'heartbeat': 80359, 'telemetry': 78781, 'response': 2} tb_clients=200
+00:25:16 | bridge | INFO | forwarded=159844 by_leaf={'heartbeat': 80710, 'telemetry': 79132, 'response': 2} tb_clients=200
+00:25:26 | bridge | INFO | forwarded=160532 by_leaf={'heartbeat': 81054, 'telemetry': 79476, 'response': 2} tb_clients=200
+00:25:36 | bridge | INFO | forwarded=161228 by_leaf={'heartbeat': 81402, 'telemetry': 79824, 'response': 2} tb_clients=200
+00:25:46 | bridge | INFO | forwarded=161926 by_leaf={'heartbeat': 81751, 'telemetry': 80173, 'response': 2} tb_clients=200
+00:25:56 | bridge | INFO | forwarded=162614 by_leaf={'heartbeat': 82095, 'telemetry': 80517, 'response': 2} tb_clients=200
+00:26:06 | bridge | INFO | forwarded=163298 by_leaf={'heartbeat': 82437, 'telemetry': 80859, 'response': 2} tb_clients=200
+00:26:16 | bridge | INFO | forwarded=163986 by_leaf={'heartbeat': 82781, 'telemetry': 81203, 'response': 2} tb_clients=200
+00:26:26 | bridge | INFO | forwarded=164706 by_leaf={'heartbeat': 83141, 'telemetry': 81563, 'response': 2} tb_clients=200
+00:26:36 | bridge | INFO | forwarded=165418 by_leaf={'heartbeat': 83497, 'telemetry': 81919, 'response': 2} tb_clients=200
+00:26:46 | bridge | INFO | forwarded=166134 by_leaf={'heartbeat': 83855, 'telemetry': 82277, 'response': 2} tb_clients=200
+00:26:56 | bridge | INFO | forwarded=166854 by_leaf={'heartbeat': 84215, 'telemetry': 82637, 'response': 2} tb_clients=200
+00:27:06 | bridge | INFO | forwarded=167600 by_leaf={'heartbeat': 84588, 'telemetry': 83010, 'response': 2} tb_clients=200
+00:27:16 | bridge | INFO | forwarded=168324 by_leaf={'heartbeat': 84950, 'telemetry': 83372, 'response': 2} tb_clients=200
+00:27:26 | bridge | INFO | forwarded=169040 by_leaf={'heartbeat': 85308, 'telemetry': 83730, 'response': 2} tb_clients=200
+00:27:36 | bridge | INFO | forwarded=169744 by_leaf={'heartbeat': 85660, 'telemetry': 84082, 'response': 2} tb_clients=200
+00:27:46 | bridge | INFO | forwarded=170458 by_leaf={'heartbeat': 86017, 'telemetry': 84439, 'response': 2} tb_clients=200
+00:27:56 | bridge | INFO | forwarded=171172 by_leaf={'heartbeat': 86374, 'telemetry': 84796, 'response': 2} tb_clients=200
+00:28:06 | bridge | INFO | forwarded=171874 by_leaf={'heartbeat': 86725, 'telemetry': 85147, 'response': 2} tb_clients=200
+00:28:16 | bridge | INFO | forwarded=172564 by_leaf={'heartbeat': 87070, 'telemetry': 85492, 'response': 2} tb_clients=200
+00:28:26 | bridge | INFO | forwarded=173260 by_leaf={'heartbeat': 87418, 'telemetry': 85840, 'response': 2} tb_clients=200
+00:28:36 | bridge | INFO | forwarded=173966 by_leaf={'heartbeat': 87771, 'telemetry': 86193, 'response': 2} tb_clients=200
+00:28:46 | bridge | INFO | forwarded=174682 by_leaf={'heartbeat': 88129, 'telemetry': 86551, 'response': 2} tb_clients=200
+00:28:56 | bridge | INFO | forwarded=175398 by_leaf={'heartbeat': 88487, 'telemetry': 86909, 'response': 2} tb_clients=200
+00:29:06 | bridge | INFO | forwarded=176092 by_leaf={'heartbeat': 88834, 'telemetry': 87256, 'response': 2} tb_clients=200
+00:29:16 | bridge | INFO | forwarded=176786 by_leaf={'heartbeat': 89181, 'telemetry': 87603, 'response': 2} tb_clients=200
+00:29:26 | bridge | INFO | forwarded=177496 by_leaf={'heartbeat': 89536, 'telemetry': 87958, 'response': 2} tb_clients=200
+00:29:36 | bridge | INFO | forwarded=178206 by_leaf={'heartbeat': 89891, 'telemetry': 88313, 'response': 2} tb_clients=200
+00:29:46 | bridge | INFO | forwarded=178908 by_leaf={'heartbeat': 90242, 'telemetry': 88664, 'response': 2} tb_clients=200
+00:29:56 | bridge | INFO | forwarded=179602 by_leaf={'heartbeat': 90589, 'telemetry': 89011, 'response': 2} tb_clients=200
+00:30:06 | bridge | INFO | forwarded=180320 by_leaf={'heartbeat': 90948, 'telemetry': 89370, 'response': 2} tb_clients=200
+00:30:16 | bridge | INFO | forwarded=181046 by_leaf={'heartbeat': 91311, 'telemetry': 89733, 'response': 2} tb_clients=200
+00:30:26 | bridge | INFO | forwarded=181770 by_leaf={'heartbeat': 91673, 'telemetry': 90095, 'response': 2} tb_clients=200
+00:30:36 | bridge | INFO | forwarded=182472 by_leaf={'heartbeat': 92024, 'telemetry': 90446, 'response': 2} tb_clients=200
+00:30:46 | bridge | INFO | forwarded=183160 by_leaf={'heartbeat': 92368, 'telemetry': 90790, 'response': 2} tb_clients=200
+00:30:56 | bridge | INFO | forwarded=183850 by_leaf={'heartbeat': 92713, 'telemetry': 91135, 'response': 2} tb_clients=200
+00:31:06 | bridge | INFO | forwarded=184544 by_leaf={'heartbeat': 93060, 'telemetry': 91482, 'response': 2} tb_clients=200
+00:31:16 | bridge | INFO | forwarded=185244 by_leaf={'heartbeat': 93410, 'telemetry': 91832, 'response': 2} tb_clients=200
+00:31:26 | bridge | INFO | forwarded=185962 by_leaf={'heartbeat': 93769, 'telemetry': 92191, 'response': 2} tb_clients=200
+00:31:36 | bridge | INFO | forwarded=186694 by_leaf={'heartbeat': 94135, 'telemetry': 92557, 'response': 2} tb_clients=200
+00:31:46 | bridge | INFO | forwarded=187428 by_leaf={'heartbeat': 94502, 'telemetry': 92924, 'response': 2} tb_clients=200
+00:31:56 | bridge | INFO | forwarded=188122 by_leaf={'heartbeat': 94849, 'telemetry': 93271, 'response': 2} tb_clients=200
+00:32:06 | bridge | INFO | forwarded=188820 by_leaf={'heartbeat': 95198, 'telemetry': 93620, 'response': 2} tb_clients=200
+00:32:16 | bridge | INFO | forwarded=189490 by_leaf={'heartbeat': 95533, 'telemetry': 93955, 'response': 2} tb_clients=200
+00:32:26 | bridge | INFO | forwarded=190187 by_leaf={'heartbeat': 95881, 'telemetry': 94304, 'response': 2} tb_clients=200
+00:32:36 | bridge | INFO | forwarded=190876 by_leaf={'heartbeat': 96226, 'telemetry': 94648, 'response': 2} tb_clients=200
+00:32:46 | bridge | INFO | forwarded=191558 by_leaf={'heartbeat': 96567, 'telemetry': 94989, 'response': 2} tb_clients=200
+00:32:56 | bridge | INFO | forwarded=192262 by_leaf={'heartbeat': 96919, 'telemetry': 95341, 'response': 2} tb_clients=200
+00:33:06 | bridge | INFO | forwarded=192986 by_leaf={'heartbeat': 97281, 'telemetry': 95703, 'response': 2} tb_clients=200
+00:33:16 | bridge | INFO | forwarded=193710 by_leaf={'heartbeat': 97643, 'telemetry': 96065, 'response': 2} tb_clients=200
+00:33:26 | bridge | INFO | forwarded=194412 by_leaf={'heartbeat': 97994, 'telemetry': 96416, 'response': 2} tb_clients=200
+00:33:36 | bridge | INFO | forwarded=195098 by_leaf={'heartbeat': 98337, 'telemetry': 96759, 'response': 2} tb_clients=200
+00:33:46 | bridge | INFO | forwarded=195778 by_leaf={'heartbeat': 98677, 'telemetry': 97099, 'response': 2} tb_clients=200
+00:33:56 | bridge | INFO | forwarded=196478 by_leaf={'heartbeat': 99027, 'telemetry': 97449, 'response': 2} tb_clients=200

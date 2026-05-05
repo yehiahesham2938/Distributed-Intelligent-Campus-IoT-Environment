@@ -11,6 +11,23 @@ services:
   hivemq:
     image: hivemq/hivemq-ce:2024.7
     container_name: campus-hivemq
+    hostname: hivemq
+    # The image's default JAVA_OPTS enables JMX remote on port 9010, which
+    # tries to build a JMXServiceURL from the container hostname. On WSL2
+    # that resolution fails and the JVM aborts before HiveMQ starts. We
+    # override JAVA_OPTS with the same flags minus the JMX ones.
+    environment:
+      JAVA_OPTS: >-
+        -XX:+UnlockExperimentalVMOptions -XX:+UseNUMA
+        -Djava.net.preferIPv4Stack=true
+        -Djava.security.egd=file:/dev/./urandom
+        --add-opens java.base/java.lang=ALL-UNNAMED
+        --add-opens java.base/java.nio=ALL-UNNAMED
+        --add-opens java.base/sun.nio.ch=ALL-UNNAMED
+        --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+        --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+        -Duser.language=en -Duser.region=US
+        -XX:+CrashOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError
     ports:
       - "1883:1883"
       - "8883:8883"
