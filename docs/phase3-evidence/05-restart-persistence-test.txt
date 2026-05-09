@@ -1,0 +1,547 @@
+=== pre-restart ===
+now: 1778345429
+count: 200
+min_last_update: 1776528684
+max_last_update: 1778345388
+age_seconds: 41
+sample: ('b01-f01-r101', 19.942911120770848, 55.4, 'COOLING', 20.0, 1776528691)
+=== post-restart logs (app) ===
+campus-engine  | 2026-05-09 16:49:38 | engine.runtime | INFO | Initializing database...
+campus-engine  | 2026-05-09 16:49:38 | persistence.sqlite | INFO | Database initialized at data/campus_iot.db
+campus-engine  | 2026-05-09 16:49:38 | persistence.sqlite | INFO | Loaded state for 200 rooms
+campus-engine  | 2026-05-09 16:49:38 | engine.runtime | INFO | Loaded previous state for 200 rooms
+campus-engine  | 2026-05-09 16:49:38 | security.credentials | INFO | Loaded 200 MQTT credentials from /secrets/mqtt_credentials.csv
+campus-engine  | 2026-05-09 16:49:38 | security.psk_store | INFO | Loaded 100 CoAP PSKs from /secrets/coap_psk.json
+campus-engine  | 2026-05-09 16:49:38 | engine.runtime | INFO | Starting dispatcher: 100 MQTT nodes, 100 CoAP nodes (200 total)
+campus-engine  | 2026-05-09 16:49:39 | coap.node | INFO | CoAP node b01-f03-r320 listening on port 6003
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r320 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r904 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r802 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r304 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | coap.node | INFO | CoAP node b01-f07-r718 listening on port 6401
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r718 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r205 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | coap.node | INFO | CoAP node b01-f07-r715 listening on port 6398
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r715 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | coap.node | INFO | CoAP node b01-f04-r415 listening on port 6098
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r415 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r903 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r102 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:39 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r803 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | coap.node | INFO | CoAP node b01-f02-r215 listening on port 5898
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r215 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r103 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r808 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1008 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r401 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r101 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:40 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r408 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r109 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r510 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r404 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r410 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r909 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r701 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:41 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r406 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r307 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r702 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r804 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r806 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r407 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r901 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r706 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r609 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:42 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1009 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:43 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r104 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:43 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r605 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:43 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r910 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:44 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r503 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:45 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1007 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:45 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r506 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:45 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1002 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r301 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r704 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r105 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r807 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r110 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r703 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:46 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1010 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1001 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f03-r320: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r904 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | coap.node | INFO | CoAP node b01-f05-r511 listening on port 6194
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r511 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | coap.node | INFO | CoAP node b01-f09-r912 listening on port 6595
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r912 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | coap.node | INFO | CoAP node b01-f01-r118 listening on port 5801
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r118 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1003 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r802 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r504 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r304 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r718: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r205 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r715: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f04-r415: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r810 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r903 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | coap.node | INFO | CoAP node b01-f07-r717 listening on port 6400
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r717 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r106 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r102 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r803 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:47 | coap.node | INFO | CoAP node b01-f10-r1016 listening on port 6699
+campus-engine  | 2026-05-09 16:49:47 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1016 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r215: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r608 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r306 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r606 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r709 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r601 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:48 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r906 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:49 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r505 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:49 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r604 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:49 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r801 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r905 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r201 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r509 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r501 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r204 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:50 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r902 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1006 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r708 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r108 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r402 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r710 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r502 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r302 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r208 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r405 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r603 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:53 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r107 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:53 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r202 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:53 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r805 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r303 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r403 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r809 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r206 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r209 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1005 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r103 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r808 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r113 listening on port 5796
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r113 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f04-r414 listening on port 6097
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r414 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f02-r216 listening on port 5899
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r216 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f10-r1019 listening on port 6702
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1019 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f09-r917 listening on port 6600
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r917 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1008 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r401 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r607 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r101 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r408 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f08-r813 listening on port 6496
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r813 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r109 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r510 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r705 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r404 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r410 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f05-r517 listening on port 6200
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r517 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r909 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f03-r319 listening on port 6002
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r319 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r707 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r701 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r907 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r308 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r507 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r602 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r207 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r210 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r305 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r508 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r610 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1004 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r310 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r406 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r307 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f07-r712 listening on port 6395
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r712 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f02-r214 listening on port 5897
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r214 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f02-r213 listening on port 5896
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r213 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r409 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r702 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f05-r520 listening on port 6203
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r520 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r120 listening on port 5803
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r120 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r112 listening on port 5795
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r112 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f02-r220 listening on port 5903
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r220 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f06-r611 listening on port 6294
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r611 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r114 listening on port 5797
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r114 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r116 listening on port 5799
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r116 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r804 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r203 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r908 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r806 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f05-r516 listening on port 6199
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r516 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f04-r418 listening on port 6101
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r418 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r117 listening on port 5800
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r117 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r407 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f07-r714 listening on port 6397
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r714 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f01-r111 listening on port 5794
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r111 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r901 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r706 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:55 | coap.node | INFO | CoAP node b01-f06-r612 listening on port 6295
+campus-engine  | 2026-05-09 16:49:55 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r612 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r309 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r609 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:56 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1009 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:56 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r104 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:56 | coap.node | INFO | CoAP node b01-f02-r219 listening on port 5902
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r219 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | coap.node | INFO | CoAP node b01-f06-r619 listening on port 6302
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r619 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:56 | coap.node | INFO | CoAP node b01-f08-r819 listening on port 6502
+campus-engine  | 2026-05-09 16:49:56 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r819 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:58 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r110 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:58 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r703 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:58 | coap.node | INFO | CoAP node b01-f09-r911 listening on port 6594
+campus-engine  | 2026-05-09 16:49:58 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r911 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:58 | coap.node | INFO | CoAP node b01-f08-r817 listening on port 6500
+campus-engine  | 2026-05-09 16:49:58 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r817 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:58 | coap.node | INFO | CoAP node b01-f06-r616 listening on port 6299
+campus-engine  | 2026-05-09 16:49:58 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r616 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1007 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | coap.node | INFO | CoAP node b01-f06-r613 listening on port 6296
+campus-engine  | 2026-05-09 16:49:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r613 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r506 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1002 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r301 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r704 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | coap.node | INFO | CoAP node b01-f09-r918 listening on port 6601
+campus-engine  | 2026-05-09 16:49:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r918 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r105 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:49:59 | coap.node | INFO | CoAP node b01-f10-r1013 listening on port 6696
+campus-engine  | 2026-05-09 16:49:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1013 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:59 | coap.node | INFO | CoAP node b01-f08-r811 listening on port 6494
+campus-engine  | 2026-05-09 16:49:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r811 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:49:59 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r807 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:01 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r605 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:01 | coap.node | INFO | CoAP node b01-f01-r115 listening on port 5798
+campus-engine  | 2026-05-09 16:50:01 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r115 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:03 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r910 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:03 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r503 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:03 | coap.node | INFO | CoAP node b01-f09-r915 listening on port 6598
+campus-engine  | 2026-05-09 16:50:03 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r915 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:03 | coap.node | INFO | CoAP node b01-f08-r816 listening on port 6499
+campus-engine  | 2026-05-09 16:50:03 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r816 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:03 | models.room | WARNING | Sensor frozen on b01-f02-r215 until 1778345434
+campus-engine  | 2026-05-09 16:50:03 | coap.node | INFO | CoAP node b01-f07-r720 listening on port 6403
+campus-engine  | 2026-05-09 16:50:03 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r720 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:06 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1010 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:06 | coap.node | INFO | CoAP node b01-f03-r316 listening on port 5999
+campus-engine  | 2026-05-09 16:50:06 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r316 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:06 | coap.node | INFO | CoAP node b01-f07-r719 listening on port 6402
+campus-engine  | 2026-05-09 16:50:06 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r719 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:06 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1001 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f05-r511: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | models.room | WARNING | Sensor frozen on b01-f05-r511 until 1778345438
+campus-engine  | 2026-05-09 16:50:07 | models.room | WARNING | Node dropout on b01-f05-r511 until 1778345438
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f07-r713 listening on port 6396
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r713 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f03-r311 listening on port 5994
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r311 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r912: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r118: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1003 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f03-r312 listening on port 5995
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r312 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f02-r218 listening on port 5901
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r218 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f07-r711 listening on port 6394
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r711 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r504 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r810 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:07 | coap.node | INFO | CoAP node b01-f05-r515 listening on port 6198
+campus-engine  | 2026-05-09 16:50:07 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r515 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:07 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r717: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:09 | models.room | WARNING | Sensor frozen on b01-f07-r718 until 1778345440
+campus-engine  | 2026-05-09 16:50:09 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r106 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:11 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f10-r1016: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:11 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r608 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r709 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r601 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f05-r518 listening on port 6201
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r518 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r509 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f04-r412 listening on port 6095
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r412 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r604 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f03-r318 listening on port 6001
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r318 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r801 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r905 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f06-r614 listening on port 6297
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r614 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f02-r217 listening on port 5900
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r217 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r306 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f03-r313 listening on port 5996
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r313 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f10-r1020 listening on port 6703
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1020 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f09-r914 listening on port 6597
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r914 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | coap.node | INFO | CoAP node b01-f05-r513 listening on port 6196
+campus-engine  | 2026-05-09 16:50:14 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r513 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:14 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r606 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:15 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r501 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:15 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r906 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:15 | coap.node | INFO | CoAP node b01-f10-r1017 listening on port 6700
+campus-engine  | 2026-05-09 16:50:15 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1017 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:15 | coap.node | INFO | CoAP node b01-f03-r315 listening on port 5998
+campus-engine  | 2026-05-09 16:50:15 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r315 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:15 | coap.node | INFO | CoAP node b01-f06-r615 listening on port 6298
+campus-engine  | 2026-05-09 16:50:15 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r615 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:15 | coap.node | INFO | CoAP node b01-f08-r820 listening on port 6503
+campus-engine  | 2026-05-09 16:50:15 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r820 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:15 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r505 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:17 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r201 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1006 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r302 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r502 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r108 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r208 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f04-r411 listening on port 6094
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r411 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r405 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f04-r413 listening on port 6096
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r413 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f09-r919 listening on port 6602
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r919 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f06-r618 listening on port 6301
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r618 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f05-r519 listening on port 6202
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r519 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f09-r920 listening on port 6603
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r920 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f09-r913 listening on port 6596
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r913 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f08-r815 listening on port 6498
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r815 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r402 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r708 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f06-r617 listening on port 6300
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r617 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f10-r1011 listening on port 6694
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1011 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f04-r420 listening on port 6103
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r420 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f04-r419 listening on port 6102
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r419 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f08-r812 listening on port 6495
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r812 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r710 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f10-r1014 listening on port 6697
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1014 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f05-r512 listening on port 6195
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r512 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:18 | coap.node | INFO | CoAP node b01-f08-r814 listening on port 6497
+campus-engine  | 2026-05-09 16:50:18 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r814 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r204 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r902 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:22 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r113: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r107 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f04-r414: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | models.room | WARNING | Sensor frozen on b01-f04-r414 until 1778345453
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r805 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r303 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | nodes.mqtt_node | ERROR | MQTT node b01-f08-r809 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:22 | coap.node | INFO | CoAP node b01-f10-r1012 listening on port 6695
+campus-engine  | 2026-05-09 16:50:22 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1012 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:23 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r603 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:23 | coap.node | INFO | CoAP node b01-f04-r416 listening on port 6099
+campus-engine  | 2026-05-09 16:50:23 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r416 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:23 | coap.node | INFO | CoAP node b01-f09-r916 listening on port 6599
+campus-engine  | 2026-05-09 16:50:23 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r916 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:23 | coap.node | INFO | CoAP node b01-f02-r211 listening on port 5894
+campus-engine  | 2026-05-09 16:50:23 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r211 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:23 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r403 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:23 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r206 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:23 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1005 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:23 | coap.node | INFO | CoAP node b01-f07-r716 listening on port 6399
+campus-engine  | 2026-05-09 16:50:23 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r716 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:23 | coap.node | INFO | CoAP node b01-f10-r1018 listening on port 6701
+campus-engine  | 2026-05-09 16:50:23 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1018 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:24 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r202 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:24 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r209 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r705 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r607 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | coap.node | INFO | CoAP node b01-f10-r1015 listening on port 6698
+campus-engine  | 2026-05-09 16:50:26 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1015 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:26 | coap.node | INFO | CoAP node b01-f04-r417 listening on port 6100
+campus-engine  | 2026-05-09 16:50:26 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r417 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:26 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f08-r813: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r917: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | models.room | WARNING | Sensor drift on b01-f09-r917, bias=0.049
+campus-engine  | 2026-05-09 16:50:26 | coap.node | INFO | CoAP node b01-f08-r818 listening on port 6501
+campus-engine  | 2026-05-09 16:50:26 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r818 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:26 | coap.node | INFO | CoAP node b01-f02-r212 listening on port 5895
+campus-engine  | 2026-05-09 16:50:26 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r212 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:26 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r308 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:26 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r507 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:27 | nodes.mqtt_node | ERROR | MQTT node b01-f07-r707 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:27 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r907 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:27 | coap.node | INFO | CoAP node b01-f06-r620 listening on port 6303
+campus-engine  | 2026-05-09 16:50:27 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r620 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:27 | coap.node | INFO | CoAP node b01-f05-r514 listening on port 6197
+campus-engine  | 2026-05-09 16:50:27 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f05-r514 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:27 | coap.node | INFO | CoAP node b01-f01-r119 listening on port 5802
+campus-engine  | 2026-05-09 16:50:27 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f01-r119 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:27 | coap.node | INFO | CoAP node b01-f03-r317 listening on port 6000
+campus-engine  | 2026-05-09 16:50:27 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r317 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:27 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f03-r319: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:30 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r216: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:30 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f10-r1019: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:31 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f05-r517: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:31 | models.room | INFO | Telemetry delay 1.0s on b01-f05-r517
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r207 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r602 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r210 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r305 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f05-r508 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:34 | nodes.mqtt_node | ERROR | MQTT node b01-f06-r610 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:35 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1004 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:35 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r310 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:35 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r712: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:38 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r213: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:38 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r214: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:39 | nodes.mqtt_node | ERROR | MQTT node b01-f04-r409 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f05-r520: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r120: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r112: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r220: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f06-r611: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | coap.node | INFO | CoAP node b01-f03-r314 listening on port 5997
+campus-engine  | 2026-05-09 16:50:42 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r314 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:42 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r114: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:42 | models.room | WARNING | Node dropout on b01-f01-r114 until 1778345473
+campus-engine  | 2026-05-09 16:50:43 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r116: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:43 | nodes.mqtt_node | ERROR | MQTT node b01-f02-r203 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:43 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r908 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:45 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r714: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:45 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r111: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:45 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f06-r612: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:45 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f04-r418: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:45 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f05-r516: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:45 | nodes.mqtt_node | ERROR | MQTT node b01-f03-r309 failed to connect: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r911: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f08-r819: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f08-r817: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f02-r219: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f01-r117: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:46 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f06-r619: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f08-r816: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r915: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r720: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r719: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f07-r713: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | models.room | WARNING | Sensor frozen on b01-f07-r713 until 1778345479
+campus-engine  | 2026-05-09 16:50:48 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f03-r316: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:48 | models.room | WARNING | Sensor drift on b01-f07-r717, bias=0.000
+campus-engine  | 2026-05-09 16:50:49 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f10-r1013: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:49 | models.room | WARNING | Sensor frozen on b01-f10-r1013 until 1778345479
+campus-engine  | 2026-05-09 16:50:49 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f08-r811: [Errno -2] Name or service not known
+campus-engine  | 2026-05-09 16:50:51 | engine.runtime | INFO | Initializing database...
+campus-engine  | 2026-05-09 16:50:51 | persistence.sqlite | INFO | Database initialized at data/campus_iot.db
+campus-engine  | 2026-05-09 16:50:51 | persistence.sqlite | INFO | Loaded state for 200 rooms
+campus-engine  | 2026-05-09 16:50:51 | engine.runtime | INFO | Loaded previous state for 200 rooms
+campus-engine  | 2026-05-09 16:50:51 | security.credentials | INFO | Loaded 200 MQTT credentials from /secrets/mqtt_credentials.csv
+campus-engine  | 2026-05-09 16:50:51 | security.psk_store | INFO | Loaded 100 CoAP PSKs from /secrets/coap_psk.json
+campus-engine  | 2026-05-09 16:50:51 | engine.runtime | INFO | Starting dispatcher: 100 MQTT nodes, 100 CoAP nodes (200 total)
+campus-engine  | 2026-05-09 16:50:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r103 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1001 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:51 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r903 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:51 | coap.node | INFO | CoAP node b01-f09-r918 listening on port 6601
+campus-engine  | 2026-05-09 16:50:51 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r918 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | coap.node | INFO | CoAP node b01-f09-r915 listening on port 6598
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r915 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | coap.node | INFO | CoAP node b01-f04-r412 listening on port 6095
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f04-r412 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r608 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | coap.node | INFO | CoAP node b01-f03-r317 listening on port 6000
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f03-r317 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | coap.node | INFO | CoAP node b01-f02-r211 listening on port 5894
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f02-r211 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r501 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:52 | coap.node | INFO | CoAP node b01-f09-r916 listening on port 6599
+campus-engine  | 2026-05-09 16:50:52 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f09-r916 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:53 | coap.node | INFO | CoAP node b01-f10-r1015 listening on port 6698
+campus-engine  | 2026-05-09 16:50:53 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f10-r1015 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:53 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r110 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:53 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r701 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r408 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r307 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r606 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r105 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r201 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r905 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:54 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r406 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r410 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r808 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r509 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r706 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:55 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r210 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r807 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f03-r305 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:56 | mqtt.publisher | INFO | MQTT node mqtt-b01-f04-r404 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:57 | mqtt.publisher | INFO | MQTT node mqtt-b01-f02-r208 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:57 | mqtt.publisher | INFO | MQTT node mqtt-b01-f06-r609 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:57 | mqtt.publisher | INFO | MQTT node mqtt-b01-f10-r1009 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:58 | mqtt.publisher | INFO | MQTT node mqtt-b01-f01-r108 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:58 | mqtt.publisher | INFO | MQTT node mqtt-b01-f05-r507 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:58 | mqtt.publisher | INFO | MQTT node mqtt-b01-f09-r902 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:58 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r708 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:58 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r805 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node mqtt-b01-f08-r810 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r702 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | nodes.mqtt_node | ERROR | MQTT node b01-f01-r103 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:59 | coap.node | INFO | CoAP node b01-f06-r611 listening on port 6294
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f06-r611 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | nodes.mqtt_node | ERROR | MQTT node b01-f10-r1001 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:59 | coap.node | INFO | CoAP node b01-f08-r819 listening on port 6502
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f08-r819 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | coap.node | INFO | CoAP node b01-f07-r715 listening on port 6398
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node coap-shadow-b01-f07-r715 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | mqtt.publisher | INFO | MQTT node mqtt-b01-f07-r710 connecting to hivemq:1883 (tls=False)
+campus-engine  | 2026-05-09 16:50:59 | nodes.mqtt_node | ERROR | MQTT node b01-f09-r903 failed to connect: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:50:59 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r918: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:51:00 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f09-r915: [Errno -3] Temporary failure in name resolution
+campus-engine  | 2026-05-09 16:51:00 | nodes.coap_node | WARNING | CoAP shadow failed for b01-f04-r412: [Errno -3] Temporary failure in name resolution
+=== post-restart ===
+now: 1778345470
+count: 200
+min_last_update: 1776528684
+max_last_update: 1778345411
+age_seconds: 59
+sample: ('b01-f01-r101', 19.942911120770848, 55.4, 'COOLING', 20.0, 1776528691)
+

@@ -1,0 +1,3 @@
+NAME            IMAGE                                                COMMAND           SERVICE   CREATED       STATUS          PORTS
+campus-engine   distributed-intelligent-campus-iot-environment-app   "python -m src"   app       3 weeks ago   Up 18 seconds   
+

@@ -1,0 +1,14 @@
+docker :  Container campus-engine  Running
+At line:1 char:1
++ docker compose up -d hivemq app 2>&1 | Out-File -Encoding utf8 docs/p ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( Container campus-engine  Running 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ Container campus-hivemq  Starting
+Error response from daemon: failed to set up container networking: driver 
+failed programming external connectivity on endpoint campus-hivemq 
+(c1b61d2f6ded3045070be3e6a70addf3d9c67e6c3154490746b4dc608eae40d9): Bind for 
+0.0.0.0:1883 failed: port is already allocated
+

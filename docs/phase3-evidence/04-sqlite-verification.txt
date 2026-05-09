@@ -1,0 +1,16 @@
+db: data/campus_iot.db
+tables: ['rooms']
+schema:
+(0, 'room_id', 'TEXT', 0, None, 1)
+(1, 'last_temp', 'REAL', 0, None, 0)
+(2, 'last_humidity', 'REAL', 0, None, 0)
+(3, 'hvac_mode', 'TEXT', 0, None, 0)
+(4, 'target_temp', 'REAL', 0, None, 0)
+(5, 'last_update', 'INTEGER', 0, None, 0)
+sample rows:
+('b01-f01-r101', 19.942911120770848, 55.4, 'COOLING', 20.0, 1776528691)
+('b01-f01-r102', 22.604678122312738, 51.4, 'OFF', 22.0, 1777734650)
+('b01-f01-r103', 22.50728040262229, 56.8, 'OFF', 22.0, 1776528694)
+('b01-f01-r104', 20.562739728372634, 56.3, 'COOLING', 20.3, 1776528703)
+('b01-f01-r105', 21.33096794813316, 55.4, 'OFF', 21.3, 1777734653)
+
