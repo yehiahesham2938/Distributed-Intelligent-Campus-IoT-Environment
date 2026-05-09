@@ -84,24 +84,42 @@ def _build_metadata(room_key, floor_id):
 
 
 def _rename_campus(client):
-    """Rename root asset 'Campus' to 'ZC-Main-Campus' if needed."""
+    """Ensure exactly one campus asset named 'ZC-Main-Campus'.
+
+    Cases:
+      * only 'Campus' exists -> rename it.
+      * only 'ZC-Main-Campus' exists -> no-op.
+      * both exist -> delete the orphan 'Campus' (canonical asset wins).
+      * neither exists -> warn.
+    """
     r = client.get(
         f"{TB_URL}/api/tenant/assets",
         params={"pageSize": 50, "page": 0, "textSearch": "Campus"},
     )
     r.raise_for_status()
-    for row in r.json().get("data", []):
-        if row.get("name") == "Campus":
-            asset_id = row["id"]["id"]
-            updated = dict(row)
-            updated["name"] = "ZC-Main-Campus"
-            r2 = client.post(f"{TB_URL}/api/asset", json=updated)
-            r2.raise_for_status()
-            logger.info("renamed Campus -> ZC-Main-Campus (%s)", asset_id)
-            return
-        if row.get("name") == "ZC-Main-Campus":
-            logger.info("campus already named ZC-Main-Campus")
-            return
+    rows = r.json().get("data", [])
+    by_name = {row.get("name"): row for row in rows}
+
+    canonical = by_name.get("ZC-Main-Campus")
+    legacy = by_name.get("Campus")
+
+    if canonical and legacy:
+        legacy_id = legacy["id"]["id"]
+        r2 = client.delete(f"{TB_URL}/api/asset/{legacy_id}")
+        r2.raise_for_status()
+        logger.info("deleted orphan 'Campus' asset %s (canonical already present)", legacy_id)
+        return
+    if canonical:
+        logger.info("campus already named ZC-Main-Campus")
+        return
+    if legacy:
+        legacy_id = legacy["id"]["id"]
+        updated = dict(legacy)
+        updated["name"] = "ZC-Main-Campus"
+        r2 = client.post(f"{TB_URL}/api/asset", json=updated)
+        r2.raise_for_status()
+        logger.info("renamed Campus -> ZC-Main-Campus (%s)", legacy_id)
+        return
     logger.warning("no campus asset found to rename")
 
 
